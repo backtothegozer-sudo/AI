@@ -260,6 +260,33 @@
       background: linear-gradient(180deg, rgba(6, 6, 7, 0) 0%, rgba(6, 6, 7, 0.35) 70%, rgba(6, 6, 7, 0.75) 100%);
       pointer-events: none;
     }
+    .motion-toggle {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      z-index: 26;
+      width: 30px;
+      height: 30px;
+      border-radius: 999px;
+      border: 1px solid rgba(255, 255, 255, 0.28);
+      background: rgba(8, 9, 14, 0.58);
+      color: rgba(245, 247, 251, 0.92);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 0;
+      font-size: 14px;
+      line-height: 1;
+      cursor: pointer;
+      backdrop-filter: blur(6px);
+      transition: transform 0.2s ease, border-color 0.2s ease, background 0.2s ease, color 0.2s ease;
+    }
+    .motion-toggle:active { transform: scale(0.95); }
+    .motion-toggle.is-on {
+      border-color: rgba(230, 75, 255, 0.75);
+      background: rgba(37, 23, 46, 0.85);
+      color: #fbe9ff;
+    }
     .evo-canvas {
       width: 100%;
       height: clamp(360px, 52vh, 620px);
@@ -616,6 +643,9 @@
       }
     }
     @media (max-width: 900px) {
+      .motion-toggle {
+        display: inline-flex;
+      }
       .nav {
         position: relative;
         justify-content: space-between;
@@ -804,6 +834,7 @@
     <section class="evo">
       <div class="evo-panel">
         <p class="evo-catch">Nous croyons en une IA éthique et souveraine.</p>
+        <button id="motionToggle" class="motion-toggle" type="button" aria-label="Activer le mouvement" title="Activer le mouvement">◉</button>
         <canvas id="evoCanvas" class="evo-canvas" width="1200" height="160" aria-label="Mini simulation visuelle de l'évolution"></canvas>
       </div>
     </section>
@@ -1088,6 +1119,55 @@
       if (!canvas) return;
       const ctx = canvas.getContext("2d");
       const DPR = Math.min(window.devicePixelRatio || 1, 2);
+      const motionToggle = document.getElementById("motionToggle");
+      const isMobileView = window.matchMedia("(max-width: 900px)").matches || window.matchMedia("(pointer: coarse)").matches;
+      const tilt = { x: 0, y: 0, enabled: false };
+
+      function applyOrientation(ev) {
+        if (!tilt.enabled) return;
+        const gamma = typeof ev.gamma === "number" ? ev.gamma : 0; // left/right
+        const beta = typeof ev.beta === "number" ? ev.beta : 0; // front/back
+        const clamp = (v, min, max) => Math.max(min, Math.min(max, v));
+        tilt.x = clamp(gamma / 45, -1, 1);
+        tilt.y = clamp(beta / 45, -1, 1);
+      }
+
+      function setMotionEnabled(on) {
+        tilt.enabled = !!on;
+        if (motionToggle) motionToggle.classList.toggle("is-on", tilt.enabled);
+      }
+
+      function startMotion() {
+        if (tilt.enabled) return;
+        window.addEventListener("deviceorientation", applyOrientation, true);
+        setMotionEnabled(true);
+      }
+
+      async function enableMotionFromUserAction() {
+        if (!("DeviceOrientationEvent" in window)) return;
+        try {
+          if (typeof DeviceOrientationEvent.requestPermission === "function") {
+            const state = await DeviceOrientationEvent.requestPermission();
+            if (state !== "granted") return;
+          }
+          startMotion();
+        } catch (_) {
+          // ignored
+        }
+      }
+
+      function initMotionControl() {
+        if (!motionToggle) return;
+        if (!isMobileView || !("DeviceOrientationEvent" in window)) {
+          motionToggle.style.display = "none";
+          return;
+        }
+        if (typeof DeviceOrientationEvent.requestPermission !== "function") {
+          startMotion();
+        }
+        motionToggle.addEventListener("click", enableMotionFromUserAction, { passive: true });
+      }
+      initMotionControl();
 
       function resize() {
         const rect = canvas.getBoundingClientRect();
@@ -1196,6 +1276,10 @@
             const dist = Math.sqrt(dx * dx + dy * dy) || 1;
             c.vx += (dx / dist) * 0.02;
             c.vy += (dy / dist) * 0.02;
+          }
+          if (tilt.enabled) {
+            c.vx += tilt.x * 0.012;
+            c.vy += tilt.y * 0.012;
           }
 
           // move
