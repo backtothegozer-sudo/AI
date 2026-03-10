@@ -222,6 +222,28 @@
       color: #f7f9ff;
       background: rgba(255,255,255,0.07);
     }
+    .tag-pill.is-extra {
+      opacity: 0;
+      transform: translateY(6px) scale(0.96);
+      transition: opacity 0.26s ease, transform 0.26s ease;
+    }
+    .tag-pill.is-extra.is-visible {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+    }
+    .tag-pill[hidden] {
+      display: none !important;
+    }
+    .tag-pill-more {
+      cursor: pointer;
+      background: rgba(255,255,255,0.05);
+      border-color: rgba(255,255,255,0.24);
+      color: rgba(247,249,255,0.88);
+    }
+    .tag-pill-more:hover {
+      background: rgba(255,255,255,0.11);
+      border-color: rgba(255,255,255,0.38);
+    }
     .tag-infrastructure { background: rgba(75,91,255,0.22); border-color: rgba(124,135,255,0.55); }
     .tag-souverainete { background: rgba(230,75,255,0.22); border-color: rgba(230,75,255,0.5); }
     .tag-conformite { background: rgba(98,220,255,0.17); border-color: rgba(98,220,255,0.52); }
@@ -598,6 +620,52 @@
   </main>
   <script>
     (function () {
+      function initProgressiveTagPills() {
+        var groups = document.querySelectorAll(".post-tags");
+        groups.forEach(function (group) {
+          var pills = Array.prototype.slice.call(group.querySelectorAll(".tag-pill"));
+          if (pills.length <= 2) return;
+
+          var extras = pills.slice(2);
+          extras.forEach(function (pill) {
+            pill.classList.add("is-extra");
+            pill.hidden = true;
+          });
+
+          var toggle = document.createElement("button");
+          toggle.type = "button";
+          toggle.className = "tag-pill tag-pill-more";
+          toggle.setAttribute("aria-expanded", "false");
+          toggle.textContent = "+" + extras.length;
+          group.appendChild(toggle);
+
+          var expanded = false;
+          toggle.addEventListener("click", function () {
+            expanded = !expanded;
+            toggle.setAttribute("aria-expanded", expanded ? "true" : "false");
+            toggle.textContent = expanded ? "moins" : "+" + extras.length;
+
+            if (expanded) {
+              extras.forEach(function (pill, idx) {
+                pill.hidden = false;
+                window.setTimeout(function () {
+                  pill.classList.add("is-visible");
+                }, idx * 70);
+              });
+            } else {
+              extras.forEach(function (pill, idx) {
+                window.setTimeout(function () {
+                  pill.classList.remove("is-visible");
+                  window.setTimeout(function () {
+                    pill.hidden = true;
+                  }, 220);
+                }, idx * 45);
+              });
+            }
+          });
+        });
+      }
+
       function initTagFilters() {
         var filters = document.getElementById("tagFilters");
         if (!filters) return;
@@ -656,6 +724,7 @@
 
         applyFilter();
       }
+      initProgressiveTagPills();
       initTagFilters();
     })();
   </script>
