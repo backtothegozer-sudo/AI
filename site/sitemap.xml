@@ -46,6 +46,15 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://ai.underside.be/article-polarise-baviere-souverain-2026.html</loc>
+    <lastmod>2026-03-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ai.underside.be/article-polarise-baviere-souverain-2026.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ai.underside.be/en/article-polarise-baviere-souverain-2026.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ai.underside.be/article-polarise-baviere-souverain-2026.html" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://ai.underside.be/article-redhat-telenor-souverain-2026.html</loc>
     <lastmod>2026-03-12</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://ai.underside.be/article-redhat-telenor-souverain-2026.html" />
@@ -222,6 +231,15 @@
     <xhtml:link rel="alternate" hreflang="fr" href="https://ai.underside.be/diagnostic-ia-souveraine" />
     <xhtml:link rel="alternate" hreflang="en" href="https://ai.underside.be/en/diagnostic-ia-souveraine" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ai.underside.be/diagnostic-ia-souveraine" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ai.underside.be/en/article-polarise-baviere-souverain-2026.html</loc>
+    <lastmod>2026-03-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ai.underside.be/article-polarise-baviere-souverain-2026.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ai.underside.be/en/article-polarise-baviere-souverain-2026.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ai.underside.be/article-polarise-baviere-souverain-2026.html" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
