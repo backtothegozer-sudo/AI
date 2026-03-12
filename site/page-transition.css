@@ -101,6 +101,20 @@ header .brand img {
   color: #fff;
 }
 
+
+@media (min-width: 901px) {
+  header .nav {
+    flex-wrap: nowrap !important;
+  }
+  .nav-links,
+  .links {
+    flex-wrap: nowrap !important;
+    gap: clamp(12px, 1.15vw, 18px) !important;
+    font-size: clamp(12px, 0.82vw, 13px) !important;
+    letter-spacing: 0.09em !important;
+  }
+}
+
 @media (max-width: 900px) {
   .burger-btn {
     display: inline-flex !important;

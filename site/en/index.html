@@ -138,13 +138,12 @@
     .nav {
       max-width: 1200px;
       margin: 0 auto;
-      padding: 18px 24px;
+      min-height: 84px;
+      padding: 10px 24px;
       display: flex;
       align-items: center;
       justify-content: space-between;
       gap: 24px;
-      flex-wrap: wrap;
-      row-gap: 10px;
     }
     .burger-btn {
       display: none;
@@ -190,12 +189,12 @@
       gap: 18px;
       font-size: 13px;
       text-transform: uppercase;
-      letter-spacing: 0.12em;
+      letter-spacing: 0.09em;
       color: rgba(245, 247, 251, 0.72);
       flex: 1 1 auto;
       min-width: 0;
       justify-content: center;
-      flex-wrap: wrap;
+      flex-wrap: nowrap;
     }
     .cta {
       display: inline-flex;
@@ -378,9 +377,24 @@
       margin: 0 0 16px;
       padding: 12px 14px;
       border-radius: 14px;
-      border: 1px solid rgba(230, 75, 255, 0.35);
+      border: 1px solid rgba(230, 75, 255, 0.58);
       background: linear-gradient(135deg, rgba(230, 75, 255, 0.14), rgba(75, 91, 255, 0.1));
       box-shadow: 0 10px 26px rgba(0, 0, 0, 0.28);
+      position: relative;
+      isolation: isolate;
+      animation: eventFramePulse 3.4s ease-in-out infinite;
+    }
+    .event-highlight::after {
+      content: "";
+      position: absolute;
+      inset: -1px;
+      border-radius: inherit;
+      border: 1px solid rgba(230, 75, 255, 0.58);
+      pointer-events: none;
+      opacity: 0.62;
+      box-shadow: 0 0 0 rgba(230, 75, 255, 0.0);
+      animation: eventFrameAura 3.4s ease-in-out infinite;
+      z-index: -1;
     }
     .event-highlight strong {
       display: block;
@@ -793,6 +807,13 @@
       .nav-links { z-index: 120; }
       .burger-btn { z-index: 121; }
     }
+    @media (prefers-reduced-motion: reduce) {
+      .event-highlight,
+      .event-highlight::after {
+        animation: none;
+      }
+    }
+
     @media (max-width: 720px) {
       .event-highlight {
         grid-template-columns: 1fr;
@@ -905,6 +926,26 @@
         filter: brightness(1.12);
       }
     }
+    @keyframes eventFramePulse {
+      0%, 100% {
+        border-color: rgba(230, 75, 255, 0.42);
+        box-shadow: 0 10px 26px rgba(0, 0, 0, 0.28);
+      }
+      50% {
+        border-color: rgba(230, 75, 255, 0.95);
+        box-shadow: 0 14px 34px rgba(37, 15, 56, 0.65), 0 0 34px rgba(230, 75, 255, 0.38);
+      }
+    }
+    @keyframes eventFrameAura {
+      0%, 100% {
+        opacity: 0.36;
+        box-shadow: 0 0 0 rgba(230, 75, 255, 0.0);
+      }
+      50% {
+        opacity: 0.95;
+        box-shadow: 0 0 34px rgba(230, 75, 255, 0.45);
+      }
+    }
   </style>
   <link rel="stylesheet" href="../page-transition.css" />
 </head>
@@ -922,7 +963,7 @@
 
     <header>
       <nav class="nav">
-        <a class="brand" href="index.html" aria-label="Refresh homepage">
+        <a class="brand" href="https://www.underside.be" aria-label="Go to www.underside.be">
           <img src="../Underside2018_blanc.png" alt="Underside" />
         </a>
         <button class="burger-btn" type="button" aria-label="Open menu" aria-expanded="false">
