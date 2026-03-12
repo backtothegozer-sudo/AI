@@ -719,10 +719,15 @@
       const fractalCanvas = document.getElementById('heroFractal');
       if (fractalCanvas) {
         const ctx = fractalCanvas.getContext('2d');
-        const DPR = Math.min(window.devicePixelRatio || 1, 2);
+        const reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        const DPR = Math.min(window.devicePixelRatio || 1, window.innerWidth <= 900 ? 1.25 : 1.5);
         let width = 0;
         let height = 0;
-        let rafId;
+        let rafId = 0;
+        let isRunning = true;
+        let lastTs = 0;
+        const fps = 28;
+        const frameInterval = 1000 / fps;
         const hero = fractalCanvas.closest('.hero');
 
         const resize = () => {
@@ -743,17 +748,16 @@
           ctx.beginPath();
           ctx.moveTo(x, y);
           ctx.lineTo(x2, y2);
-          ctx.lineWidth = Math.max(0.8, depth * 0.24);
+          ctx.lineWidth = Math.max(0.8, depth * 0.22);
           ctx.stroke();
 
           const spread = 0.56 + sway;
-          const decay = 0.74;
+          const decay = 0.75;
           drawBranch(x2, y2, len * decay, angle - spread, depth - 1, sway * 0.9);
           drawBranch(x2, y2, len * decay, angle + spread, depth - 1, sway * 0.9);
         };
 
-        const render = (t) => {
-          const time = t * 0.001;
+        const paint = (time) => {
           ctx.clearRect(0, 0, width, height);
 
           const rightX = width * 0.56;
@@ -762,6 +766,8 @@
           const centerY = height * 0.56;
           const baseY = height * 0.99;
           const baseLen = Math.min(width, height) * 0.34;
+          const branches = width <= 900 ? 2 : 3;
+          const depth = width <= 900 ? 6 : 7;
 
           ctx.save();
           ctx.globalCompositeOperation = 'lighter';
@@ -769,34 +775,83 @@
           grad.addColorStop(0, 'rgba(230, 75, 255, 0.9)');
           grad.addColorStop(1, 'rgba(75, 91, 255, 0.86)');
           ctx.strokeStyle = grad;
-          ctx.shadowColor = 'rgba(230, 75, 255, 0.4)';
-          ctx.shadowBlur = 9;
-          for (let i = 0; i < 3; i += 1) {
-            const sway = Math.sin(time * 0.5 + i * 1.2) * 0.1;
+          ctx.shadowColor = 'rgba(230, 75, 255, 0.35)';
+          ctx.shadowBlur = 7;
+
+          for (let i = 0; i < branches; i += 1) {
+            const sway = Math.sin(time * 0.45 + i * 1.2) * 0.08;
             drawBranch(
-              centerX + (i - 1) * rightW * 0.12,
-              baseY + Math.cos(time * 0.35 + i) * 4,
+              centerX + (i - (branches - 1) / 2) * rightW * 0.14,
+              baseY + Math.cos(time * 0.32 + i) * 3,
               baseLen * (1 - i * 0.08),
-              -Math.PI / 2 + sway * 0.32,
-              7,
+              -Math.PI / 2 + sway * 0.3,
+              depth,
               sway
             );
           }
           ctx.restore();
 
           const glow = ctx.createRadialGradient(centerX, centerY, 10, centerX, centerY, rightW * 0.95);
-          glow.addColorStop(0, 'rgba(230,75,255,0.16)');
+          glow.addColorStop(0, 'rgba(230,75,255,0.15)');
           glow.addColorStop(1, 'rgba(75,91,255,0)');
           ctx.fillStyle = glow;
           ctx.fillRect(0, 0, width, height);
+        };
 
+        const render = (ts) => {
+          if (!isRunning) return;
+          if (!lastTs || ts - lastTs >= frameInterval) {
+            lastTs = ts;
+            paint(ts * 0.001);
+          }
           rafId = requestAnimationFrame(render);
         };
 
+        const start = () => {
+          if (isRunning && rafId) return;
+          isRunning = true;
+          rafId = requestAnimationFrame(render);
+        };
+
+        const stop = () => {
+          isRunning = false;
+          if (rafId) {
+            cancelAnimationFrame(rafId);
+            rafId = 0;
+          }
+        };
+
         resize();
+
+        if (reduceMotion) {
+          paint(0);
+        } else {
+          start();
+        }
+
         window.addEventListener('resize', resize, { passive: true });
-        rafId = requestAnimationFrame(render);
-        window.addEventListener('pagehide', () => cancelAnimationFrame(rafId));
+
+        if ('IntersectionObserver' in window) {
+          const io = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+              if (reduceMotion) return;
+              if (entry.isIntersecting) start();
+              else stop();
+            });
+          }, { threshold: 0.05 });
+          io.observe(hero);
+          window.addEventListener('pagehide', () => {
+            io.disconnect();
+            stop();
+          });
+        } else {
+          document.addEventListener('visibilitychange', () => {
+            if (reduceMotion) return;
+            if (document.hidden) stop();
+            else start();
+          }, { passive: true });
+          window.addEventListener('pagehide', stop);
+        }
       }
     })();
   </script>
