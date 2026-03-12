@@ -265,6 +265,44 @@
       background: rgba(255,255,255,0.03);
     }
     .no-results.is-visible { display: block; }
+    .load-sentinel {
+      display: none;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      margin: -38px 0 36px;
+      padding: 8px 12px;
+      border: 1px solid rgba(255,255,255,0.16);
+      border-radius: 999px;
+      background: linear-gradient(135deg, rgba(230,75,255,0.12), rgba(75,91,255,0.12));
+      color: rgba(245, 247, 251, 0.8);
+      font: inherit;
+      font-size: 11px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      width: fit-content;
+      margin-left: auto;
+      margin-right: auto;
+      cursor: pointer;
+      transition: transform 0.18s ease, border-color 0.18s ease, background 0.2s ease;
+    }
+    .load-sentinel:hover {
+      transform: translateY(-1px);
+      border-color: rgba(190, 135, 255, 0.75);
+      background: linear-gradient(135deg, rgba(230,75,255,0.18), rgba(75,91,255,0.2));
+    }
+    .load-sentinel.is-active { display: inline-flex; }
+    .load-sentinel[hidden] { display: none !important; }
+    .load-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 999px;
+      background: linear-gradient(135deg, #e64bff, #4b5bff);
+      box-shadow: 0 0 12px rgba(230,75,255,0.45);
+      animation: loadPulse 1.8s ease-in-out infinite;
+      flex: 0 0 auto;
+    }
     .grid {
       padding: 20px 0 70px;
       display: grid;
@@ -282,7 +320,8 @@
       align-content: start;
     }
     .post.is-shown {
-      animation: postReveal 0.4s ease;
+      animation: postReveal 0.46s cubic-bezier(0.22, 0.9, 0.25, 1) both;
+      animation-delay: var(--reveal-delay, 0ms);
     }
     .post time {
       font-size: 12px;
@@ -406,6 +445,10 @@
     @keyframes postReveal {
       from { opacity: 0; transform: translateY(10px) scale(0.992); }
       to { opacity: 1; transform: translateY(0) scale(1); }
+    }
+    @keyframes loadPulse {
+      0%, 100% { opacity: 0.45; transform: scale(0.88); }
+      50% { opacity: 1; transform: scale(1.08); }
     }
   </style>
   <link rel="stylesheet" href="../page-transition.css" />
@@ -676,6 +719,10 @@
         </div>
       </article>
     </section>
+    <button id="blogLoadSentinel" class="load-sentinel" type="button" hidden aria-label="Show more articles">
+      <span class="load-dot" aria-hidden="true"></span>
+      <span id="blogLoadHint">Scroll to load more</span>
+    </button>
 
     <div class="no-results" id="noTagResults">No articles for this tag at the moment.</div>
 
@@ -710,7 +757,7 @@
           toggle.addEventListener("click", function () {
             expanded = !expanded;
             toggle.setAttribute("aria-expanded", expanded ? "true" : "false");
-            toggle.textContent = expanded ? "moins" : "+" + extras.length;
+            toggle.textContent = expanded ? "less" : "+" + extras.length;
 
             if (expanded) {
               extras.forEach(function (pill, idx) {
@@ -741,33 +788,93 @@
         var buttons = filters.querySelectorAll(".tag-filter");
         var posts = document.querySelectorAll(".post[data-tags]");
         var noResults = document.getElementById("noTagResults");
+        var sentinel = document.getElementById("blogLoadSentinel");
+        var sentinelHint = document.getElementById("blogLoadHint");
         var activeTag = "all";
         var query = "";
+        var batchSize = 8;
+        var renderLimit = batchSize;
+        var matchedPosts = [];
+        var hasScrolled = window.scrollY > 12;
 
-        function applyFilter() {
-          var visible = 0;
+        function markScrolled() {
+          if (window.scrollY <= 12) return;
+          hasScrolled = true;
+          window.removeEventListener("scroll", markScrolled);
+        }
+        window.addEventListener("scroll", markScrolled, { passive: true });
+
+        function updateStatus(shown, total) {
+          if (!status) return;
+          if (total === 0) {
+            status.textContent = "0 articles shown";
+            return;
+          }
+          status.textContent = shown + " of " + total + " article" + (total > 1 ? "s" : "") + " shown";
+        }
+
+        function updateSentinel(shown, total) {
+          if (!sentinel) return;
+          var hasMore = shown < total;
+          sentinel.hidden = !hasMore;
+          sentinel.classList.toggle("is-active", hasMore);
+          if (sentinelHint && hasMore) {
+            var remaining = total - shown;
+            var next = Math.min(batchSize, remaining);
+            sentinelHint.textContent = "Scroll to load " + next + " more article" + (next > 1 ? "s" : "");
+          }
+        }
+
+        function renderMatched(resetLimit) {
+          if (resetLimit) renderLimit = batchSize;
+          var targetVisible = Math.min(renderLimit, matchedPosts.length);
+          var visiblePosts = new Set(matchedPosts.slice(0, targetVisible));
+          var shown = 0;
+
           posts.forEach(function (post) {
-            var tags = (post.getAttribute("data-tags") || "").split(/\s+/).filter(Boolean);
-            var text = post.textContent.toLowerCase();
-            var tagOk = activeTag === "all" || tags.indexOf(activeTag) !== -1;
-            var queryOk = !query || text.indexOf(query) !== -1;
-            var show = tagOk && queryOk;
+            var show = visiblePosts.has(post);
             var wasVisible = post.dataset.visible === "1";
 
             post.style.display = show ? "grid" : "none";
             post.dataset.visible = show ? "1" : "0";
             if (show && !wasVisible) {
+              post.style.setProperty("--reveal-delay", (shown % batchSize) * 42 + "ms");
               post.classList.remove("is-shown");
               void post.offsetWidth;
               post.classList.add("is-shown");
             } else if (!show) {
               post.classList.remove("is-shown");
+              post.style.removeProperty("--reveal-delay");
             }
-            if (show) visible++;
+            if (show) shown++;
           });
 
-          if (noResults) noResults.classList.toggle("is-visible", visible === 0);
-          if (status) status.textContent = visible + " article" + (visible > 1 ? "s" : "") + " shown";
+          if (noResults) noResults.classList.toggle("is-visible", matchedPosts.length === 0);
+          updateStatus(shown, matchedPosts.length);
+          updateSentinel(shown, matchedPosts.length);
+        }
+
+        function computeMatches() {
+          matchedPosts = [];
+          posts.forEach(function (post) {
+            var tags = (post.getAttribute("data-tags") || "").split(/\s+/).filter(Boolean);
+            var text = post.textContent.toLowerCase();
+            var tagOk = activeTag === "all" || tags.indexOf(activeTag) !== -1;
+            var queryOk = !query || text.indexOf(query) !== -1;
+            if (tagOk && queryOk) matchedPosts.push(post);
+          });
+        }
+
+        function applyFilter(resetLimit) {
+          computeMatches();
+          renderMatched(resetLimit !== false);
+        }
+
+        function revealNextBatch(force) {
+          if (!matchedPosts.length || renderLimit >= matchedPosts.length) return;
+          if (!force && !hasScrolled) return;
+          renderLimit = Math.min(renderLimit + batchSize, matchedPosts.length);
+          renderMatched(false);
         }
 
         buttons.forEach(function (btn) {
@@ -778,18 +885,33 @@
               b.classList.toggle("is-active", active);
               b.setAttribute("aria-pressed", active ? "true" : "false");
             });
-            applyFilter();
+            applyFilter(true);
           });
         });
 
         if (searchInput) {
           searchInput.addEventListener("input", function () {
             query = searchInput.value.trim().toLowerCase();
-            applyFilter();
+            applyFilter(true);
           });
         }
 
-        applyFilter();
+        if (sentinel) {
+          sentinel.addEventListener("click", function () {
+            revealNextBatch(true);
+          });
+          if ("IntersectionObserver" in window) {
+            var observer = new IntersectionObserver(function (entries) {
+              entries.forEach(function (entry) {
+                if (!entry.isIntersecting) return;
+                revealNextBatch(false);
+              });
+            }, { rootMargin: "0px 0px 280px 0px", threshold: 0.01 });
+            observer.observe(sentinel);
+          }
+        }
+
+        applyFilter(true);
       }
       initProgressiveTagPills();
       initTagFilters();
