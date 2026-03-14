@@ -1590,6 +1590,25 @@
       step();
     })();
   </script>
+  <script>
+    (function () {
+      const eventLink = document.querySelector('.event-highlight .event-link');
+      if (!eventLink) return;
+
+      function triggerHaptic() {
+        try {
+          if (navigator.vibrate) navigator.vibrate(18);
+        } catch (_) {
+          // silently ignore unsupported devices
+        }
+      }
+
+      eventLink.setAttribute('data-haptic-event-link', 'true');
+      eventLink.addEventListener('pointerdown', triggerHaptic, { passive: true });
+      eventLink.addEventListener('touchstart', triggerHaptic, { passive: true });
+      eventLink.addEventListener('click', triggerHaptic, { passive: true });
+    })();
+  </script>
   <script src="page-transition.js" defer></script>
 </body>
 </html>
