@@ -1595,18 +1595,35 @@
       const eventLink = document.querySelector('.event-highlight .event-link');
       if (!eventLink) return;
 
+      function pulseFallback() {
+        eventLink.animate(
+          [
+            { transform: "scale(1)", boxShadow: "0 0 0 rgba(230,75,255,0)" },
+            { transform: "scale(0.985)", boxShadow: "0 0 0 6px rgba(230,75,255,0.12)" },
+            { transform: "scale(1)", boxShadow: "0 0 0 rgba(230,75,255,0)" }
+          ],
+          { duration: 180, easing: "ease-out" }
+        );
+      }
+
       function triggerHaptic() {
         try {
-          if (navigator.vibrate) navigator.vibrate(18);
+          const vibrate = navigator.vibrate || navigator.webkitVibrate;
+          if (typeof vibrate === "function") {
+            vibrate.call(navigator, [18, 10, 18]);
+            return;
+          }
         } catch (_) {
-          // silently ignore unsupported devices
+          // ignored
         }
+        // iOS Safari fallback when vibration API is unavailable.
+        pulseFallback();
       }
 
       eventLink.setAttribute('data-haptic-event-link', 'true');
       eventLink.addEventListener('pointerdown', triggerHaptic, { passive: true });
       eventLink.addEventListener('touchstart', triggerHaptic, { passive: true });
-      eventLink.addEventListener('click', triggerHaptic, { passive: true });
+      eventLink.addEventListener('mousedown', triggerHaptic, { passive: true });
     })();
   </script>
   <script src="../page-transition.js" defer></script>
