@@ -20,12 +20,21 @@
   </url>
   <url>
     <loc>https://ai.underside.be/blog</loc>
-    <lastmod>2026-03-20</lastmod>
+    <lastmod>2026-03-21</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://ai.underside.be/blog" />
     <xhtml:link rel="alternate" hreflang="en" href="https://ai.underside.be/en/blog" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ai.underside.be/blog" />
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://ai.underside.be/article-cispe-cada-souverainete-ia-2026.html</loc>
+    <lastmod>2026-03-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ai.underside.be/article-cispe-cada-souverainete-ia-2026.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ai.underside.be/en/article-cispe-cada-souverainete-ia-2026.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ai.underside.be/article-cispe-cada-souverainete-ia-2026.html" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ai.underside.be/article-nvidia-nebius-ai-factory-souveraine-2026.html</loc>
@@ -83,7 +92,7 @@
   </url>
   <url>
     <loc>https://ai.underside.be/gdpr</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-21</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://ai.underside.be/gdpr" />
     <xhtml:link rel="alternate" hreflang="en" href="https://ai.underside.be/en/gdpr" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ai.underside.be/gdpr" />
@@ -92,7 +101,7 @@
   </url>
   <url>
     <loc>https://ai.underside.be/diagnostic-ia-souveraine</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-21</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://ai.underside.be/diagnostic-ia-souveraine" />
     <xhtml:link rel="alternate" hreflang="en" href="https://ai.underside.be/en/diagnostic-ia-souveraine" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ai.underside.be/diagnostic-ia-souveraine" />
@@ -101,7 +110,7 @@
   </url>
   <url>
     <loc>https://ai.underside.be/article-bell-coveo-souverain-2026.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-21</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://ai.underside.be/article-bell-coveo-souverain-2026.html" />
     <xhtml:link rel="alternate" hreflang="en" href="https://ai.underside.be/en/article-bell-coveo-souverain-2026.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ai.underside.be/article-bell-coveo-souverain-2026.html" />
@@ -110,7 +119,7 @@
   </url>
   <url>
     <loc>https://ai.underside.be/article-chatgpt-excel-2026.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-21</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://ai.underside.be/article-chatgpt-excel-2026.html" />
     <xhtml:link rel="alternate" hreflang="en" href="https://ai.underside.be/en/article-chatgpt-excel-2026.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ai.underside.be/article-chatgpt-excel-2026.html" />
