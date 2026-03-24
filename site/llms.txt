@@ -28,6 +28,9 @@
 - https://ai.underside.be/google7af869e5e0e8f999.html
 
 ## Articles (FR)
+- https://ai.underside.be/article-sap-cccs-souverain-2026.html
+- https://ai.underside.be/article-palantir-nvidia-aios-souveraine-2026.html
+- https://ai.underside.be/article-amd-upstage-souverain-2026.html
 - https://ai.underside.be/article-cispe-cada-souverainete-ia-2026.html
 - https://ai.underside.be/article-nvidia-nebius-ai-factory-souveraine-2026.html
 - https://ai.underside.be/article-digital-europe-capacites-souveraines-2026.html
@@ -55,6 +58,9 @@
 - https://ai.underside.be/article-openai-financement-2026.html
 
 ## Articles (EN)
+- https://ai.underside.be/en/article-sap-cccs-souverain-2026.html
+- https://ai.underside.be/en/article-palantir-nvidia-aios-souveraine-2026.html
+- https://ai.underside.be/en/article-amd-upstage-souverain-2026.html
 - https://ai.underside.be/en/article-cispe-cada-souverainete-ia-2026.html
 - https://ai.underside.be/en/article-nvidia-nebius-ai-factory-souveraine-2026.html
 - https://ai.underside.be/en/article-digital-europe-capacites-souveraines-2026.html
