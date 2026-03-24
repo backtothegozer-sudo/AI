@@ -3,26 +3,28 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Underside — Intégration d'IA souveraine</title>
+  <title>IA souveraine Belgique & France | Underside</title>
   <link rel="icon" href="logo-underside-fav.svg?v=20260312b" type="image/svg+xml" />
   <link rel="icon" href="favicon.ico?v=20260312b" sizes="any" />
   <link rel="shortcut icon" href="favicon.ico?v=20260312b" />
   <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png?v=20260312b" />
   <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png?v=20260312b" />
 
-  <meta name="description" content="Underside accompagne les décideurs des moyennes et grandes entreprises dans l'intégration d'IA souveraine: stratégie, déploiement, sécurité, conformité et MLOps." />
+  <meta name="description" content="Underside intègre des solutions d'IA souveraine en Belgique et en France: stratégie, architecture, déploiement, sécurité, conformité et MLOps pour entreprises et institutions." />
   <meta name="robots" content="index, follow" />
-  <meta name="keywords" content="IA souveraine, intégration IA, LLM privé, RAG, MLOps, conformité, sécurité, RGPD, gouvernance IA, Europe, Belgique" />
+  <meta name="keywords" content="IA souveraine Belgique, IA souveraine France, IA Belgique, IA France, intégration IA, LLM privé, RAG, MLOps, conformité, sécurité, RGPD, gouvernance IA" />
   <link rel="canonical" href="https://ai.underside.be/" />
   <link rel="alternate" hreflang="fr" href="https://ai.underside.be/" />
   <link rel="alternate" hreflang="en" href="https://ai.underside.be/en/" />
   <link rel="alternate" hreflang="x-default" href="https://ai.underside.be/" />
-  <meta property="og:title" content="Underside — Intégration d'IA souveraine" />
-  <meta property="og:description" content="Stratégie, déploiement, sécurité, conformité et MLOps pour une IA souveraine en production." />
+  <meta property="og:title" content="IA souveraine Belgique & France | Underside" />
+  <meta property="og:description" content="Intégration d'IA souveraine en Belgique et en France: architecture, sécurité, conformité et exploitation en production." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://ai.underside.be/" />
   <meta property="og:image" content="https://ai.underside.be/favicon-512.png" />
   <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="IA souveraine Belgique & France | Underside" />
+  <meta name="twitter:description" content="Intégration d'IA souveraine en Belgique et en France pour entreprises et institutions." />
   <meta name="twitter:image" content="https://ai.underside.be/favicon-512.png" />
   <link rel="alternate" type="application/json" title="MCP Connectors" href="/.well-known/mcp.json" />
 
@@ -66,7 +68,17 @@
             "@type": "Organization",
             "name": "Underside"
           },
-          "areaServed": "Europe",
+          "areaServed": [
+            {
+              "@type": "Country",
+              "name": "Belgique"
+            },
+            {
+              "@type": "Country",
+              "name": "France"
+            },
+            "Europe"
+          ],
           "serviceType": [
             "Stratégie IA",
             "Architecture IA",
@@ -74,6 +86,38 @@
             "MLOps",
             "Sécurité et conformité"
           ]
+        }
+      ]
+    }
+  </script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Qu'est-ce qu'une IA souveraine en Belgique ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Une IA souveraine en Belgique désigne une architecture où les données, les accès et la gouvernance restent maîtrisés selon les exigences de sécurité, de conformité et de traçabilité de l'organisation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Underside accompagne-t-elle des projets IA souveraine en France ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oui. Underside accompagne des projets d'IA souveraine en Belgique et en France, de la phase de cadrage à l'exploitation en production."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quels environnements techniques sont supportés ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Les déploiements peuvent être réalisés en on-premise, cloud souverain ou hybride, avec une gouvernance de sécurité et de conformité intégrée."
+          }
         }
       ]
     }
@@ -368,6 +412,16 @@
     }
     .hero-bridge-wrap {
       min-width: 0;
+    }
+    .hero-market {
+      margin: 0 0 16px;
+      color: var(--ink-2);
+      font-size: clamp(14px, 1.35vw, 17px);
+      line-height: 1.55;
+    }
+    .hero-market strong {
+      color: var(--ink);
+      font-weight: 700;
     }
     .event-highlight {
       display: grid;
@@ -1006,6 +1060,9 @@
           Nous déployons des intelligences artificielles souveraines là où vos données vivent déjà.
           Des plateformes IA industrielles, robustes et durables en production,
           conçues pour les DSI, directions métiers et comités exécutifs.
+        </p>
+        <p class="hero-market reveal delay-1">
+          <strong>IA souveraine en Belgique et en France</strong> : nous accompagnons entreprises, institutions et organisations publiques avec une approche orientée production.
         </p>
         <div class="hero-actions reveal delay-2">
           <a class="cta cta-diagnostic" href="diagnostic-ia-souveraine.html">Démarrer un diagnostic</a>
