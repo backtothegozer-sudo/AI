@@ -1,9 +1,9 @@
 {
   "name": "Underside MCP Discovery",
-  "version": "1.3.18",
+  "version": "1.3.19",
   "description": "MCP-ready discovery layer for AI indexing and contextual retrieval.",
   "website": "https://ai.underside.be/",
-  "updated_at": "2026-04-01",
+  "updated_at": "2026-04-02",
   "resources": {
     "sitemap": "https://ai.underside.be/sitemap.xml",
     "robots": "https://ai.underside.be/robots.txt",
@@ -20,7 +20,9 @@
     "diagnostic_en": "https://ai.underside.be/en/diagnostic-ia-souveraine",
     "gdpr_fr": "https://ai.underside.be/gdpr",
     "gdpr_en": "https://ai.underside.be/en/gdpr",
-    "google_verification": "https://ai.underside.be/google7af869e5e0e8f999.html"
+    "google_verification": "https://ai.underside.be/google7af869e5e0e8f999.html",
+    "latest_article_fr": "https://ai.underside.be/article-thaillm-thailande-souveraine-2026.html",
+    "latest_article_en": "https://ai.underside.be/en/article-thaillm-thailande-souveraine-2026.html"
   },
   "connectors": [
     {
