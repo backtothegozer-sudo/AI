@@ -11,7 +11,7 @@
   </url>
   <url>
     <loc>https://ai.underside.be/actualites</loc>
-    <lastmod>2026-04-02</lastmod>
+    <lastmod>2026-04-03</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://ai.underside.be/actualites" />
     <xhtml:link rel="alternate" hreflang="en" href="https://ai.underside.be/en/actualites" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ai.underside.be/actualites" />
@@ -20,12 +20,30 @@
   </url>
   <url>
     <loc>https://ai.underside.be/blog</loc>
-    <lastmod>2026-04-02</lastmod>
+    <lastmod>2026-04-03</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://ai.underside.be/blog" />
     <xhtml:link rel="alternate" hreflang="en" href="https://ai.underside.be/en/blog" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ai.underside.be/blog" />
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://ai.underside.be/article-sagtec-data-center-souverain-2026.html</loc>
+    <lastmod>2026-04-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ai.underside.be/article-sagtec-data-center-souverain-2026.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ai.underside.be/en/article-sagtec-data-center-souverain-2026.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ai.underside.be/article-sagtec-data-center-souverain-2026.html" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ai.underside.be/article-edb-postgres-ai-souverain-2026.html</loc>
+    <lastmod>2026-04-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ai.underside.be/article-edb-postgres-ai-souverain-2026.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ai.underside.be/en/article-edb-postgres-ai-souverain-2026.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ai.underside.be/article-edb-postgres-ai-souverain-2026.html" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ai.underside.be/article-thaillm-thailande-souveraine-2026.html</loc>
@@ -398,7 +416,7 @@
   </url>
   <url>
     <loc>https://ai.underside.be/en/actualites</loc>
-    <lastmod>2026-03-31</lastmod>
+    <lastmod>2026-04-03</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://ai.underside.be/actualites" />
     <xhtml:link rel="alternate" hreflang="en" href="https://ai.underside.be/en/actualites" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ai.underside.be/actualites" />
@@ -407,12 +425,39 @@
   </url>
   <url>
     <loc>https://ai.underside.be/en/blog</loc>
-    <lastmod>2026-04-01</lastmod>
+    <lastmod>2026-04-03</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://ai.underside.be/blog" />
     <xhtml:link rel="alternate" hreflang="en" href="https://ai.underside.be/en/blog" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ai.underside.be/blog" />
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://ai.underside.be/en/article-sagtec-data-center-souverain-2026.html</loc>
+    <lastmod>2026-04-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ai.underside.be/article-sagtec-data-center-souverain-2026.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ai.underside.be/en/article-sagtec-data-center-souverain-2026.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ai.underside.be/article-sagtec-data-center-souverain-2026.html" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ai.underside.be/en/article-edb-postgres-ai-souverain-2026.html</loc>
+    <lastmod>2026-04-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ai.underside.be/article-edb-postgres-ai-souverain-2026.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ai.underside.be/en/article-edb-postgres-ai-souverain-2026.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ai.underside.be/article-edb-postgres-ai-souverain-2026.html" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ai.underside.be/en/article-thaillm-thailande-souveraine-2026.html</loc>
+    <lastmod>2026-04-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ai.underside.be/article-thaillm-thailande-souveraine-2026.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ai.underside.be/en/article-thaillm-thailande-souveraine-2026.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ai.underside.be/article-thaillm-thailande-souveraine-2026.html" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ai.underside.be/en/article-armada-azure-local-souverain-2026.html</loc>

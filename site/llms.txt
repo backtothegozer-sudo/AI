@@ -28,6 +28,8 @@
 - https://ai.underside.be/google7af869e5e0e8f999.html
 
 ## Articles (FR)
+- https://ai.underside.be/article-sagtec-data-center-souverain-2026.html
+- https://ai.underside.be/article-edb-postgres-ai-souverain-2026.html
 - https://ai.underside.be/article-thaillm-thailande-souveraine-2026.html
 - https://ai.underside.be/article-armada-azure-local-souverain-2026.html
 - https://ai.underside.be/article-seekr-arcas-ia-souveraine-2026.html
@@ -67,6 +69,8 @@
 - https://ai.underside.be/article-openai-financement-2026.html
 
 ## Articles (EN)
+- https://ai.underside.be/en/article-sagtec-data-center-souverain-2026.html
+- https://ai.underside.be/en/article-edb-postgres-ai-souverain-2026.html
 - https://ai.underside.be/en/article-thaillm-thailande-souveraine-2026.html
 - https://ai.underside.be/en/article-armada-azure-local-souverain-2026.html
 - https://ai.underside.be/en/article-seekr-arcas-ia-souveraine-2026.html
