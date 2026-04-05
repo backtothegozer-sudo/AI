@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>pgEdge MCP Server: Postgres renforce la production d'IA souveraine | Underside</title>
+  <link rel="icon" href="logo-underside-fav.svg?v=20260328a" type="image/svg+xml" />
+  <link rel="icon" href="favicon.ico?v=20260328a" sizes="any" />
+  <link rel="shortcut icon" href="favicon.ico?v=20260328a" />
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png?v=20260328a" />
+  <link rel="icon" type="image/png" sizes="48x48" href="favicon-48x48.png?v=20260328a" />
+  <link rel="icon" type="image/png" sizes="192x192" href="favicon-192x192.png?v=20260328a" />
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png?v=20260328a" />
+
+  <meta name="description" content="Analyse de l'annonce officielle pgEdge du 2 avril 2026: disponibilite generale du MCP Server for Postgres pour des applications agentiques avec exigences de securite, haute disponibilite et souverainete des donnees." />
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1" />
+  <link rel="canonical" href="https://ai.underside.be/article-pgedge-mcp-souverain-2026.html" />
+  <link rel="alternate" hreflang="fr" href="https://ai.underside.be/article-pgedge-mcp-souverain-2026.html" />
+  <link rel="alternate" hreflang="en" href="https://ai.underside.be/en/article-pgedge-mcp-souverain-2026.html" />
+  <link rel="alternate" hreflang="x-default" href="https://ai.underside.be/article-pgedge-mcp-souverain-2026.html" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="pgEdge MCP Server: Postgres renforce la production d'IA souveraine" />
+  <meta property="og:description" content="Le communique officiel pgEdge du 2 avril 2026 positionne un serveur MCP Postgres pret pour la production, y compris en environnements on-prem, cloud prive et air-gap, avec un axe explicite de souverainete des donnees." />
+  <meta property="og:url" content="https://ai.underside.be/article-pgedge-mcp-souverain-2026.html" />
+  <meta property="og:image" content="https://ai.underside.be/media/articles/pgedge-mcp-2026.jpg" />
+  <meta name="twitter:image" content="https://ai.underside.be/media/articles/pgedge-mcp-2026.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+<link rel="alternate" type="application/json" title="MCP Connectors" href="/.well-known/mcp.json" />
+  <style>
+    :root { --bg:#060607; --ink:#f5f7fb; --muted:#cbd2dc; --line:rgba(255,255,255,.12); --accent:#e64bff; --accent2:#4b5bff; }
+    * { box-sizing:border-box; } body { margin:0; font-family:Manrope,system-ui,sans-serif; background:var(--bg); color:var(--ink); }
+    .wrap { max-width:980px; margin:0 auto; padding:0 24px; } header { padding:28px 0; border-bottom:1px solid rgba(255,255,255,.06); }
+    a { color:inherit; text-decoration:none; } .back { display:inline-block; font-size:13px; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); }
+    h1 { font-size:clamp(34px,5vw,52px); line-height:1.08; margin:28px 0 10px; } .meta { color:var(--muted); font-size:14px; }
+    article { padding:28px 0 40px; } .lead { font-size:20px; line-height:1.6; color:var(--ink); font-weight:600; }
+    h2 { margin:30px 0 10px; font-size:26px; line-height:1.2; } p { font-size:17px; line-height:1.84; color:var(--muted); }
+    .article-media {
+      margin: 22px 0 26px;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      overflow: hidden;
+      background: rgba(255,255,255,.02);
+      box-shadow: 0 18px 44px rgba(0,0,0,.35);
+      position: relative;
+    }
+    .article-media::after {
+      content: "";
+      position: absolute;
+      inset: auto 0 0 0;
+      height: 34%;
+      background: linear-gradient(180deg, rgba(6,6,7,0), rgba(6,6,7,.55));
+      pointer-events: none;
+    }
+    .article-media img {
+      display: block;
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      object-fit: cover;
+      filter: saturate(1.04) contrast(1.02);
+    }
+    .article-media figcaption {
+      font-size: 13px;
+      color: var(--muted);
+      padding: 10px 14px;
+      border-top: 1px solid rgba(255,255,255,.08);
+      background: rgba(6,6,7,.84);
+      position: relative;
+      z-index: 2;
+    }
+    .box { margin:24px 0; padding:20px; border:1px solid var(--line); border-radius:16px; background:rgba(255,255,255,.03); }
+    .cta { display:inline-block; margin-top:12px; padding:11px 18px; border-radius:999px; background:linear-gradient(135deg,var(--accent),var(--accent2)); color:#fff; }
+    .share-bar { margin:14px 0 0; display:flex; align-items:center; gap:8px; flex-wrap:wrap; }
+    .share-label { font-size:12px; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); }
+    .share-pill { display:inline-flex; align-items:center; justify-content:center; width:30px; height:30px; border-radius:999px; border:1px solid var(--line); background:rgba(255,255,255,.04); font-size:0; color:var(--ink); }
+    .share-icon { font-size:14px; line-height:1; font-weight:700; }
+  </style>
+  <link rel="stylesheet" href="page-transition.css" />
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"pgEdge MCP Server: Postgres renforce la production d'IA souveraine","datePublished":"2026-04-05","dateModified":"2026-04-05","inLanguage":"fr-BE","author":{"@type":"Organization","name":"Underside"},"publisher":{"@type":"Organization","name":"Underside"},"mainEntityOfPage":"https://ai.underside.be/article-pgedge-mcp-souverain-2026.html"}</script>
+</head>
+<body>
+  <header><div class="wrap"><a class="back" href="blog.html">Retour au blog</a></div></header>
+  <main class="wrap"><article>
+    <h1>pgEdge MCP Server: Postgres renforce la production d'IA souveraine</h1>
+    <p class="meta">Article créé le 5 avril 2026 · Publication analysée: 2 avril 2026 · Source: pgEdge (PR Newswire)</p>
+    <div class="share-bar" aria-label="Partager cet article">
+      <span class="share-label">Partager</span>
+      <a class="share-pill" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fai.underside.be%2Farticle-pgedge-mcp-souverain-2026.html" target="_blank" rel="noopener" aria-label="Partager sur LinkedIn"><span class="share-icon" aria-hidden="true">in</span><span class="sr-only" style="position:absolute;left:-9999px;">LinkedIn</span></a>
+      <a class="share-pill" href="https://x.com/intent/tweet?text=pgEdge%20MCP%20Server%3A%20Postgres%20renforce%20la%20production%20d%27IA%20souveraine&url=https%3A%2F%2Fai.underside.be%2Farticle-pgedge-mcp-souverain-2026.html" target="_blank" rel="noopener" aria-label="Partager sur X"><span class="share-icon" aria-hidden="true">X</span><span class="sr-only" style="position:absolute;left:-9999px;">X</span></a>
+      <a class="share-pill" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fai.underside.be%2Farticle-pgedge-mcp-souverain-2026.html" target="_blank" rel="noopener" aria-label="Partager sur Facebook"><span class="share-icon" aria-hidden="true">f</span><span class="sr-only" style="position:absolute;left:-9999px;">Facebook</span></a>
+    </div>
+
+    <p class="lead">Le communiqué officiel pgEdge du 2 avril 2026 annonce la disponibilite generale de son MCP Server for Postgres. Le positionnement vise explicitement des applications d'IA agentique en production, avec des contraintes fortes de haute disponibilite, de securite et de souverainete des donnees.</p>
+
+    <figure class="article-media">
+      <img src="media/articles/pgedge-mcp-2026.jpg" alt="Illustration officielle pgEdge MCP Server pour Postgres et applications IA agentiques" loading="lazy" decoding="async" />
+      <figcaption>Visuel officiel de l'annonce pgEdge MCP Server (source: PR Newswire / pgEdge).</figcaption>
+    </figure>
+
+    <h2>1. Ce qui est annonce officiellement</h2>
+    <p>pgEdge indique que son serveur MCP est compatible avec Postgres standard (v14 et plus), en bases nouvelles ou existantes, et propose plusieurs modes de deploiement: cloud managé, cloud auto-gere, on-premise et meme air-gap. L'annonce insiste sur une transition complete du prototype vers la production.</p>
+
+    <h2>2. Pourquoi c'est un signal d'IA souveraine</h2>
+    <p>Le communique mentionne explicitement des exigences de "data sovereignty" et de conformite d'infrastructure. Le signal cle est l'alignement entre outillage agentique (MCP) et controle effectif du plan de donnees dans des environnements regionalises ou fortement regules.</p>
+
+    <h2>3. Lecture operationnelle pour les organisations</h2>
+    <p>Pour une strategie d'IA souveraine, cette actualite renforce trois priorites: standardiser la couche base de donnees pour les workflows agentiques, conserver des options de deploiement multi-environnements (dont air-gap) et valider tres tot les exigences de securite/compliance avant la generalisation des assistants IA internes.</p>
+
+    <div class="box">
+      <p>Prioriser un pilote MCP sur une base Postgres critique afin de tester gouvernance, performance et contraintes de souverainete avant extension a grande echelle.</p>
+      <a class="cta" href="index.html#contact">Demarrer le cadrage</a>
+    </div>
+
+    <p><a href="https://www.prnewswire.com/news-releases/pgedge-mcp-server-for-postgres-now-generally-available-including-in-pgedge-cloud-advancing-enterprise-ai-infrastructure-302732395.html" target="_blank" rel="noopener">Lire la source officielle</a></p>
+  </article></main>
+  <script src="page-transition.js" defer></script>
+</body>
+</html>
