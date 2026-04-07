@@ -1,0 +1,10 @@
+#!/bin/sh
+set -eu
+
+REPO_ROOT="$(git rev-parse --show-toplevel)"
+cd "$REPO_ROOT"
+
+python3 scripts/fix_french_accents.py --site-dir site >/dev/null
+
+# Ensure auto-corrected FR pages are included in the current commit.
+git add site/*.html >/dev/null 2>&1 || true
