@@ -1661,16 +1661,40 @@
       if (contactMascot) {
         let mascotBusy = false;
         let retroAudioCtx = null;
+        let retroAudioUnlocked = false;
         const EXPLOSION_MS = 660;
         const RESPAWN_DELAY_MS = 2600;
         const RETURN_MS = 360;
+
+        function ensureRetroAudioContext() {
+          const AudioCtor = window.AudioContext || window.webkitAudioContext;
+          if (!AudioCtor) return null;
+          if (!retroAudioCtx) retroAudioCtx = new AudioCtor();
+          return retroAudioCtx;
+        }
+
+        function primeRetroAudio(ctx) {
+          if (!ctx || retroAudioUnlocked) return;
+          try {
+            const unlockOsc = ctx.createOscillator();
+            const unlockGain = ctx.createGain();
+            unlockGain.gain.value = 0.00001;
+            unlockOsc.connect(unlockGain).connect(ctx.destination);
+            const t = ctx.currentTime + 0.001;
+            unlockOsc.start(t);
+            unlockOsc.stop(t + 0.01);
+            retroAudioUnlocked = true;
+          } catch (_) {
+            // ignored
+          }
+        }
 
         function synthRetroExplosion(ctx) {
           const now = ctx.currentTime + 0.01;
           const master = ctx.createGain();
           master.gain.setValueAtTime(0.0001, now);
-          master.gain.exponentialRampToValueAtTime(0.28, now + 0.012);
-          master.gain.exponentialRampToValueAtTime(0.0001, now + 0.52);
+          master.gain.exponentialRampToValueAtTime(0.34, now + 0.012);
+          master.gain.exponentialRampToValueAtTime(0.0001, now + 0.62);
           master.connect(ctx.destination);
 
           const oscA = ctx.createOscillator();
@@ -1721,22 +1745,43 @@
         }
 
         function playRetroExplosionSound() {
-          const AudioCtor = window.AudioContext || window.webkitAudioContext;
-          if (!AudioCtor) return;
-          if (!retroAudioCtx) retroAudioCtx = new AudioCtor();
-          const ctx = retroAudioCtx;
+          const ctx = ensureRetroAudioContext();
+          if (!ctx) return;
 
-          function run() {
-            synthRetroExplosion(ctx);
+          const wasSuspended = ctx.state !== "running";
+          if (wasSuspended) {
+            try { ctx.resume(); } catch (_) {}
           }
 
-          if (ctx.state === "running") {
-            run();
+          primeRetroAudio(ctx);
+          synthRetroExplosion(ctx);
+
+          if (wasSuspended) {
+            window.setTimeout(function () {
+              if (ctx.state === "running") {
+                primeRetroAudio(ctx);
+                synthRetroExplosion(ctx);
+              }
+            }, 80);
+          }
+        }
+
+        function unlockRetroAudioOnce() {
+          const ctx = ensureRetroAudioContext();
+          if (!ctx) return;
+          if (ctx.state !== "running") {
+            try {
+              ctx.resume().then(function () {
+                primeRetroAudio(ctx);
+              }).catch(function () {});
+            } catch (_) {}
             return;
           }
-
-          ctx.resume().then(run).catch(function () {});
+          primeRetroAudio(ctx);
         }
+
+        window.addEventListener("pointerdown", unlockRetroAudioOnce, { passive: true, once: true });
+        window.addEventListener("touchstart", unlockRetroAudioOnce, { passive: true, once: true });
 
         function respawnMascot() {
           contactMascot.classList.remove("is-gone");
