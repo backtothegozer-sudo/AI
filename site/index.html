@@ -1744,6 +1744,61 @@
           noise.stop(now + 0.32);
         }
 
+        function synthInvaderGrumble(ctx) {
+          const now = ctx.currentTime + 0.03;
+          const master = ctx.createGain();
+          master.gain.setValueAtTime(0.0001, now);
+          master.gain.exponentialRampToValueAtTime(0.16, now + 0.03);
+          master.gain.exponentialRampToValueAtTime(0.0001, now + 0.52);
+          master.connect(ctx.destination);
+
+          const filter = ctx.createBiquadFilter();
+          filter.type = "lowpass";
+          filter.frequency.setValueAtTime(820, now);
+          filter.frequency.exponentialRampToValueAtTime(360, now + 0.48);
+          filter.Q.value = 7;
+          filter.connect(master);
+
+          const growlA = ctx.createOscillator();
+          growlA.type = "square";
+          growlA.frequency.setValueAtTime(176, now);
+          growlA.frequency.exponentialRampToValueAtTime(92, now + 0.28);
+          growlA.frequency.exponentialRampToValueAtTime(64, now + 0.5);
+
+          const growlB = ctx.createOscillator();
+          growlB.type = "sawtooth";
+          growlB.frequency.setValueAtTime(132, now);
+          growlB.frequency.exponentialRampToValueAtTime(78, now + 0.48);
+
+          const growlGainA = ctx.createGain();
+          growlGainA.gain.setValueAtTime(0.0001, now);
+          growlGainA.gain.exponentialRampToValueAtTime(0.24, now + 0.02);
+          growlGainA.gain.exponentialRampToValueAtTime(0.0001, now + 0.48);
+
+          const growlGainB = ctx.createGain();
+          growlGainB.gain.setValueAtTime(0.0001, now);
+          growlGainB.gain.exponentialRampToValueAtTime(0.11, now + 0.03);
+          growlGainB.gain.exponentialRampToValueAtTime(0.0001, now + 0.5);
+
+          const wobble = ctx.createOscillator();
+          wobble.type = "square";
+          wobble.frequency.setValueAtTime(27, now);
+          const wobbleGain = ctx.createGain();
+          wobbleGain.gain.setValueAtTime(16, now);
+          wobble.connect(wobbleGain);
+          wobbleGain.connect(growlA.frequency);
+
+          growlA.connect(growlGainA).connect(filter);
+          growlB.connect(growlGainB).connect(filter);
+
+          growlA.start(now);
+          growlB.start(now);
+          wobble.start(now);
+          growlA.stop(now + 0.52);
+          growlB.stop(now + 0.52);
+          wobble.stop(now + 0.52);
+        }
+
         function playRetroExplosionSound() {
           const ctx = ensureRetroAudioContext();
           if (!ctx) return;
@@ -1755,12 +1810,14 @@
 
           primeRetroAudio(ctx);
           synthRetroExplosion(ctx);
+          synthInvaderGrumble(ctx);
 
           if (wasSuspended) {
             window.setTimeout(function () {
               if (ctx.state === "running") {
                 primeRetroAudio(ctx);
                 synthRetroExplosion(ctx);
+                synthInvaderGrumble(ctx);
               }
             }, 80);
           }
