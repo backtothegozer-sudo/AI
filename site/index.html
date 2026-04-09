@@ -1665,19 +1665,11 @@
         const RESPAWN_DELAY_MS = 2600;
         const RETURN_MS = 360;
 
-        function playRetroExplosionSound() {
-          const AudioCtor = window.AudioContext || window.webkitAudioContext;
-          if (!AudioCtor) return;
-          if (!retroAudioCtx) retroAudioCtx = new AudioCtor();
-          const ctx = retroAudioCtx;
-          if (ctx.state === "suspended") {
-            ctx.resume().catch(function () {});
-          }
-
-          const now = ctx.currentTime + 0.004;
+        function synthRetroExplosion(ctx) {
+          const now = ctx.currentTime + 0.01;
           const master = ctx.createGain();
           master.gain.setValueAtTime(0.0001, now);
-          master.gain.exponentialRampToValueAtTime(0.2, now + 0.012);
+          master.gain.exponentialRampToValueAtTime(0.28, now + 0.012);
           master.gain.exponentialRampToValueAtTime(0.0001, now + 0.52);
           master.connect(ctx.destination);
 
@@ -1726,6 +1718,24 @@
           noise.connect(highpass).connect(lowpass).connect(noiseGain).connect(master);
           noise.start(now);
           noise.stop(now + 0.32);
+        }
+
+        function playRetroExplosionSound() {
+          const AudioCtor = window.AudioContext || window.webkitAudioContext;
+          if (!AudioCtor) return;
+          if (!retroAudioCtx) retroAudioCtx = new AudioCtor();
+          const ctx = retroAudioCtx;
+
+          function run() {
+            synthRetroExplosion(ctx);
+          }
+
+          if (ctx.state === "running") {
+            run();
+            return;
+          }
+
+          ctx.resume().then(run).catch(function () {});
         }
 
         function respawnMascot() {
