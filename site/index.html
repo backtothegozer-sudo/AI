@@ -815,6 +815,8 @@
       width: 126px;
       height: 120px;
       animation: mascotBob 4.2s ease-in-out infinite;
+      cursor: pointer;
+      isolation: isolate;
     }
     .contact-mascot-aura {
       position: absolute;
@@ -838,6 +840,7 @@
       --inv-px: 7px;
       filter: drop-shadow(0 10px 18px rgba(0, 0, 0, 0.36)) drop-shadow(0 0 20px rgba(188, 95, 255, 0.35));
       z-index: 2;
+      transform-origin: 50% 50%;
     }
     .contact-invader-pixel {
       position: absolute;
@@ -917,6 +920,43 @@
         calc(4 * var(--inv-px)) calc(8 * var(--inv-px)) 0 #fff,
         calc(7 * var(--inv-px)) calc(8 * var(--inv-px)) 0 #fff,
         calc(11 * var(--inv-px)) calc(8 * var(--inv-px)) 0 #fff;
+    }
+    .contact-mascot-aura,
+    .contact-invader {
+      transition: opacity 0.2s ease, filter 0.2s ease;
+    }
+    .contact-invader-shard {
+      position: absolute;
+      left: 50%;
+      top: 56px;
+      width: 6px;
+      height: 6px;
+      background: #ffffff;
+      border-radius: 1px;
+      transform: translate(-50%, -50%);
+      opacity: 0;
+      pointer-events: none;
+      z-index: 4;
+    }
+    .contact-mascot.is-exploding .contact-invader {
+      animation: invaderBlast 0.54s cubic-bezier(0.22, 0.9, 0.3, 1) forwards;
+    }
+    .contact-mascot.is-exploding .contact-mascot-aura {
+      animation: auraBlast 0.56s ease-out forwards;
+    }
+    .contact-mascot.is-exploding .contact-invader-shard {
+      animation: shardBlast 0.62s cubic-bezier(0.2, 0.88, 0.25, 1) forwards;
+      animation-delay: var(--d, 0ms);
+    }
+    .contact-mascot.is-gone {
+      opacity: 0;
+      pointer-events: none;
+    }
+    .contact-mascot.is-returning .contact-invader {
+      animation: invaderRespawn 0.34s cubic-bezier(0.2, 0.9, 0.25, 1) forwards;
+    }
+    .contact-mascot.is-returning .contact-mascot-aura {
+      animation: auraRespawn 0.34s ease-out forwards;
     }
 
     @media (max-width: 720px) {
@@ -1151,6 +1191,27 @@
     @keyframes mascotBob {
       0%, 100% { transform: translateY(0); }
       50% { transform: translateY(-9px); }
+    }
+    @keyframes invaderBlast {
+      0% { opacity: 1; transform: translateX(-50%) scale(1); filter: brightness(1); }
+      45% { opacity: 1; transform: translateX(-50%) scale(1.16); filter: brightness(1.45); }
+      100% { opacity: 0; transform: translateX(-50%) scale(0.72); filter: brightness(1.9); }
+    }
+    @keyframes auraBlast {
+      0% { opacity: 0.92; transform: translateX(-50%) scale(1); }
+      100% { opacity: 0; transform: translateX(-50%) scale(1.55); }
+    }
+    @keyframes shardBlast {
+      0% { opacity: 1; transform: translate(-50%, -50%) scale(1) rotate(0deg); }
+      100% { opacity: 0; transform: translate(calc(-50% + var(--tx)), calc(-50% + var(--ty))) scale(0.35) rotate(var(--rot)); }
+    }
+    @keyframes invaderRespawn {
+      0% { opacity: 0; transform: translateX(-50%) scale(0.66); filter: brightness(1.6); }
+      100% { opacity: 1; transform: translateX(-50%) scale(1); filter: brightness(1); }
+    }
+    @keyframes auraRespawn {
+      0% { opacity: 0; transform: translateX(-50%) scale(0.68); }
+      100% { opacity: 1; transform: translateX(-50%) scale(1); }
     }
   </style>
   <link rel="stylesheet" href="page-transition.css" />
@@ -1457,6 +1518,18 @@
         <div class="contact-mascot">
           <span class="contact-mascot-aura"></span>
           <span class="contact-invader"><span class="contact-invader-pixel"></span></span>
+          <span class="contact-invader-shard" style="--tx:-62px;--ty:-38px;--rot:-110deg;--d:0ms;"></span>
+          <span class="contact-invader-shard" style="--tx:-42px;--ty:-56px;--rot:-80deg;--d:18ms;"></span>
+          <span class="contact-invader-shard" style="--tx:-18px;--ty:-50px;--rot:-45deg;--d:36ms;"></span>
+          <span class="contact-invader-shard" style="--tx:18px;--ty:-52px;--rot:40deg;--d:24ms;"></span>
+          <span class="contact-invader-shard" style="--tx:44px;--ty:-54px;--rot:78deg;--d:42ms;"></span>
+          <span class="contact-invader-shard" style="--tx:64px;--ty:-34px;--rot:120deg;--d:12ms;"></span>
+          <span class="contact-invader-shard" style="--tx:-70px;--ty:2px;--rot:-140deg;--d:8ms;"></span>
+          <span class="contact-invader-shard" style="--tx:72px;--ty:4px;--rot:145deg;--d:10ms;"></span>
+          <span class="contact-invader-shard" style="--tx:-52px;--ty:36px;--rot:-95deg;--d:22ms;"></span>
+          <span class="contact-invader-shard" style="--tx:-20px;--ty:56px;--rot:-30deg;--d:32ms;"></span>
+          <span class="contact-invader-shard" style="--tx:20px;--ty:58px;--rot:28deg;--d:26ms;"></span>
+          <span class="contact-invader-shard" style="--tx:54px;--ty:38px;--rot:98deg;--d:30ms;"></span>
         </div>
       </div>
       <div class="cta-block">
@@ -1541,6 +1614,37 @@
             }, 360);
           }, 240);
         }, 5200);
+      }
+
+      const contactMascot = document.querySelector(".contact-mascot");
+      if (contactMascot) {
+        let mascotBusy = false;
+        const EXPLOSION_MS = 540;
+        const RESPAWN_DELAY_MS = 2600;
+        const RETURN_MS = 360;
+
+        function respawnMascot() {
+          contactMascot.classList.remove("is-gone");
+          contactMascot.classList.add("is-returning");
+          window.setTimeout(function () {
+            contactMascot.classList.remove("is-returning");
+            mascotBusy = false;
+          }, RETURN_MS);
+        }
+
+        contactMascot.addEventListener("click", function () {
+          if (mascotBusy || contactMascot.classList.contains("is-gone")) return;
+          mascotBusy = true;
+          contactMascot.classList.remove("is-returning");
+          contactMascot.classList.add("is-exploding");
+
+          window.setTimeout(function () {
+            contactMascot.classList.remove("is-exploding");
+            contactMascot.classList.add("is-gone");
+          }, EXPLOSION_MS);
+
+          window.setTimeout(respawnMascot, EXPLOSION_MS + RESPAWN_DELAY_MS);
+        }, { passive: true });
       }
 
       const canvas = document.getElementById("evoCanvas");
