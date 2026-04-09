@@ -818,6 +818,21 @@
       cursor: pointer;
       isolation: isolate;
     }
+    .contact-mascot::after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      top: 54px;
+      width: 22px;
+      height: 22px;
+      transform: translate(-50%, -50%);
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(255, 255, 255, 0.95) 0%, rgba(230, 75, 255, 0.62) 40%, rgba(230, 75, 255, 0) 82%);
+      opacity: 0;
+      pointer-events: none;
+      z-index: 6;
+      mix-blend-mode: screen;
+    }
     .contact-mascot-aura {
       position: absolute;
       left: 50%;
@@ -929,24 +944,31 @@
       position: absolute;
       left: 50%;
       top: 56px;
-      width: 6px;
-      height: 6px;
+      width: var(--s, 6px);
+      height: var(--s, 6px);
       background: #ffffff;
       border-radius: 1px;
       transform: translate(-50%, -50%);
       opacity: 0;
       pointer-events: none;
       z-index: 4;
+      box-shadow: 0 0 14px rgba(232, 150, 255, 0.48);
+    }
+    .contact-mascot.is-exploding {
+      animation: mascotBob 4.2s ease-in-out infinite, mascotHit 0.36s steps(2, end) 1;
     }
     .contact-mascot.is-exploding .contact-invader {
-      animation: invaderBlast 0.54s cubic-bezier(0.22, 0.9, 0.3, 1) forwards;
+      animation: invaderBlast 0.66s cubic-bezier(0.2, 0.92, 0.25, 1) forwards;
     }
     .contact-mascot.is-exploding .contact-mascot-aura {
-      animation: auraBlast 0.56s ease-out forwards;
+      animation: auraBlast 0.68s ease-out forwards;
     }
     .contact-mascot.is-exploding .contact-invader-shard {
-      animation: shardBlast 0.62s cubic-bezier(0.2, 0.88, 0.25, 1) forwards;
+      animation: shardBlast 0.86s cubic-bezier(0.15, 0.88, 0.22, 1) forwards;
       animation-delay: var(--d, 0ms);
+    }
+    .contact-mascot.is-exploding::after {
+      animation: blastFlash 0.28s ease-out forwards;
     }
     .contact-mascot.is-gone {
       opacity: 0;
@@ -1192,18 +1214,33 @@
       0%, 100% { transform: translateY(0); }
       50% { transform: translateY(-9px); }
     }
+    @keyframes mascotHit {
+      0% { transform: translate3d(0, 0, 0); }
+      20% { transform: translate3d(-7px, 1px, 0); }
+      40% { transform: translate3d(8px, -1px, 0); }
+      60% { transform: translate3d(-6px, 1px, 0); }
+      80% { transform: translate3d(6px, -1px, 0); }
+      100% { transform: translate3d(0, 0, 0); }
+    }
     @keyframes invaderBlast {
-      0% { opacity: 1; transform: translateX(-50%) scale(1); filter: brightness(1); }
-      45% { opacity: 1; transform: translateX(-50%) scale(1.16); filter: brightness(1.45); }
-      100% { opacity: 0; transform: translateX(-50%) scale(0.72); filter: brightness(1.9); }
+      0% { opacity: 1; transform: translateX(-50%) scale(1) rotate(0deg); filter: brightness(1); }
+      24% { opacity: 1; transform: translateX(-50%) scale(1.4) rotate(-5deg); filter: brightness(2); }
+      52% { opacity: 0.85; transform: translateX(-50%) scale(0.88) rotate(8deg); filter: brightness(2.2); }
+      100% { opacity: 0; transform: translateX(-50%) scale(0.16) rotate(22deg); filter: brightness(2.6); }
     }
     @keyframes auraBlast {
-      0% { opacity: 0.92; transform: translateX(-50%) scale(1); }
-      100% { opacity: 0; transform: translateX(-50%) scale(1.55); }
+      0% { opacity: 0.96; transform: translateX(-50%) scale(1); }
+      100% { opacity: 0; transform: translateX(-50%) scale(2.15); }
     }
     @keyframes shardBlast {
       0% { opacity: 1; transform: translate(-50%, -50%) scale(1) rotate(0deg); }
-      100% { opacity: 0; transform: translate(calc(-50% + var(--tx)), calc(-50% + var(--ty))) scale(0.35) rotate(var(--rot)); }
+      28% { opacity: 1; }
+      100% { opacity: 0; transform: translate(calc(-50% + var(--tx)), calc(-50% + var(--ty))) scale(var(--sc, 0.18)) rotate(var(--rot)); }
+    }
+    @keyframes blastFlash {
+      0% { opacity: 0; transform: translate(-50%, -50%) scale(0.35); }
+      35% { opacity: 1; transform: translate(-50%, -50%) scale(2.9); }
+      100% { opacity: 0; transform: translate(-50%, -50%) scale(4.2); }
     }
     @keyframes invaderRespawn {
       0% { opacity: 0; transform: translateX(-50%) scale(0.66); filter: brightness(1.6); }
@@ -1518,18 +1555,22 @@
         <div class="contact-mascot">
           <span class="contact-mascot-aura"></span>
           <span class="contact-invader"><span class="contact-invader-pixel"></span></span>
-          <span class="contact-invader-shard" style="--tx:-62px;--ty:-38px;--rot:-110deg;--d:0ms;"></span>
-          <span class="contact-invader-shard" style="--tx:-42px;--ty:-56px;--rot:-80deg;--d:18ms;"></span>
-          <span class="contact-invader-shard" style="--tx:-18px;--ty:-50px;--rot:-45deg;--d:36ms;"></span>
-          <span class="contact-invader-shard" style="--tx:18px;--ty:-52px;--rot:40deg;--d:24ms;"></span>
-          <span class="contact-invader-shard" style="--tx:44px;--ty:-54px;--rot:78deg;--d:42ms;"></span>
-          <span class="contact-invader-shard" style="--tx:64px;--ty:-34px;--rot:120deg;--d:12ms;"></span>
-          <span class="contact-invader-shard" style="--tx:-70px;--ty:2px;--rot:-140deg;--d:8ms;"></span>
-          <span class="contact-invader-shard" style="--tx:72px;--ty:4px;--rot:145deg;--d:10ms;"></span>
-          <span class="contact-invader-shard" style="--tx:-52px;--ty:36px;--rot:-95deg;--d:22ms;"></span>
-          <span class="contact-invader-shard" style="--tx:-20px;--ty:56px;--rot:-30deg;--d:32ms;"></span>
-          <span class="contact-invader-shard" style="--tx:20px;--ty:58px;--rot:28deg;--d:26ms;"></span>
-          <span class="contact-invader-shard" style="--tx:54px;--ty:38px;--rot:98deg;--d:30ms;"></span>
+          <span class="contact-invader-shard" style="--tx:-138px;--ty:-96px;--rot:-220deg;--d:0ms;--s:7px;--sc:0.14;"></span>
+          <span class="contact-invader-shard" style="--tx:-102px;--ty:-124px;--rot:-180deg;--d:16ms;--s:6px;--sc:0.12;"></span>
+          <span class="contact-invader-shard" style="--tx:-58px;--ty:-112px;--rot:-150deg;--d:28ms;--s:5px;--sc:0.1;"></span>
+          <span class="contact-invader-shard" style="--tx:-12px;--ty:-128px;--rot:-90deg;--d:20ms;--s:6px;--sc:0.12;"></span>
+          <span class="contact-invader-shard" style="--tx:24px;--ty:-122px;--rot:86deg;--d:30ms;--s:7px;--sc:0.14;"></span>
+          <span class="contact-invader-shard" style="--tx:70px;--ty:-114px;--rot:140deg;--d:24ms;--s:5px;--sc:0.1;"></span>
+          <span class="contact-invader-shard" style="--tx:116px;--ty:-96px;--rot:190deg;--d:18ms;--s:6px;--sc:0.12;"></span>
+          <span class="contact-invader-shard" style="--tx:-148px;--ty:-16px;--rot:-260deg;--d:10ms;--s:7px;--sc:0.15;"></span>
+          <span class="contact-invader-shard" style="--tx:152px;--ty:-12px;--rot:268deg;--d:12ms;--s:7px;--sc:0.15;"></span>
+          <span class="contact-invader-shard" style="--tx:-124px;--ty:56px;--rot:-210deg;--d:22ms;--s:6px;--sc:0.12;"></span>
+          <span class="contact-invader-shard" style="--tx:-80px;--ty:104px;--rot:-168deg;--d:34ms;--s:5px;--sc:0.1;"></span>
+          <span class="contact-invader-shard" style="--tx:-18px;--ty:132px;--rot:-110deg;--d:38ms;--s:7px;--sc:0.14;"></span>
+          <span class="contact-invader-shard" style="--tx:22px;--ty:136px;--rot:106deg;--d:40ms;--s:7px;--sc:0.14;"></span>
+          <span class="contact-invader-shard" style="--tx:84px;--ty:112px;--rot:160deg;--d:36ms;--s:5px;--sc:0.1;"></span>
+          <span class="contact-invader-shard" style="--tx:126px;--ty:62px;--rot:212deg;--d:26ms;--s:6px;--sc:0.12;"></span>
+          <span class="contact-invader-shard" style="--tx:-2px;--ty:162px;--rot:320deg;--d:46ms;--s:6px;--sc:0.12;"></span>
         </div>
       </div>
       <div class="cta-block">
@@ -1619,9 +1660,73 @@
       const contactMascot = document.querySelector(".contact-mascot");
       if (contactMascot) {
         let mascotBusy = false;
-        const EXPLOSION_MS = 540;
+        let retroAudioCtx = null;
+        const EXPLOSION_MS = 660;
         const RESPAWN_DELAY_MS = 2600;
         const RETURN_MS = 360;
+
+        function playRetroExplosionSound() {
+          const AudioCtor = window.AudioContext || window.webkitAudioContext;
+          if (!AudioCtor) return;
+          if (!retroAudioCtx) retroAudioCtx = new AudioCtor();
+          const ctx = retroAudioCtx;
+          if (ctx.state === "suspended") {
+            ctx.resume().catch(function () {});
+          }
+
+          const now = ctx.currentTime + 0.004;
+          const master = ctx.createGain();
+          master.gain.setValueAtTime(0.0001, now);
+          master.gain.exponentialRampToValueAtTime(0.2, now + 0.012);
+          master.gain.exponentialRampToValueAtTime(0.0001, now + 0.52);
+          master.connect(ctx.destination);
+
+          const oscA = ctx.createOscillator();
+          const gainA = ctx.createGain();
+          oscA.type = "square";
+          oscA.frequency.setValueAtTime(230, now);
+          oscA.frequency.exponentialRampToValueAtTime(42, now + 0.22);
+          gainA.gain.setValueAtTime(0.0001, now);
+          gainA.gain.exponentialRampToValueAtTime(0.42, now + 0.01);
+          gainA.gain.exponentialRampToValueAtTime(0.0001, now + 0.24);
+          oscA.connect(gainA).connect(master);
+          oscA.start(now);
+          oscA.stop(now + 0.26);
+
+          const oscB = ctx.createOscillator();
+          const gainB = ctx.createGain();
+          oscB.type = "square";
+          oscB.frequency.setValueAtTime(520, now + 0.08);
+          oscB.frequency.exponentialRampToValueAtTime(95, now + 0.22);
+          gainB.gain.setValueAtTime(0.0001, now + 0.07);
+          gainB.gain.exponentialRampToValueAtTime(0.22, now + 0.095);
+          gainB.gain.exponentialRampToValueAtTime(0.0001, now + 0.25);
+          oscB.connect(gainB).connect(master);
+          oscB.start(now + 0.07);
+          oscB.stop(now + 0.27);
+
+          const noiseBuffer = ctx.createBuffer(1, Math.floor(ctx.sampleRate * 0.35), ctx.sampleRate);
+          const noiseData = noiseBuffer.getChannelData(0);
+          for (let i = 0; i < noiseData.length; i++) {
+            const decay = 1 - i / noiseData.length;
+            noiseData[i] = (Math.random() * 2 - 1) * decay;
+          }
+          const noise = ctx.createBufferSource();
+          noise.buffer = noiseBuffer;
+          const highpass = ctx.createBiquadFilter();
+          highpass.type = "highpass";
+          highpass.frequency.value = 520;
+          const lowpass = ctx.createBiquadFilter();
+          lowpass.type = "lowpass";
+          lowpass.frequency.value = 2600;
+          const noiseGain = ctx.createGain();
+          noiseGain.gain.setValueAtTime(0.0001, now);
+          noiseGain.gain.exponentialRampToValueAtTime(0.24, now + 0.006);
+          noiseGain.gain.exponentialRampToValueAtTime(0.0001, now + 0.3);
+          noise.connect(highpass).connect(lowpass).connect(noiseGain).connect(master);
+          noise.start(now);
+          noise.stop(now + 0.32);
+        }
 
         function respawnMascot() {
           contactMascot.classList.remove("is-gone");
@@ -1635,6 +1740,7 @@
         contactMascot.addEventListener("click", function () {
           if (mascotBusy || contactMascot.classList.contains("is-gone")) return;
           mascotBusy = true;
+          playRetroExplosionSound();
           contactMascot.classList.remove("is-returning");
           contactMascot.classList.add("is-exploding");
 
