@@ -3,7 +3,14 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Sovereign AI Events | Underside</title>
+  <title>Events | Underside</title>
+  <meta name="description" content="Events page temporarily disabled. Underside will publish the next event soon." />
+  <meta name="robots" content="noindex,nofollow" />
+  <link rel="canonical" href="https://ai.underside.be/en/evenements" />
+  <link rel="alternate" hreflang="fr" href="https://ai.underside.be/evenements" />
+  <link rel="alternate" hreflang="en" href="https://ai.underside.be/en/evenements" />
+  <link rel="alternate" hreflang="x-default" href="https://ai.underside.be/evenements" />
+
   <link rel="icon" href="../logo-underside-fav.svg?v=20260328a" type="image/svg+xml" />
   <link rel="icon" href="../favicon.ico?v=20260328a" sizes="any" />
   <link rel="shortcut icon" href="../favicon.ico?v=20260328a" />
@@ -12,850 +19,138 @@
   <link rel="icon" type="image/png" sizes="192x192" href="../favicon-192x192.png?v=20260328a" />
   <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png?v=20260328a" />
 
-  <meta name="description" content="Underside event: exclusive coffee session on sovereign AI for enterprises and public sector organizations. Architecture, compliance, security, and live demonstration." />
-  <meta name="robots" content="index, follow" />
-  <meta name="keywords" content="sovereign AI event, AI coffee session, Underside, enterprise AI, AI compliance, AI security, Belgium" />
-  <link rel="canonical" href="https://ai.underside.be/en/evenements" />
-  <link rel="alternate" hreflang="fr" href="https://ai.underside.be/evenements" />
-  <link rel="alternate" hreflang="en" href="https://ai.underside.be/en/evenements" />
-  <link rel="alternate" hreflang="x-default" href="https://ai.underside.be/evenements" />
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="Sovereign AI Events | Underside" />
-  <meta property="og:description" content="Join an exclusive coffee session at Underside to discover sovereign, secure, and controlled AI." />
-  <meta property="og:url" content="https://ai.underside.be/en/evenements" />
-  <meta property="og:image" content="https://ai.underside.be/favicon-512.png" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Sovereign AI Events | Underside" />
-  <meta name="twitter:description" content="Exclusive Underside coffee session: deploy sovereign AI in production." />
-  <meta name="twitter:image" content="https://ai.underside.be/favicon-512.png" />
-
-  <link rel="manifest" href="../site.webmanifest" />
-  <link rel="alternate" type="application/json" title="MCP Connectors" href="../.well-known/mcp.json" />
-  <link rel="stylesheet" href="../page-transition.css" />
-
   <style>
     :root {
-      --bg: #05060b;
-      --ink: #f7f9ff;
-      --ink-2: #c4c9da;
-      --paper: #060607;
-      --line: rgba(255, 255, 255, 0.14);
-      --accent: #e64bff;
-      --accent-2: #4b5bff;
-      --card: rgba(17, 19, 31, 0.8);
+      --bg:#060607;
+      --ink:#f5f7fb;
+      --ink-2:#cfd4df;
+      --line:rgba(255,255,255,.12);
+      --accent:#e64bff;
+      --accent2:#4b5bff;
     }
-    * { box-sizing: border-box; }
-    html, body { margin: 0; padding: 0; }
-    html { scroll-behavior: smooth; }
+    * { box-sizing:border-box; }
     body {
-      font-family: "Manrope", "Inter", system-ui, -apple-system, sans-serif;
-      background:
-        radial-gradient(900px 520px at 50% 0%, rgba(230, 75, 255, 0.14), rgba(75, 91, 255, 0.10) 35%, transparent 72%),
-        var(--paper);
-      color: var(--ink);
-      min-height: 100vh;
+      margin:0;
+      min-height:100dvh;
+      font-family:Manrope,system-ui,sans-serif;
+      color:var(--ink);
+      background:radial-gradient(1100px 420px at 55% -20%, rgba(230,75,255,.2), transparent 70%), var(--bg);
+      display:flex;
+      flex-direction:column;
     }
-    body.mobile-menu-open {
-      overflow: hidden;
-      touch-action: none;
-    }
-    .wrap { width: min(1180px, 92vw); margin: 0 auto; }
-    .fade-in { opacity: 0; transform: translateY(8px); transition: opacity .34s ease, transform .34s ease; will-change: opacity, transform; }
-    .fade-in.visible { opacity: 1; transform: translateY(0); }
-
     header {
-      position: sticky;
-      top: 0;
-      z-index: 40;
-      backdrop-filter: blur(10px);
-      background: rgba(8, 9, 14, 0.82);
-      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      position:sticky;
+      top:0;
+      z-index:10;
+      background:rgba(6,6,7,.92);
+      backdrop-filter: blur(12px);
+      border-bottom:1px solid rgba(255,255,255,.08);
     }
     .nav {
-      min-height: 84px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 16px;
-      padding: 10px 0;
+      max-width:1200px;
+      margin:0 auto;
+      padding:20px 22px;
+      display:flex;
+      align-items:center;
     }
-    .brand img { height: 28px; width: auto; display: block; }
-    .burger-btn {
-      display: none;
-      width: 42px;
-      height: 42px;
-      border-radius: 10px;
-      border: 1px solid rgba(255, 255, 255, 0.18);
-      background: rgba(10, 10, 12, 0.8);
-      color: #fff;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-      gap: 4px;
-      padding: 0;
-      cursor: pointer;
-      z-index: 121;
+    .brand img { height:52px; width:auto; display:block; }
+    main {
+      flex:1;
+      display:grid;
+      place-items:center;
+      padding:40px 20px 120px;
     }
-    .burger-btn span {
-      display: block;
-      width: 20px;
-      height: 2.5px;
-      background: #fff;
-      border-radius: 2px;
-      transform-origin: center;
-      transition: transform 0.22s ease, opacity 0.2s ease;
-    }
-    .nav.is-open .burger-btn span:nth-child(1) { transform: translateY(6px) rotate(45deg); }
-    .nav.is-open .burger-btn span:nth-child(2) { opacity: 0; }
-    .nav.is-open .burger-btn span:nth-child(3) { transform: translateY(-6px) rotate(-45deg); }
-    .links { display: flex; gap: 20px; flex-wrap: wrap; }
-    .links a {
-      color: var(--ink-2);
-      text-decoration: none;
-      font-size: 13px;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-    }
-    .links a:hover { color: #fff; }
-    .mobile-menu-backdrop {
-      position: fixed;
-      inset: 0;
-      background: rgba(4, 4, 8, 0.58);
-      z-index: 100;
-      opacity: 0;
-      pointer-events: none;
-      transition: opacity 0.24s ease;
-    }
-    .mobile-menu-backdrop.is-active {
-      opacity: 1;
-      pointer-events: auto;
-    }
-
-    main { padding: 30px 0 100px; }
-    section { margin-top: 20px; }
-
-    .hero {
-      position: relative;
-      overflow: hidden;
-      background-color: #0a0b12;
-      border: 1px solid var(--line);
-      border-radius: 24px;
-      padding: clamp(24px, 4vw, 44px);
-      background:
-        linear-gradient(90deg,
-          rgba(236, 146, 255, 0.22) 0%,
-          rgba(212, 118, 244, 0.2) 22%,
-          rgba(170, 86, 210, 0.22) 48%,
-          rgba(120, 60, 165, 0.24) 72%,
-          rgba(54, 31, 84, 0.86) 100%
-        ),
-        radial-gradient(120% 120% at 20% 0%, rgba(255,255,255,0.08), transparent 65%);
-      box-shadow: 0 20px 44px rgba(0, 0, 0, 0.42);
-    }
-    .hero-fractal {
-      position: absolute;
-      inset: 0;
-      width: 100%;
-      height: 100%;
-      display: block;
-      background: transparent;
-      z-index: 0;
-      opacity: 0.48;
-      pointer-events: none;
-    }
-    .hero.fade-in {
-      opacity: 1;
-      transform: none;
-    }
-    .hero-content {
-      position: relative;
-      z-index: 1;
-    }
-    .eyebrow {
-      display: inline-block;
-      border: 1px solid rgba(255,255,255,0.2);
-      border-radius: 999px;
-      padding: 8px 14px;
-      font-size: 12px;
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
-      color: #efe8ff;
-      margin-bottom: 12px;
-      background: rgba(10,10,12,0.45);
+    .card {
+      width:min(760px, 100%);
+      border:1px solid var(--line);
+      border-radius:24px;
+      padding:34px;
+      background:linear-gradient(150deg, rgba(230,75,255,.12), rgba(75,91,255,.05) 45%, rgba(255,255,255,.02));
+      box-shadow: 0 20px 60px rgba(0,0,0,.45);
+      text-align:center;
     }
     h1 {
-      margin: 0;
-      font-size: clamp(34px, 6vw, 62px);
-      line-height: 1.03;
-      letter-spacing: -0.02em;
-      max-width: 980px;
+      margin:0 0 12px;
+      font-size:clamp(30px, 5vw, 48px);
+      line-height:1.05;
     }
-    .subtitle {
-      margin: 12px 0 20px;
-      color: var(--ink-2);
-      font-size: clamp(18px, 2.4vw, 22px);
-      line-height: 1.4;
-      max-width: 940px;
+    p { margin:0; color:var(--ink-2); font-size:18px; line-height:1.6; }
+    .actions {
+      margin-top:28px;
+      display:flex;
+      gap:12px;
+      justify-content:center;
+      flex-wrap:wrap;
     }
-    .quick {
-      display: flex;
-      gap: 10px;
-      flex-wrap: wrap;
-      margin-top: 14px;
-    }
-    .chip {
-      border: 1px solid rgba(255,255,255,0.18);
-      border-radius: 999px;
-      padding: 8px 13px;
-      font-size: 13px;
-      color: #f2f3fb;
-      background: rgba(10, 10, 12, 0.65);
-    }
-
-    h2 {
-      margin: 0 0 10px;
-      font-size: clamp(24px, 3vw, 36px);
-      line-height: 1.1;
-      letter-spacing: -0.01em;
-      text-transform: uppercase;
-    }
-    .lead {
-      margin: 0;
-      color: var(--ink-2);
-      line-height: 1.7;
-      font-size: 17px;
-    }
-
-    .card {
-      border: 1px solid var(--line);
-      border-radius: 20px;
-      padding: 20px;
-      background:
-        linear-gradient(135deg, rgba(230, 75, 255, 0.08), rgba(75, 91, 255, 0.08)),
-        var(--card);
-      box-shadow: 0 14px 36px rgba(0, 0, 0, 0.35);
-    }
-
-    .grid-4 {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 16px;
-      margin-top: 16px;
-    }
-    .grid-2 {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
-      gap: 16px;
-      margin-top: 16px;
-    }
-
-    .program {
-      margin-top: 14px;
-      display: grid;
-      gap: 10px;
-    }
-    .program li {
-      list-style: none;
-      border: 1px dashed rgba(255,255,255,0.18);
-      border-radius: 14px;
-      padding: 12px 14px;
-      background: rgba(20, 22, 36, 0.68);
-      color: var(--ink-2);
-    }
-    .program strong { color: #fff; }
-
-    .list {
-      margin: 10px 0 0;
-      padding-left: 18px;
-      color: var(--ink-2);
-      line-height: 1.7;
-    }
-
-    .profile h3,
-    .benefit h3,
-    .faq h3,
-    .why h3 {
-      margin: 0 0 8px;
-      font-size: 20px;
-      line-height: 1.2;
-    }
-    .profile p,
-    .benefit p,
-    .faq p,
-    .why p {
-      margin: 0;
-      color: var(--ink-2);
-      line-height: 1.65;
-    }
-
-    .signup {
-      margin-top: 16px;
-      border: 1px solid rgba(230, 75, 255, 0.36);
-      border-radius: 20px;
-      padding: clamp(20px, 3vw, 30px);
-      background: linear-gradient(145deg, rgba(230, 75, 255, 0.16), rgba(20, 22, 36, 0.88) 45%);
-    }
-    .signup p { color: var(--ink-2); margin: 0 0 14px; }
-    .limited {
-      display: inline-block;
-      margin: 0 0 14px;
-      border-radius: 999px;
-      border: 1px solid rgba(255,255,255,0.2);
-      padding: 7px 12px;
-      font-size: 12px;
-      letter-spacing: 0.07em;
-      text-transform: uppercase;
-      color: #fff;
-    }
-
-    .form {
-      display: grid;
-      gap: 10px;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-    .form .full { grid-column: 1 / -1; }
-    label {
-      display: grid;
-      gap: 6px;
-      font-size: 13px;
-      letter-spacing: 0.05em;
-      text-transform: uppercase;
-      color: #d8dcf0;
-    }
-    input, textarea, select {
-      width: 100%;
-      border-radius: 12px;
-      border: 1px solid rgba(255,255,255,0.2);
-      background: rgba(8,8,10,0.85);
-      color: #fff;
-      font-size: 15px;
-      padding: 11px 12px;
-      outline: none;
-    }
-    input:focus, textarea:focus, select:focus {
-      border-color: rgba(230, 75, 255, 0.8);
-      box-shadow: 0 0 0 3px rgba(230, 75, 255, 0.2);
-    }
-    textarea { min-height: 110px; resize: vertical; }
-
     .btn {
-      border: 1px solid rgba(255,255,255,0.2);
-      border-radius: 999px;
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      text-decoration: none;
-      color: #fff;
-      background: linear-gradient(135deg, #d644ff 0%, #4b5bff 100%);
-      padding: 12px 22px;
-      font-weight: 700;
-      letter-spacing: 0.02em;
-      cursor: pointer;
-      transition: transform .2s ease, filter .2s ease;
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      min-height:46px;
+      padding:0 18px;
+      border-radius:999px;
+      border:1px solid var(--line);
+      color:var(--ink);
+      text-decoration:none;
+      background:rgba(255,255,255,.03);
+      transition:transform .2s ease, box-shadow .2s ease;
     }
-    .btn:hover { transform: translateY(-1px); filter: brightness(1.07); }
+    .btn.primary {
+      border:none;
+      background:linear-gradient(135deg, var(--accent), var(--accent2));
+      box-shadow:0 10px 30px rgba(230,75,255,.35);
+    }
+    .btn:hover { transform:translateY(-1px); }
 
-    .faq-item {
-      border: 1px solid var(--line);
-      border-radius: 14px;
-      background:
-        linear-gradient(135deg, rgba(230, 75, 255, 0.06), rgba(75, 91, 255, 0.06)),
-        rgba(17, 19, 31, 0.8);
-      padding: 14px;
+    .lang-switch {
+      position:fixed;
+      left:50%;
+      bottom:16px;
+      transform:translateX(-50%);
+      display:flex;
+      border:1px solid var(--line);
+      border-radius:999px;
+      background:rgba(6,6,7,.85);
+      backdrop-filter: blur(8px);
+      padding:4px;
+      z-index:20;
     }
-    .faq-item summary {
-      cursor: pointer;
-      font-weight: 600;
-      list-style: none;
-      color: #fff;
+    .lang-switch a {
+      text-decoration:none;
+      color:var(--ink-2);
+      font-size:14px;
+      padding:7px 12px;
+      border-radius:999px;
     }
-    .faq-item summary::-webkit-details-marker { display: none; }
-    .faq-item p { margin-top: 10px; }
-
-    .cta-final {
-      margin-top: 18px;
-      border: 1px solid rgba(255,255,255,0.16);
-      border-radius: 20px;
-      padding: 24px;
-      display: grid;
-      gap: 12px;
-      text-align: center;
-      background: radial-gradient(circle at 50% 0%, rgba(230, 75, 255, 0.16), rgba(10,10,12,0.9) 58%);
-    }
-    .cta-final p { margin: 0; color: var(--ink-2); }
-
-    footer {
-      border-top: 1px solid rgba(255,255,255,0.08);
-      color: var(--ink-2);
-      font-size: 13px;
-      text-align: center;
-      padding: 24px 0 36px;
-      margin-top: 40px;
-    }
-
-    @media (max-width: 900px) {
-      .nav { position: relative; }
-      .brand img { height: 28px; }
-      .burger-btn { display: inline-flex !important; position: relative; z-index: 121; }
-      .links {
-        position: fixed;
-        top: 0;
-        right: 0;
-        width: min(84vw, 360px);
-        height: 100dvh;
-        display: flex;
-        justify-content: flex-start;
-        flex-direction: column;
-        gap: 16px;
-        margin-top: 0;
-        padding: calc(84px + 20px) 22px 24px;
-        border-left: 1px solid rgba(255, 255, 255, 0.16);
-        font-size: 19px;
-        letter-spacing: 0.01em;
-        text-transform: none;
-        font-weight: 600;
-        background: rgba(5, 6, 11, 0.82);
-        backdrop-filter: blur(10px);
-        box-shadow: -30px 0 48px rgba(0, 0, 0, 0.42);
-        transform: translateX(100%);
-        transition: transform 0.32s cubic-bezier(0.22, 0.9, 0.25, 1);
-        z-index: 120 !important;
-        overflow-y: auto;
-        -webkit-overflow-scrolling: touch;
-      }
-      .links a {
-        font-size: inherit;
-        letter-spacing: inherit;
-        text-transform: inherit;
-      }
-      .nav.is-open .links { transform: translateX(0); }
-      .form { grid-template-columns: 1fr; }
-      .quick { gap: 8px; }
+    .lang-switch a.active {
+      color:var(--ink);
+      background:linear-gradient(135deg, rgba(230,75,255,.45), rgba(75,91,255,.45));
     }
   </style>
-
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "name": "AI in your organization: innovation or loss of control?",
-      "description": "Exclusive Underside coffee session to discover how to deploy sovereign, secure, and controlled AI in your environment.",
-      "startDate": "2026-04-17T15:00:00+02:00",
-      "endDate": "2026-04-17T17:00:00+02:00",
-      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-      "eventStatus": "https://schema.org/EventScheduled",
-      "location": {
-        "@type": "Place",
-        "name": "Underside",
-        "address": {
-          "@type": "PostalAddress",
-          "addressCountry": "BE"
-        }
-      },
-      "organizer": {
-        "@type": "Organization",
-        "name": "Underside",
-        "url": "https://ai.underside.be/"
-      },
-      "offers": {
-        "@type": "Offer",
-        "url": "https://ai.underside.be/en/evenements#registration",
-        "price": "0",
-        "priceCurrency": "EUR",
-        "availability": "https://schema.org/LimitedAvailability"
-      }
-    }
-  </script>
 </head>
 <body>
   <header>
-    <div class="wrap nav">
-      <a class="brand" href="index.html" aria-label="Back to home">
+    <nav class="nav">
+      <a class="brand" href="https://www.underside.be" aria-label="Go to www.underside.be">
         <img src="../Underside2018_blanc.png" alt="Underside" />
       </a>
-      <button class="burger-btn" type="button" aria-label="Open menu" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
-      <nav class="links" aria-label="Navigation principale">
-        <a href="index.html#services">Services</a>
-        <a href="index.html#souverainete">Sovereignty</a>
-        <a href="actualites.html">News</a>
-        <a href="blog.html">Blog</a>
-        <a href="index.html#contact">Contact</a>
-      </nav>
-    </div>
+    </nav>
   </header>
-  <div class="mobile-menu-backdrop" aria-hidden="true"></div>
 
   <main>
-    <div class="wrap">
-      <section class="hero fade-in" id="top">
-        <canvas class="hero-fractal" id="heroFractal" aria-hidden="true"></canvas>
-        <div class="hero-content">
-          <span class="eyebrow">Underside Private Event</span>
-          <h1>AI in your organization: innovation or loss of control?</h1>
-          <p class="subtitle">Join an exclusive coffee session at Underside to discover how to deploy sovereign, secure, and controlled AI in your own environment.</p>
-          <div class="quick" aria-label="Quick info">
-            <span class="chip">April 17, 2026</span>
-            <span class="chip">15h00 – 17h00</span>
-            <span class="chip">At Underside</span>
-          </div>
-        </div>
-      </section>
-
-      <section class="card fade-in">
-        <h2>Why this event</h2>
-        <p class="lead">Many organizations have already launched AI pilots. The potential is real, but often without a complete operational framework for confidentiality, data residency, auditability, vendor dependency, compliance, and production security. In this context, sovereign AI is becoming a strategic topic for European organizations that want to move fast without losing control.</p>
-      </section>
-
-      <section class="fade-in">
-        <h2>What you will get</h2>
-        <div class="grid-4">
-          <article class="card benefit">
-            <h3>Real risks</h3>
-            <p>Understand the operational and regulatory risks related to public AI in enterprise, governmental, and public-sector contexts.</p>
-          </article>
-          <article class="card benefit">
-            <h3>Applicable architecture</h3>
-            <p>Discover a sovereign AI architecture applicable to your information system, with the right level of security.</p>
-          </article>
-          <article class="card benefit">
-            <h3>Concrete demonstrations</h3>
-            <p>See private LLM and AI assistant use cases designed for production, not demos for show.</p>
-          </article>
-          <article class="card benefit">
-            <h3>Initial roadmap</h3>
-            <p>Identify the first steps to launch an AI project in a controlled and measurable framework.</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="card fade-in">
-        <h2>Agenda</h2>
-        <ul class="program" aria-label="Event agenda">
-          <li><strong>15h00</strong> Coffee welcome</li>
-          <li><strong>15h15</strong> Why sovereign AI is becoming a strategic priority</li>
-          <li><strong>15h35</strong> Architecture, security, and compliance</li>
-          <li><strong>16h00</strong> Live demonstration of sovereign AI solutions</li>
-          <li><strong>16h30</strong> Q&A, discussion, and networking</li>
-          <li><strong>17h00</strong> End of event</li>
-        </ul>
-      </section>
-
-      <section class="card fade-in">
-        <h2>Live demonstration</h2>
-        <p class="lead">Participants will attend a concrete demonstration of an AI use case deployed in a controlled environment, with a focus on data protection, governance, traceability, integration with information systems, and business value. The objective is to show a realistic format that can be directly applied to enterprise, governmental, and public-sector contexts.</p>
-      </section>
-
-      <section class="fade-in">
-        <h2>Who should attend</h2>
-        <div class="grid-2">
-          <article class="card profile">
-            <h3>DSI / CIO</h3>
-            <p>Build an AI trajectory aligned with information-system constraints, cost control, security, and operations.</p>
-          </article>
-          <article class="card profile">
-            <h3>CISO / Security</h3>
-            <p>Assess control models, risk exposure, and the governance mechanisms required.</p>
-          </article>
-          <article class="card profile">
-            <h3>Innovation / Transformation</h3>
-            <p>Accelerate AI use cases while keeping a robust technical and regulatory framework.</p>
-          </article>
-          <article class="card profile">
-            <h3>Business departments</h3>
-            <p>Identify high-value use cases with credible implementation timelines.</p>
-          </article>
-          <article class="card profile">
-            <h3>Executives</h3>
-            <p>Make strategic trade-offs between performance, data control, and vendor dependency.</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="card fade-in">
-        <h2>Why Underside</h2>
-        <ul class="list">
-          <li>Proven expertise in sovereign AI integration across enterprise, governmental, and public-sector environments.</li>
-          <li>End-to-end approach: scoping, architecture, deployment, security, and MLOps.</li>
-          <li>Production-focused approach and operational outcomes, without gadget promises.</li>
-          <li>Practical understanding of information-system, compliance, and governance challenges.</li>
-        </ul>
-      </section>
-
-      <section class="signup fade-in" id="registration">
-        <h2>Reserve your seat</h2>
-        <p>Simple and fast registration. We will confirm your seat by email with practical details.</p>
-        <span class="limited">Limited seats</span>
-
-        <form class="form" id="eventForm" novalidate>
-          <label>
-            Last name
-            <input type="text" id="nom" name="nom" autocomplete="name" required />
-          </label>
-          <label>
-            First name
-            <input type="text" id="prenom" name="prenom" autocomplete="given-name" required />
-          </label>
-          <label>
-            Organization
-            <input type="text" id="entreprise" name="entreprise" autocomplete="organization" required />
-          </label>
-          <label>
-            Role
-            <input type="text" id="fonction" name="fonction" required />
-          </label>
-          <label class="full">
-            Business email
-            <input type="email" id="email" name="email" autocomplete="email" required />
-          </label>
-          <label class="full">
-            Message (optional)
-            <textarea id="message" name="message" placeholder="Context, number of attendees, goals..."></textarea>
-          </label>
-          <div class="full">
-            <button class="btn" type="submit">Confirm my registration</button>
-          </div>
-        </form>
-      </section>
-
-      <section class="fade-in">
-        <h2>FAQ</h2>
-        <div class="grid-2">
-          <article class="faq-item faq">
-            <h3>Is this event free?</h3>
-            <p>Yes. The event is free with prior registration, subject to available seats.</p>
-          </article>
-          <article class="faq-item faq">
-            <h3>Who is this event for?</h3>
-            <p>IT, security, innovation, business, and executive decision-makers structuring AI in enterprise, governmental, and public-sector contexts.</p>
-          </article>
-          <article class="faq-item faq">
-            <h3>Can I attend with a colleague?</h3>
-            <p>Yes. Mention it in your message during registration, and we will confirm based on remaining capacity.</p>
-          </article>
-          <article class="faq-item faq">
-            <h3>Will there be live demonstrations?</h3>
-            <p>Yes, with a focus on realistic scenarios that can be transposed to controlled information-system environments.</p>
-          </article>
-          <article class="faq-item faq">
-            <h3>How long does the event last?</h3>
-            <p>Two hours: from 3:00 PM to 5:00 PM, including dedicated time for discussion at the end.</p>
-          </article>
-          <article class="faq-item faq">
-            <h3>How do I confirm my registration?</h3>
-            <p>Use the form above. Your email client will open with a pre-filled message for confirmation.</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="cta-final fade-in">
-        <h2>Ready to structure your sovereign AI trajectory?</h2>
-        <p>Join us for a focused, practical, decision-oriented discussion.</p>
-        <div>
-          <a class="btn" href="#registration">Reserve my seat</a>
-        </div>
-      </section>
-    </div>
+    <section class="card" aria-labelledby="title">
+      <h1 id="title">Events Page Temporarily Disabled</h1>
+      <p>This page is paused while we prepare the next Underside event. Check back soon.</p>
+      <div class="actions">
+        <a class="btn primary" href="index.html">Back to homepage</a>
+        <a class="btn" href="actualites.html">View news</a>
+      </div>
+    </section>
   </main>
 
-  <footer>
-    <div class="wrap">
-      © 2026 Underside — Sovereign AI Integration.<br />
-      VAT: BE 0471.729.212
-    </div>
-  </footer>
-
-  <script src="../page-transition.js" defer></script>
-  <script>
-    (function () {
-      const revealTargets = document.querySelectorAll('.fade-in:not(.hero)');
-      if ('IntersectionObserver' in window) {
-        const obs = new IntersectionObserver((entries) => {
-          entries.forEach((entry) => {
-            if (entry.isIntersecting) {
-              entry.target.classList.add('visible');
-              obs.unobserve(entry.target);
-            }
-          });
-        }, { threshold: 0.01, rootMargin: '0px 0px -8% 0px' });
-        revealTargets.forEach((el) => obs.observe(el));
-      } else {
-        revealTargets.forEach((el) => el.classList.add('visible'));
-      }
-
-      const form = document.getElementById('eventForm');
-      form.addEventListener('submit', function (e) {
-        e.preventDefault();
-        if (!form.checkValidity()) {
-          form.reportValidity();
-          return;
-        }
-        const nom = document.getElementById('nom').value.trim();
-        const prenom = document.getElementById('prenom').value.trim();
-        const entreprise = document.getElementById('entreprise').value.trim();
-        const fonction = document.getElementById('fonction').value.trim();
-        const email = document.getElementById('email').value.trim();
-        const message = document.getElementById('message').value.trim();
-
-        const subject = encodeURIComponent("Registration - Sovereign AI Event - April 17, 2026");
-        const body = encodeURIComponent(
-          "Hello Underside,\n\n" +
-          "I would like to reserve a seat for the event:\n" +
-          "AI in your organization: innovation or loss of control?\n" +
-          "Date: April 17, 2026\n" +
-          "Time: 3:00 PM - 5:00 PM\n\n" +
-          "Participant information:\n" +
-          "Last name: " + nom + "\n" +
-          "First name: " + prenom + "\n" +
-          "Organization: " + entreprise + "\n" +
-          "Role: " + fonction + "\n" +
-          "Email: " + email + "\n\n" +
-          "Message: " + (message || "-") + "\n\n" +
-          "Thank you."
-        );
-
-        window.location.href = "mailto:info@underside.be?subject=" + subject + "&body=" + body;
-      });
-
-      const fractalCanvas = document.getElementById('heroFractal');
-      if (fractalCanvas) {
-        const ctx = fractalCanvas.getContext('2d');
-        const reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-        const DPR = Math.min(window.devicePixelRatio || 1, window.innerWidth <= 900 ? 1.25 : 1.5);
-        let width = 0;
-        let height = 0;
-        let rafId = 0;
-        let isRunning = true;
-        let lastTs = 0;
-        const fps = 28;
-        const frameInterval = 1000 / fps;
-        const hero = fractalCanvas.closest('.hero');
-
-        const resize = () => {
-          const rect = hero.getBoundingClientRect();
-          width = Math.max(1, Math.floor(rect.width));
-          height = Math.max(1, Math.floor(rect.height));
-          fractalCanvas.width = Math.floor(width * DPR);
-          fractalCanvas.height = Math.floor(height * DPR);
-          fractalCanvas.style.width = width + 'px';
-          fractalCanvas.style.height = height + 'px';
-          ctx.setTransform(DPR, 0, 0, DPR, 0, 0);
-        };
-
-        const drawBranch = (x, y, len, angle, depth, sway) => {
-          if (depth <= 0 || len < 2) return;
-          const x2 = x + Math.cos(angle) * len;
-          const y2 = y + Math.sin(angle) * len;
-          ctx.beginPath();
-          ctx.moveTo(x, y);
-          ctx.lineTo(x2, y2);
-          ctx.lineWidth = Math.max(0.8, depth * 0.22);
-          ctx.stroke();
-
-          const spread = 0.56 + sway;
-          const decay = 0.75;
-          drawBranch(x2, y2, len * decay, angle - spread, depth - 1, sway * 0.9);
-          drawBranch(x2, y2, len * decay, angle + spread, depth - 1, sway * 0.9);
-        };
-
-        const paint = (time) => {
-          ctx.clearRect(0, 0, width, height);
-
-          const rightX = width * 0.56;
-          const rightW = width - rightX;
-          const centerX = rightX + rightW * 0.56;
-          const centerY = height * 0.56;
-          const baseY = height * 0.99;
-          const baseLen = Math.min(width, height) * 0.34;
-          const branches = width <= 900 ? 2 : 3;
-          const depth = width <= 900 ? 6 : 7;
-
-          ctx.save();
-          ctx.globalCompositeOperation = 'lighter';
-          const grad = ctx.createLinearGradient(rightX, 0, width, height);
-          grad.addColorStop(0, 'rgba(230, 75, 255, 0.9)');
-          grad.addColorStop(1, 'rgba(75, 91, 255, 0.86)');
-          ctx.strokeStyle = grad;
-          ctx.shadowColor = 'rgba(230, 75, 255, 0.35)';
-          ctx.shadowBlur = 7;
-
-          for (let i = 0; i < branches; i += 1) {
-            const sway = Math.sin(time * 0.45 + i * 1.2) * 0.08;
-            drawBranch(
-              centerX + (i - (branches - 1) / 2) * rightW * 0.14,
-              baseY + Math.cos(time * 0.32 + i) * 3,
-              baseLen * (1 - i * 0.08),
-              -Math.PI / 2 + sway * 0.3,
-              depth,
-              sway
-            );
-          }
-          ctx.restore();
-
-          const glow = ctx.createRadialGradient(centerX, centerY, 10, centerX, centerY, rightW * 0.95);
-          glow.addColorStop(0, 'rgba(230,75,255,0.15)');
-          glow.addColorStop(1, 'rgba(75,91,255,0)');
-          ctx.fillStyle = glow;
-          ctx.fillRect(0, 0, width, height);
-        };
-
-        const render = (ts) => {
-          if (!isRunning) return;
-          if (!lastTs || ts - lastTs >= frameInterval) {
-            lastTs = ts;
-            paint(ts * 0.001);
-          }
-          rafId = requestAnimationFrame(render);
-        };
-
-        const start = () => {
-          if (isRunning && rafId) return;
-          isRunning = true;
-          rafId = requestAnimationFrame(render);
-        };
-
-        const stop = () => {
-          isRunning = false;
-          if (rafId) {
-            cancelAnimationFrame(rafId);
-            rafId = 0;
-          }
-        };
-
-        resize();
-
-        if (reduceMotion) {
-          paint(0);
-        } else {
-          start();
-        }
-
-        window.addEventListener('resize', resize, { passive: true });
-
-        if ('IntersectionObserver' in window) {
-          const io = new IntersectionObserver((entries) => {
-            entries.forEach((entry) => {
-              if (reduceMotion) return;
-              if (entry.isIntersecting) start();
-              else stop();
-            });
-          }, { threshold: 0.05 });
-          io.observe(hero);
-          window.addEventListener('pagehide', () => {
-            io.disconnect();
-            stop();
-          });
-        } else {
-          document.addEventListener('visibilitychange', () => {
-            if (reduceMotion) return;
-            if (document.hidden) stop();
-            else start();
-          }, { passive: true });
-          window.addEventListener('pagehide', stop);
-        }
-      }
-    })();
-  </script>
+  <nav class="lang-switch" aria-label="Language selection">
+    <a href="../evenements.html" lang="fr">FR</a>
+    <a class="active" href="evenements.html" lang="en">EN</a>
+  </nav>
 </body>
 </html>

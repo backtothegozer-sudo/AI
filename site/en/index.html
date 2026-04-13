@@ -426,63 +426,6 @@
       color: var(--ink);
       font-weight: 700;
     }
-    .event-highlight {
-      display: grid;
-      grid-template-columns: 1fr auto;
-      gap: 12px;
-      align-items: center;
-      margin: 0 0 16px;
-      padding: 12px 14px;
-      border-radius: 14px;
-      border: 1px solid rgba(230, 75, 255, 0.58);
-      background: linear-gradient(135deg, rgba(230, 75, 255, 0.14), rgba(75, 91, 255, 0.1));
-      box-shadow: 0 10px 26px rgba(0, 0, 0, 0.28);
-      position: relative;
-      isolation: isolate;
-      animation: eventFramePulse 3.4s ease-in-out infinite;
-    }
-    .event-highlight::after {
-      content: "";
-      position: absolute;
-      inset: -1px;
-      border-radius: inherit;
-      border: 1px solid rgba(230, 75, 255, 0.58);
-      pointer-events: none;
-      opacity: 0.62;
-      box-shadow: 0 0 0 rgba(230, 75, 255, 0.0);
-      animation: eventFrameAura 3.4s ease-in-out infinite;
-      z-index: -1;
-    }
-    .event-highlight strong {
-      display: block;
-      margin-bottom: 2px;
-      font-size: 14px;
-      letter-spacing: 0.04em;
-      text-transform: uppercase;
-    }
-    .event-highlight span {
-      color: var(--ink-2);
-      font-size: 13px;
-      letter-spacing: 0.04em;
-    }
-    .event-highlight .event-link {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      padding: 9px 14px;
-      border-radius: 999px;
-      border: 1px solid rgba(255, 255, 255, 0.18);
-      background: rgba(10, 10, 12, 0.72);
-      font-size: 12px;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      white-space: nowrap;
-      transition: transform 0.2s ease, border-color 0.2s ease;
-    }
-    .event-highlight .event-link:hover {
-      transform: translateY(-1px);
-      border-color: rgba(230, 75, 255, 0.6);
-    }
     .hero-actions {
       display: flex;
       gap: 14px;
@@ -742,25 +685,6 @@
       text-transform: uppercase;
       color: #fff;
     }
-    .news-card.event-card {
-      border-color: rgba(230, 75, 255, 0.35);
-      background:
-        linear-gradient(130deg, rgba(230, 75, 255, 0.16), rgba(75, 91, 255, 0.08) 48%, rgba(10, 10, 12, 0.92)),
-        rgba(10, 10, 12, 0.92);
-    }
-    .news-card.event-card .pill-mini {
-      display: inline-flex;
-      align-items: center;
-      width: fit-content;
-      border-radius: 999px;
-      padding: 6px 10px;
-      font-size: 11px;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      border: 1px solid rgba(255, 255, 255, 0.18);
-      background: rgba(10, 10, 12, 0.7);
-      color: #f5f7fb;
-    }
 
     .decision-makers {
       display: grid;
@@ -864,20 +788,7 @@
       .nav-links { z-index: 120; }
       .burger-btn { z-index: 121; }
     }
-    @media (prefers-reduced-motion: reduce) {
-      .event-highlight,
-      .event-highlight::after {
-        animation: none;
-      }
-    }
-
     @media (max-width: 720px) {
-      .event-highlight {
-        grid-template-columns: 1fr;
-      }
-      .event-highlight .event-link {
-        width: 100%;
-      }
       .evo-panel {
         --catch-y: 43%;
       }
@@ -983,26 +894,6 @@
         filter: brightness(1.12);
       }
     }
-    @keyframes eventFramePulse {
-      0%, 100% {
-        border-color: rgba(230, 75, 255, 0.42);
-        box-shadow: 0 10px 26px rgba(0, 0, 0, 0.28);
-      }
-      50% {
-        border-color: rgba(230, 75, 255, 0.95);
-        box-shadow: 0 14px 34px rgba(37, 15, 56, 0.65), 0 0 34px rgba(230, 75, 255, 0.38);
-      }
-    }
-    @keyframes eventFrameAura {
-      0%, 100% {
-        opacity: 0.36;
-        box-shadow: 0 0 0 rgba(230, 75, 255, 0.0);
-      }
-      50% {
-        opacity: 0.95;
-        box-shadow: 0 0 34px rgba(230, 75, 255, 0.45);
-      }
-    }
   </style>
   <link rel="stylesheet" href="../page-transition.css" />
 </head>
@@ -1052,13 +943,6 @@
         <h1 class="reveal pulse-text">Sovereign AI solutions, secure and high-performance.<span class="c64-cursor" aria-hidden="true"></span></h1>
       </div>
       <div class="hero-bridge-wrap">
-        <div class="event-highlight reveal">
-          <div>
-            <strong>Private Event — April 17, 2026</strong>
-            <span>3:00 PM–5:00 PM · Sovereign AI coffee session at Underside</span>
-          </div>
-          <a class="event-link" href="evenements.html">Reserve my seat</a>
-        </div>
         <p class="hero-bridge reveal delay-1">
           We deploy sovereign AI where your data already lives.
           Industrial-grade AI platforms, robust and durable in production,
@@ -1270,13 +1154,6 @@
         The latest 3 news items. For complete monitoring, see the dedicated news page.
       </p>
       <div class="news-grid">
-        <article class="news-card event-card reveal">
-          <span class="pill-mini">Event</span>
-          <time datetime="2026-04-17">17 April 2026</time>
-          <h3>AI in your organization: innovation or loss of control?</h3>
-          <p>An exclusive Underside coffee session to structure a sovereign, secure, and controlled AI trajectory, with a live demonstration.</p>
-          <a href="evenements.html">Reserve my seat</a>
-        </article>
         <article class="news-card reveal">
           <time datetime="2026-04-10">10 April 2026</time>
           <h3>Rebellions, SK Telecom and Arm collaborate on sovereign AI inference infrastructure.</h3>
@@ -1291,9 +1168,9 @@
         </article>
         <article class="news-card reveal delay-2">
           <time datetime="2026-04-09">9 April 2026</time>
-          <h3>The European Commission reports first AI Continent milestones.</h3>
-          <p>The official update confirms 19 AI factories and faster sovereign AI execution across Europe.</p>
-          <a href="https://digital-strategy.ec.europa.eu/en/news/ai-continent-action-plan-delivers-major-milestones" target="_blank" rel="noopener">Read source</a>
+          <h3>Hypertec's Ciara division becomes the first Canadian NVIDIA OEM manufacturing certified AI systems locally.</h3>
+          <p>The CNW release confirms local Canadian capacity aligned with data sovereignty and infrastructure resilience goals.</p>
+          <a href="https://www.newswire.ca/news-releases/hypertec-s-ciara-division-becomes-first-canadian-nvidia-oem-partner-manufacturing-systems-in-canada-unlocking-a-multi-billion-dollar-leap-in-sovereign-ai-infrastructure-877463214.html" target="_blank" rel="noopener">Read source</a>
         </article>
       </div>
       <div class="reveal delay-2" style="margin-top:22px;">
@@ -1649,42 +1526,6 @@
         requestAnimationFrame(step);
       }
       step();
-    })();
-  </script>
-  <script>
-    (function () {
-      const eventLink = document.querySelector('.event-highlight .event-link');
-      if (!eventLink) return;
-
-      function pulseFallback() {
-        eventLink.animate(
-          [
-            { transform: "scale(1)", boxShadow: "0 0 0 rgba(230,75,255,0)" },
-            { transform: "scale(0.985)", boxShadow: "0 0 0 6px rgba(230,75,255,0.12)" },
-            { transform: "scale(1)", boxShadow: "0 0 0 rgba(230,75,255,0)" }
-          ],
-          { duration: 180, easing: "ease-out" }
-        );
-      }
-
-      function triggerHaptic() {
-        try {
-          const vibrate = navigator.vibrate || navigator.webkitVibrate;
-          if (typeof vibrate === "function") {
-            vibrate.call(navigator, [18, 10, 18]);
-            return;
-          }
-        } catch (_) {
-          // ignored
-        }
-        // iOS Safari fallback when vibration API is unavailable.
-        pulseFallback();
-      }
-
-      eventLink.setAttribute('data-haptic-event-link', 'true');
-      eventLink.addEventListener('pointerdown', triggerHaptic, { passive: true });
-      eventLink.addEventListener('touchstart', triggerHaptic, { passive: true });
-      eventLink.addEventListener('mousedown', triggerHaptic, { passive: true });
     })();
   </script>
   <script src="../page-transition.js" defer></script>
