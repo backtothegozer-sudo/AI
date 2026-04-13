@@ -262,15 +262,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ai.underside.be/evenements</loc>
-    <lastmod>2026-03-28</lastmod>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://ai.underside.be/evenements" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://ai.underside.be/en/evenements" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ai.underside.be/evenements" />
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://ai.underside.be/gdpr</loc>
     <lastmod>2026-03-28</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://ai.underside.be/gdpr" />
@@ -701,15 +692,6 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ai.underside.be/article-eu-ai-week-souverainete-2026.html" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ai.underside.be/en/evenements</loc>
-    <lastmod>2026-03-28</lastmod>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://ai.underside.be/evenements" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://ai.underside.be/en/evenements" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ai.underside.be/evenements" />
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://ai.underside.be/en/gdpr</loc>
