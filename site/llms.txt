@@ -73,6 +73,9 @@
 - https://ai.underside.be/article-nvidia-resultats-2026.html
 - https://ai.underside.be/article-openai-aws-2026.html
 - https://ai.underside.be/article-openai-financement-2026.html
+- https://ai.underside.be/article-iflytek-gitex-asia-souverain-2026.html
+- https://ai.underside.be/article-oneqode-hitachi-cylix-souverain-2026.html
+- https://ai.underside.be/article-rebellions-skt-arm-souverain-2026.html
 
 ## Articles (EN)
 - https://ai.underside.be/en/article-ai-alliance-project-tapestry-souverain-2026.html
@@ -120,6 +123,9 @@
 - https://ai.underside.be/en/article-nvidia-resultats-2026.html
 - https://ai.underside.be/en/article-openai-aws-2026.html
 - https://ai.underside.be/en/article-openai-financement-2026.html
+- https://ai.underside.be/en/article-iflytek-gitex-asia-souverain-2026.html
+- https://ai.underside.be/en/article-oneqode-hitachi-cylix-souverain-2026.html
+- https://ai.underside.be/en/article-rebellions-skt-arm-souverain-2026.html
 
 ## Contact
 - https://ai.underside.be/#contact
