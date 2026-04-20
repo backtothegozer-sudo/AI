@@ -12,4 +12,6 @@ Allow: /llms.txt
 
 Host: ai.underside.be
 Sitemap: https://ai.underside.be/sitemap.xml
-Sitemap: https://ai.underside.be/.well-known/mcp.json
+# Additional machine-readable discovery:
+# https://ai.underside.be/.well-known/mcp.json
+# https://ai.underside.be/llms.txt
