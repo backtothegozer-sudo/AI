@@ -28,6 +28,7 @@
 - https://ai.underside.be/google7af869e5e0e8f999.html
 
 ## Articles (FR)
+- https://ai.underside.be/article-redhat-google-cloud-dedicated-souverain-2026.html
 - https://ai.underside.be/article-kyndryl-google-distributed-cloud-souverain-2026.html
 - https://ai.underside.be/article-bt-nscale-uk-ia-souveraine-2026.html
 - https://ai.underside.be/article-eurohpc-mimer-suede-souverain-2026.html
@@ -83,6 +84,7 @@
 - https://ai.underside.be/article-openai-financement-2026.html
 
 ## Articles (EN)
+- https://ai.underside.be/en/article-redhat-google-cloud-dedicated-souverain-2026.html
 - https://ai.underside.be/en/article-kyndryl-google-distributed-cloud-souverain-2026.html
 - https://ai.underside.be/en/article-bt-nscale-uk-ia-souveraine-2026.html
 - https://ai.underside.be/en/article-eurohpc-mimer-suede-souverain-2026.html
