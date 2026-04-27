@@ -20,12 +20,84 @@
   </url>
   <url>
     <loc>https://ai.underside.be/blog</loc>
-    <lastmod>2026-04-08</lastmod>
+    <lastmod>2026-04-27</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://ai.underside.be/blog" />
     <xhtml:link rel="alternate" hreflang="en" href="https://ai.underside.be/en/blog" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ai.underside.be/blog" />
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://ai.underside.be/article-kyndryl-google-distributed-cloud-souverain-2026.html</loc>
+    <lastmod>2026-04-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ai.underside.be/article-kyndryl-google-distributed-cloud-souverain-2026.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ai.underside.be/en/article-kyndryl-google-distributed-cloud-souverain-2026.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ai.underside.be/article-kyndryl-google-distributed-cloud-souverain-2026.html" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ai.underside.be/article-bt-nscale-uk-ia-souveraine-2026.html</loc>
+    <lastmod>2026-04-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ai.underside.be/article-bt-nscale-uk-ia-souveraine-2026.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ai.underside.be/en/article-bt-nscale-uk-ia-souveraine-2026.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ai.underside.be/article-bt-nscale-uk-ia-souveraine-2026.html" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ai.underside.be/article-eurohpc-mimer-suede-souverain-2026.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ai.underside.be/article-eurohpc-mimer-suede-souverain-2026.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ai.underside.be/en/article-eurohpc-mimer-suede-souverain-2026.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ai.underside.be/article-eurohpc-mimer-suede-souverain-2026.html" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ai.underside.be/article-cohere-aleph-alpha-alliance-souveraine-2026.html</loc>
+    <lastmod>2026-04-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ai.underside.be/article-cohere-aleph-alpha-alliance-souveraine-2026.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ai.underside.be/en/article-cohere-aleph-alpha-alliance-souveraine-2026.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ai.underside.be/article-cohere-aleph-alpha-alliance-souveraine-2026.html" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ai.underside.be/article-antimatter-neocloud-ia-souveraine-2026.html</loc>
+    <lastmod>2026-04-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ai.underside.be/article-antimatter-neocloud-ia-souveraine-2026.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ai.underside.be/en/article-antimatter-neocloud-ia-souveraine-2026.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ai.underside.be/article-antimatter-neocloud-ia-souveraine-2026.html" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ai.underside.be/article-canada-scip-supercalculateur-souverain-2026.html</loc>
+    <lastmod>2026-04-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ai.underside.be/article-canada-scip-supercalculateur-souverain-2026.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ai.underside.be/en/article-canada-scip-supercalculateur-souverain-2026.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ai.underside.be/article-canada-scip-supercalculateur-souverain-2026.html" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ai.underside.be/article-commission-procurement-cloud-souverain-2026.html</loc>
+    <lastmod>2026-04-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ai.underside.be/article-commission-procurement-cloud-souverain-2026.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ai.underside.be/en/article-commission-procurement-cloud-souverain-2026.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ai.underside.be/article-commission-procurement-cloud-souverain-2026.html" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ai.underside.be/article-uk-sovereign-ai-callosum-gpu-2026.html</loc>
+    <lastmod>2026-04-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ai.underside.be/article-uk-sovereign-ai-callosum-gpu-2026.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ai.underside.be/en/article-uk-sovereign-ai-callosum-gpu-2026.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ai.underside.be/article-uk-sovereign-ai-callosum-gpu-2026.html" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ai.underside.be/article-ai-alliance-project-tapestry-souverain-2026.html</loc>
@@ -879,6 +951,15 @@
     <xhtml:link rel="alternate" hreflang="fr" href="https://ai.underside.be/article-ue-apply-ai-souverainete-2026.html" />
     <xhtml:link rel="alternate" hreflang="en" href="https://ai.underside.be/en/article-ue-apply-ai-souverainete-2026.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ai.underside.be/article-ue-apply-ai-souverainete-2026.html" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ai.underside.be/en/article-cohere-aleph-alpha-alliance-souveraine-2026.html</loc>
+    <lastmod>2026-04-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ai.underside.be/article-cohere-aleph-alpha-alliance-souveraine-2026.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ai.underside.be/en/article-cohere-aleph-alpha-alliance-souveraine-2026.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ai.underside.be/article-cohere-aleph-alpha-alliance-souveraine-2026.html" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

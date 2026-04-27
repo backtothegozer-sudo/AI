@@ -28,6 +28,14 @@
 - https://ai.underside.be/google7af869e5e0e8f999.html
 
 ## Articles (FR)
+- https://ai.underside.be/article-kyndryl-google-distributed-cloud-souverain-2026.html
+- https://ai.underside.be/article-bt-nscale-uk-ia-souveraine-2026.html
+- https://ai.underside.be/article-eurohpc-mimer-suede-souverain-2026.html
+- https://ai.underside.be/article-cohere-aleph-alpha-alliance-souveraine-2026.html
+- https://ai.underside.be/article-antimatter-neocloud-ia-souveraine-2026.html
+- https://ai.underside.be/article-canada-scip-supercalculateur-souverain-2026.html
+- https://ai.underside.be/article-commission-procurement-cloud-souverain-2026.html
+- https://ai.underside.be/article-uk-sovereign-ai-callosum-gpu-2026.html
 - https://ai.underside.be/article-ai-alliance-project-tapestry-souverain-2026.html
 - https://ai.underside.be/article-dmg-scif-canada-ia-souveraine-2026.html
 - https://ai.underside.be/article-microsoft-digital-sovereignty-summit-2026.html
@@ -75,6 +83,14 @@
 - https://ai.underside.be/article-openai-financement-2026.html
 
 ## Articles (EN)
+- https://ai.underside.be/en/article-kyndryl-google-distributed-cloud-souverain-2026.html
+- https://ai.underside.be/en/article-bt-nscale-uk-ia-souveraine-2026.html
+- https://ai.underside.be/en/article-eurohpc-mimer-suede-souverain-2026.html
+- https://ai.underside.be/en/article-cohere-aleph-alpha-alliance-souveraine-2026.html
+- https://ai.underside.be/en/article-antimatter-neocloud-ia-souveraine-2026.html
+- https://ai.underside.be/en/article-canada-scip-supercalculateur-souverain-2026.html
+- https://ai.underside.be/en/article-commission-procurement-cloud-souverain-2026.html
+- https://ai.underside.be/en/article-uk-sovereign-ai-callosum-gpu-2026.html
 - https://ai.underside.be/en/article-ai-alliance-project-tapestry-souverain-2026.html
 - https://ai.underside.be/en/article-dmg-scif-canada-ia-souveraine-2026.html
 - https://ai.underside.be/en/article-microsoft-digital-sovereignty-summit-2026.html
