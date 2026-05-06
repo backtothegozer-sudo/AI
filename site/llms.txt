@@ -28,6 +28,7 @@
 - https://ai.underside.be/google7af869e5e0e8f999.html
 
 ## Articles (FR)
+- https://ai.underside.be/article-uipath-automation-suite-secteur-public-souverain-2026.html
 - https://ai.underside.be/article-ibm-sovereign-core-2026.html
 - https://ai.underside.be/article-microsoft-engagements-numeriques-europe-2026.html
 - https://ai.underside.be/article-atos-offre-integree-souverainete-numerique-2026.html
@@ -89,6 +90,7 @@
 - https://ai.underside.be/article-openai-financement-2026.html
 
 ## Articles (EN)
+- https://ai.underside.be/en/article-uipath-automation-suite-secteur-public-souverain-2026.html
 - https://ai.underside.be/en/article-ibm-sovereign-core-2026.html
 - https://ai.underside.be/en/article-microsoft-engagements-numeriques-europe-2026.html
 - https://ai.underside.be/en/article-atos-offre-integree-souverainete-numerique-2026.html
