@@ -28,6 +28,7 @@
 - https://ai.underside.be/google7af869e5e0e8f999.html
 
 ## Articles (FR)
+- https://ai.underside.be/article-caisi-nist-frontier-testing-souverain-2026.html
 - https://ai.underside.be/article-nscale-portugal-microsoft-2026.html
 - https://ai.underside.be/article-uipath-automation-suite-secteur-public-souverain-2026.html
 - https://ai.underside.be/article-ibm-sovereign-core-2026.html
@@ -91,6 +92,7 @@
 - https://ai.underside.be/article-openai-financement-2026.html
 
 ## Articles (EN)
+- https://ai.underside.be/en/article-caisi-nist-frontier-testing-souverain-2026.html
 - https://ai.underside.be/en/article-nscale-portugal-microsoft-2026.html
 - https://ai.underside.be/en/article-uipath-automation-suite-secteur-public-souverain-2026.html
 - https://ai.underside.be/en/article-ibm-sovereign-core-2026.html
