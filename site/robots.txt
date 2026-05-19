@@ -15,5 +15,3 @@ Sitemap: https://ai.underside.be/sitemap.xml
 # Additional machine-readable discovery:
 # https://ai.underside.be/.well-known/mcp.json
 # https://ai.underside.be/llms.txt
-
-Sitemap: https://ai.underside.be/.well-known/mcp.json
