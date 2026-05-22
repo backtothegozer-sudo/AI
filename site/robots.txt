@@ -3,12 +3,14 @@ Allow: /
 Allow: /.well-known/
 Allow: /google7af869e5e0e8f999.html
 Allow: /llms.txt
+Allow: /.well-known/mcp.json
 
 User-agent: Googlebot
 Allow: /
 Allow: /.well-known/
 Allow: /google7af869e5e0e8f999.html
 Allow: /llms.txt
+Allow: /.well-known/mcp.json
 
 Host: ai.underside.be
 Sitemap: https://ai.underside.be/sitemap.xml
