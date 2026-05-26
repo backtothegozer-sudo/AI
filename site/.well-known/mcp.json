@@ -1,6 +1,6 @@
 {
   "name": "Underside MCP Discovery",
-  "version": "1.3.36",
+  "version": "1.3.37",
   "description": "MCP-ready discovery layer for AI indexing and contextual retrieval.",
   "website": "https://ai.underside.be/",
   "updated_at": "2026-05-26",
@@ -21,8 +21,8 @@
     "gdpr_fr": "https://ai.underside.be/gdpr",
     "gdpr_en": "https://ai.underside.be/en/gdpr",
     "google_verification": "https://ai.underside.be/google7af869e5e0e8f999.html",
-    "latest_article_fr": "https://ai.underside.be/article-openai-dell-codex-hybride-2026.html",
-    "latest_article_en": "https://ai.underside.be/en/article-openai-dell-codex-hybride-2026.html",
+    "latest_article_fr": "https://ai.underside.be/article-microsoft-ey-execution-ia-entreprise-2026.html",
+    "latest_article_en": "https://ai.underside.be/en/article-microsoft-ey-execution-ia-entreprise-2026.html",
     "latest_news_fr": "https://sovereignai.gov.uk/post/from-investment-to-sovereignty",
     "latest_news_en": "https://sovereignai.gov.uk/post/from-investment-to-sovereignty"
   },
