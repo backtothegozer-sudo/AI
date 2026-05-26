@@ -28,6 +28,7 @@
 - https://ai.underside.be/google7af869e5e0e8f999.html
 
 ## Articles (FR)
+- https://ai.underside.be/article-openai-dell-codex-hybride-2026.html
 - https://ai.underside.be/article-commission-high-risk-ai-2026.html
 - https://ai.underside.be/article-redhat-sopra-steria-ia-souveraine-2026.html
 - https://ai.underside.be/article-sap-sapphire-modeles-souverains-2026.html
@@ -96,6 +97,7 @@
 - https://ai.underside.be/article-openai-financement-2026.html
 
 ## Articles (EN)
+- https://ai.underside.be/en/article-openai-dell-codex-hybride-2026.html
 - https://ai.underside.be/en/article-commission-high-risk-ai-2026.html
 - https://ai.underside.be/en/article-redhat-sopra-steria-ia-souveraine-2026.html
 - https://ai.underside.be/en/article-sap-sapphire-modeles-souverains-2026.html
