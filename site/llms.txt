@@ -28,6 +28,7 @@
 - https://ai.underside.be/google7af869e5e0e8f999.html
 
 ## Articles (FR)
+- https://ai.underside.be/article-snowflake-aws-ia-agentique-donnees-2026.html
 - https://ai.underside.be/article-microsoft-ey-execution-ia-entreprise-2026.html
 - https://ai.underside.be/article-openai-dell-codex-hybride-2026.html
 - https://ai.underside.be/article-commission-high-risk-ai-2026.html
@@ -98,6 +99,7 @@
 - https://ai.underside.be/article-openai-financement-2026.html
 
 ## Articles (EN)
+- https://ai.underside.be/en/article-snowflake-aws-ia-agentique-donnees-2026.html
 - https://ai.underside.be/en/article-microsoft-ey-execution-ia-entreprise-2026.html
 - https://ai.underside.be/en/article-openai-dell-codex-hybride-2026.html
 - https://ai.underside.be/en/article-commission-high-risk-ai-2026.html
