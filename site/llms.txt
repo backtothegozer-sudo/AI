@@ -28,6 +28,7 @@
 - https://ai.underside.be/google7af869e5e0e8f999.html
 
 ## Articles (FR)
+- https://ai.underside.be/article-microsoft-build-work-iq-ia-agentique-2026.html
 - https://ai.underside.be/article-engineering-ia-souveraine-italie-2026.html
 - https://ai.underside.be/article-snowflake-aws-ia-agentique-donnees-2026.html
 - https://ai.underside.be/article-microsoft-ey-execution-ia-entreprise-2026.html
@@ -100,6 +101,7 @@
 - https://ai.underside.be/article-openai-financement-2026.html
 
 ## Articles (EN)
+- https://ai.underside.be/en/article-microsoft-build-work-iq-ia-agentique-2026.html
 - https://ai.underside.be/en/article-engineering-ia-souveraine-italie-2026.html
 - https://ai.underside.be/en/article-snowflake-aws-ia-agentique-donnees-2026.html
 - https://ai.underside.be/en/article-microsoft-ey-execution-ia-entreprise-2026.html
@@ -164,6 +166,8 @@
 - https://ai.underside.be/en/article-espagne-ipcei-ia-2026.html
 - https://ai.underside.be/en/article-eurohpc-2026.html
 - https://ai.underside.be/en/article-eviden-aws-souverain-2026.html
+- https://ai.underside.be/article-sap-france-cloud-souverain-business-ai-2026.html
+- https://ai.underside.be/en/article-sap-france-cloud-souverain-business-ai-2026.html
 - https://ai.underside.be/en/article-gpai-2025.html
 - https://ai.underside.be/en/article-gtc-2026.html
 - https://ai.underside.be/en/article-hypernova-60b-2026.html
