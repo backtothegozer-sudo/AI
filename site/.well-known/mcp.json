@@ -1,9 +1,9 @@
 {
   "name": "Underside MCP Discovery",
-  "version": "1.3.42",
+  "version": "1.3.43",
   "description": "MCP-ready discovery layer for AI indexing and contextual retrieval.",
   "website": "https://ai.underside.be/",
-  "updated_at": "2026-06-07",
+  "updated_at": "2026-06-09",
   "resources": {
     "sitemap": "https://ai.underside.be/sitemap.xml",
     "robots": "https://ai.underside.be/robots.txt",
@@ -21,10 +21,10 @@
     "gdpr_fr": "https://ai.underside.be/gdpr",
     "gdpr_en": "https://ai.underside.be/en/gdpr",
     "google_verification": "https://ai.underside.be/google7af869e5e0e8f999.html",
-    "latest_article_fr": "https://ai.underside.be/article-microsoft-systeme-ia-entreprise-2026.html",
-    "latest_article_en": "https://ai.underside.be/en/article-microsoft-systeme-ia-entreprise-2026.html",
-    "latest_news_fr": "https://nvidianews.nvidia.com/news/nvidia-and-united-kingdom-build-nations-ai-infrastructure",
-    "latest_news_en": "https://nvidianews.nvidia.com/news/nvidia-and-united-kingdom-build-nations-ai-infrastructure"
+    "latest_article_fr": "https://ai.underside.be/article-naver-nvidia-coree-souveraine-2026.html",
+    "latest_article_en": "https://ai.underside.be/en/article-naver-nvidia-coree-souveraine-2026.html",
+    "latest_news_fr": "https://news.microsoft.com/source/2026/06/08/nhs-england-accelerates-ai-adoption-with-microsoft-365-copilot-to-improve-service-delivery-reduce-costs-and-create-more-time-for-care/",
+    "latest_news_en": "https://news.microsoft.com/source/2026/06/08/nhs-england-accelerates-ai-adoption-with-microsoft-365-copilot-to-improve-service-delivery-reduce-costs-and-create-more-time-for-care/"
   },
   "connectors": [
     {
