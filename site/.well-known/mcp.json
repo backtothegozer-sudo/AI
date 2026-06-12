@@ -1,9 +1,9 @@
 {
   "name": "Underside MCP Discovery",
-  "version": "1.3.44",
-  "description": "MCP-ready discovery layer for AI indexing and contextual retrieval.",
+  "version": "1.3.56",
+  "description": "MCP-ready discovery layer for AI indexing, contextual retrieval, and Google-friendly site discovery.",
   "website": "https://ai.underside.be/",
-  "updated_at": "2026-06-10",
+  "updated_at": "2026-06-12",
   "resources": {
     "sitemap": "https://ai.underside.be/sitemap.xml",
     "robots": "https://ai.underside.be/robots.txt",
@@ -22,30 +22,45 @@
     "gdpr_en": "https://ai.underside.be/en/gdpr",
     "google_verification": "https://ai.underside.be/google7af869e5e0e8f999.html",
     "latest_article_fr": "https://ai.underside.be/article-apple-dma-siri-europe-2026.html",
-    "latest_article_en": "https://ai.underside.be/en/article-apple-dma-siri-europe-2026.html",
-    "latest_news_fr": "https://www.theverge.com/tech/947516/meta-whatsapp-eu-third-party-ai-chatbot-ban-order",
-    "latest_news_en": "https://www.theverge.com/tech/947516/meta-whatsapp-eu-third-party-ai-chatbot-ban-order"
+    "latest_article_en": "https://ai.underside.be/en/article-apple-dma-siri-europe-2026.html"
   },
   "connectors": [
     {
       "id": "site-content",
       "type": "http-resource-index",
       "entrypoint": "https://ai.underside.be/sitemap.xml",
-      "notes": "Primary crawl/index source for pages and articles, including FR/EN alternates."
+      "notes": "Primary crawl/index source for public pages and FR/EN article alternates."
     },
     {
       "id": "llm-context",
       "type": "llms-txt",
       "entrypoint": "https://ai.underside.be/llms.txt",
-      "notes": "Concise context map optimized for AI assistants."
+      "notes": "Concise context map optimized for AI assistants and agentic retrieval."
     },
     {
-      "id": "blog-knowledge",
-      "type": "article-corpus",
-      "entrypoint": "https://ai.underside.be/blog",
-      "notes": "Long-form sovereign AI analyses with source links."
+      "id": "mcp-discovery",
+      "type": "well-known-json",
+      "entrypoint": "https://ai.underside.be/.well-known/mcp.json",
+      "notes": "Machine-readable discovery metadata for indexing and MCP-capable clients."
     }
   ],
+  "stats": {
+    "indexed_public_urls": 216,
+    "article_pairs": 102,
+    "article_urls": 204,
+    "hub_urls": 12
+  },
+  "indexing": {
+    "google_ready": true,
+    "checked_at": "2026-06-12",
+    "discovery_endpoints": [
+      "https://ai.underside.be/sitemap.xml",
+      "https://ai.underside.be/robots.txt",
+      "https://ai.underside.be/.well-known/mcp.json",
+      "https://ai.underside.be/llms.txt",
+      "https://ai.underside.be/google7af869e5e0e8f999.html"
+    ]
+  },
   "planned_servers": [
     {
       "id": "underside-mcp-content",
