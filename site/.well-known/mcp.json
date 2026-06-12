@@ -21,8 +21,10 @@
     "gdpr_fr": "https://ai.underside.be/gdpr",
     "gdpr_en": "https://ai.underside.be/en/gdpr",
     "google_verification": "https://ai.underside.be/google7af869e5e0e8f999.html",
-    "latest_article_fr": "https://ai.underside.be/article-apple-dma-siri-europe-2026.html",
-    "latest_article_en": "https://ai.underside.be/en/article-apple-dma-siri-europe-2026.html"
+    "latest_article_fr": "https://ai.underside.be/article-broadcom-ai-xpv-2026.html",
+    "latest_article_en": "https://ai.underside.be/en/article-broadcom-ai-xpv-2026.html",
+    "latest_news_fr": "https://www.ft.com/content/237f10c2-b2b2-490b-bec1-8864e0a22772",
+    "latest_news_en": "https://www.ft.com/content/237f10c2-b2b2-490b-bec1-8864e0a22772"
   },
   "connectors": [
     {
@@ -45,9 +47,9 @@
     }
   ],
   "stats": {
-    "indexed_public_urls": 216,
-    "article_pairs": 102,
-    "article_urls": 204,
+    "indexed_public_urls": 218,
+    "article_pairs": 103,
+    "article_urls": 206,
     "hub_urls": 12
   },
   "indexing": {
