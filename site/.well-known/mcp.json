@@ -1,6 +1,6 @@
 {
   "name": "Underside MCP Discovery",
-  "version": "1.3.57",
+  "version": "1.3.58",
   "description": "MCP-ready discovery layer for AI indexing, contextual retrieval, and Google-friendly site discovery.",
   "website": "https://ai.underside.be/",
   "updated_at": "2026-06-20",
@@ -21,10 +21,10 @@
     "gdpr_fr": "https://ai.underside.be/gdpr",
     "gdpr_en": "https://ai.underside.be/en/gdpr",
     "google_verification": "https://ai.underside.be/google7af869e5e0e8f999.html",
-    "latest_article_fr": "https://ai.underside.be/article-broadcom-ai-xpv-2026.html",
-    "latest_article_en": "https://ai.underside.be/en/article-broadcom-ai-xpv-2026.html",
-    "latest_news_fr": "https://newsroom.ibm.com/2026-06-17-ibm-study-limited-control-and-rising-dependencies-leave-enterprises-exposed-in-the-age-of-ai",
-    "latest_news_en": "https://newsroom.ibm.com/2026-06-17-ibm-study-limited-control-and-rising-dependencies-leave-enterprises-exposed-in-the-age-of-ai",
+    "latest_article_fr": "https://ai.underside.be/article-europa-consortium-frontier-ai-2026.html",
+    "latest_article_en": "https://ai.underside.be/en/article-europa-consortium-frontier-ai-2026.html",
+    "latest_news_fr": "https://digital-strategy.ec.europa.eu/fr/news/commission-selects-europa-consortium-winner-frontier-ai-grande-challenge-project-build-european",
+    "latest_news_en": "https://digital-strategy.ec.europa.eu/en/news/commission-selects-europa-consortium-winner-frontier-ai-grande-challenge-project-build-european",
     "ia_belgique_fr": "https://ai.underside.be/ia-belgique",
     "ia_belgique_en": "https://ai.underside.be/en/ia-belgique"
   },
@@ -49,9 +49,9 @@
     }
   ],
   "stats": {
-    "indexed_public_urls": 222,
-    "article_pairs": 104,
-    "article_urls": 208,
+    "indexed_public_urls": 224,
+    "article_pairs": 105,
+    "article_urls": 210,
     "hub_urls": 14
   },
   "indexing": {
