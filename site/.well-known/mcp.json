@@ -21,10 +21,10 @@
     "gdpr_fr": "https://ai.underside.be/gdpr",
     "gdpr_en": "https://ai.underside.be/en/gdpr",
     "google_verification": "https://ai.underside.be/google7af869e5e0e8f999.html",
-    "latest_article_fr": "https://ai.underside.be/article-europa-consortium-frontier-ai-2026.html",
-    "latest_article_en": "https://ai.underside.be/en/article-europa-consortium-frontier-ai-2026.html",
-    "latest_news_fr": "https://digital-strategy.ec.europa.eu/fr/news/commission-selects-europa-consortium-winner-frontier-ai-grande-challenge-project-build-european",
-    "latest_news_en": "https://digital-strategy.ec.europa.eu/en/news/commission-selects-europa-consortium-winner-frontier-ai-grande-challenge-project-build-european",
+    "latest_article_fr": "https://ai.underside.be/article-ibm-dependances-souverainete-ia-2026.html",
+    "latest_article_en": "https://ai.underside.be/en/article-ibm-ai-dependencies-sovereignty-2026.html",
+    "latest_news_fr": "https://www.lemonde.fr/economie/article/2026/06/19/remplacement-de-palantir-par-chapsvision-a-la-dgsi-l-entreprise-americaine-denonce-des-allegations-infondees_6614663_3234.html",
+    "latest_news_en": "https://www.lemonde.fr/en/economy/article/2026/06/17/french-intelligence-services-are-replacing-us-company-palantir-with-a-french-solution_6742435_19.html",
     "ia_belgique_fr": "https://ai.underside.be/ia-belgique",
     "ia_belgique_en": "https://ai.underside.be/en/ia-belgique"
   },
@@ -49,9 +49,9 @@
     }
   ],
   "stats": {
-    "indexed_public_urls": 226,
-    "article_pairs": 106,
-    "article_urls": 212,
+    "indexed_public_urls": 228,
+    "article_pairs": 107,
+    "article_urls": 214,
     "hub_urls": 14
   },
   "indexing": {

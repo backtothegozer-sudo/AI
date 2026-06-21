@@ -31,6 +31,7 @@
 - https://ai.underside.be/google7af869e5e0e8f999.html
 
 ## Articles (FR)
+- https://ai.underside.be/article-ibm-dependances-souverainete-ia-2026.html
 - https://ai.underside.be/article-europa-consortium-frontier-ai-2026.html
 - https://ai.underside.be/article-equinix-cisco-singapour-ia-souveraine-2026.html
 - https://ai.underside.be/article-salesforce-france-ancrage-souverain-2026.html
@@ -139,6 +140,7 @@
 - https://ai.underside.be/article-consilium-2026.html
 
 ## Articles (EN)
+- https://ai.underside.be/en/article-ibm-ai-dependencies-sovereignty-2026.html
 - https://ai.underside.be/en/article-europa-consortium-frontier-ai-2026.html
 - https://ai.underside.be/en/article-equinix-cisco-singapour-ia-souveraine-2026.html
 - https://ai.underside.be/en/article-salesforce-france-ancrage-souverain-2026.html
