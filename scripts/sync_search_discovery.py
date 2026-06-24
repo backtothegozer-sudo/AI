@@ -122,7 +122,7 @@ def discover_pages(site_dir: Path, checked_at: str, base_url: str) -> list[Page]
 def priority_for(page: Page) -> str:
     if page.canonical == BASE_URL + "/":
         return "1.0"
-    if page.canonical.rstrip("/").endswith(("/actualites", "/blog")):
+    if page.canonical.rstrip("/").endswith(("/actualites", "/blog", "/evenements")):
         return "0.9"
     if page.is_article:
         return "0.8"
@@ -130,7 +130,7 @@ def priority_for(page: Page) -> str:
 
 
 def changefreq_for(page: Page) -> str:
-    if page.canonical.rstrip("/").endswith(("/actualites", "/blog")) or page.canonical == BASE_URL + "/":
+    if page.canonical.rstrip("/").endswith(("/actualites", "/blog", "/evenements")) or page.canonical == BASE_URL + "/":
         return "daily"
     if page.is_article:
         return "weekly"
@@ -168,11 +168,13 @@ def ordered_pages(pages: list[Page]) -> list[Page]:
         f"{BASE_URL}/",
         f"{BASE_URL}/actualites",
         f"{BASE_URL}/blog",
+        f"{BASE_URL}/evenements",
         f"{BASE_URL}/diagnostic-ia-souveraine",
         f"{BASE_URL}/gdpr",
         f"{BASE_URL}/en/",
         f"{BASE_URL}/en/actualites",
         f"{BASE_URL}/en/blog",
+        f"{BASE_URL}/en/evenements",
         f"{BASE_URL}/en/diagnostic-ia-souveraine",
         f"{BASE_URL}/en/gdpr",
     ]
@@ -199,6 +201,7 @@ def write_llms(site_dir: Path, pages: list[Page]) -> None:
         f"{BASE_URL}/",
         f"{BASE_URL}/actualites",
         f"{BASE_URL}/blog",
+        f"{BASE_URL}/evenements",
         f"{BASE_URL}/diagnostic-ia-souveraine",
         f"{BASE_URL}/gdpr",
     ]
@@ -206,6 +209,7 @@ def write_llms(site_dir: Path, pages: list[Page]) -> None:
         f"{BASE_URL}/en/",
         f"{BASE_URL}/en/actualites",
         f"{BASE_URL}/en/blog",
+        f"{BASE_URL}/en/evenements",
         f"{BASE_URL}/en/diagnostic-ia-souveraine",
         f"{BASE_URL}/en/gdpr",
     ]
@@ -247,35 +251,41 @@ def write_llms(site_dir: Path, pages: list[Page]) -> None:
 
 
 def write_mcp(site_dir: Path, pages: list[Page], checked_at: str) -> None:
+    by_url = page_by_canonical(pages)
     articles_fr = article_pages(pages, is_en=False)
     articles_en = article_pages(pages, is_en=True)
     latest_fr = articles_fr[0].canonical if articles_fr else ""
     latest_en = articles_en[0].canonical if articles_en else ""
     indexed_public_urls = len(pages) + len(TECHNICAL_DISCOVERY_URLS)
+    resources = {
+        "sitemap": f"{BASE_URL}/sitemap.xml",
+        "robots": f"{BASE_URL}/robots.txt",
+        "llms_txt": f"{BASE_URL}/llms.txt",
+        "homepage_fr": f"{BASE_URL}/",
+        "homepage_en": f"{BASE_URL}/en/",
+        "news_fr": f"{BASE_URL}/actualites",
+        "news_en": f"{BASE_URL}/en/actualites",
+        "blog_fr": f"{BASE_URL}/blog",
+        "blog_en": f"{BASE_URL}/en/blog",
+        "diagnostic_fr": f"{BASE_URL}/diagnostic-ia-souveraine",
+        "diagnostic_en": f"{BASE_URL}/en/diagnostic-ia-souveraine",
+        "gdpr_fr": f"{BASE_URL}/gdpr",
+        "gdpr_en": f"{BASE_URL}/en/gdpr",
+        "google_verification": f"{BASE_URL}/google7af869e5e0e8f999.html",
+        "latest_article_fr": latest_fr,
+        "latest_article_en": latest_en,
+    }
+    if f"{BASE_URL}/evenements" in by_url:
+        resources["events_fr"] = f"{BASE_URL}/evenements"
+    if f"{BASE_URL}/en/evenements" in by_url:
+        resources["events_en"] = f"{BASE_URL}/en/evenements"
     payload = {
         "name": "Underside MCP Discovery",
         "version": f"1.5.{checked_at.replace('-', '')}.{indexed_public_urls}",
         "description": "MCP-ready discovery layer for AI indexing and contextual retrieval.",
         "website": f"{BASE_URL}/",
         "updated_at": checked_at,
-        "resources": {
-            "sitemap": f"{BASE_URL}/sitemap.xml",
-            "robots": f"{BASE_URL}/robots.txt",
-            "llms_txt": f"{BASE_URL}/llms.txt",
-            "homepage_fr": f"{BASE_URL}/",
-            "homepage_en": f"{BASE_URL}/en/",
-            "news_fr": f"{BASE_URL}/actualites",
-            "news_en": f"{BASE_URL}/en/actualites",
-            "blog_fr": f"{BASE_URL}/blog",
-            "blog_en": f"{BASE_URL}/en/blog",
-            "diagnostic_fr": f"{BASE_URL}/diagnostic-ia-souveraine",
-            "diagnostic_en": f"{BASE_URL}/en/diagnostic-ia-souveraine",
-            "gdpr_fr": f"{BASE_URL}/gdpr",
-            "gdpr_en": f"{BASE_URL}/en/gdpr",
-            "google_verification": f"{BASE_URL}/google7af869e5e0e8f999.html",
-            "latest_article_fr": latest_fr,
-            "latest_article_en": latest_en,
-        },
+        "resources": resources,
         "connectors": [
             {
                 "id": "site-content",
