@@ -1,9 +1,9 @@
 {
   "name": "Underside MCP Discovery",
-  "version": "1.3.62",
+  "version": "1.3.63",
   "description": "MCP-ready discovery layer for AI indexing, contextual retrieval, and Google-friendly site discovery.",
   "website": "https://ai.underside.be/",
-  "updated_at": "2026-06-24",
+  "updated_at": "2026-06-25",
   "resources": {
     "sitemap": "https://ai.underside.be/sitemap.xml",
     "robots": "https://ai.underside.be/robots.txt",
@@ -21,10 +21,10 @@
     "gdpr_fr": "https://ai.underside.be/gdpr",
     "gdpr_en": "https://ai.underside.be/en/gdpr",
     "google_verification": "https://ai.underside.be/google7af869e5e0e8f999.html",
-    "latest_article_fr": "https://ai.underside.be/article-ibm-engineering-ai-hub-mcp-2026.html",
-    "latest_article_en": "https://ai.underside.be/en/article-ibm-engineering-ai-hub-mcp-2026.html",
-    "latest_news_fr": "https://openai.com/index/helping-build-shared-standards-for-advanced-ai/",
-    "latest_news_en": "https://openai.com/index/helping-build-shared-standards-for-advanced-ai/",
+    "latest_article_fr": "https://ai.underside.be/article-openai-samsung-codex-entreprise-2026.html",
+    "latest_article_en": "https://ai.underside.be/en/article-openai-samsung-codex-entreprise-2026.html",
+    "latest_news_fr": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip/",
+    "latest_news_en": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip/",
     "ia_belgique_fr": "https://ai.underside.be/ia-belgique",
     "ia_belgique_en": "https://ai.underside.be/en/ia-belgique"
   },
@@ -49,14 +49,14 @@
     }
   ],
   "stats": {
-    "indexed_public_urls": 238,
-    "article_pairs": 112,
-    "article_urls": 224,
+    "indexed_public_urls": 240,
+    "article_pairs": 113,
+    "article_urls": 226,
     "hub_urls": 14
   },
   "indexing": {
     "google_ready": true,
-    "checked_at": "2026-06-24",
+    "checked_at": "2026-06-25",
     "discovery_endpoints": [
       "https://ai.underside.be/sitemap.xml",
       "https://ai.underside.be/robots.txt",
