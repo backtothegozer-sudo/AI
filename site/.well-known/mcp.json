@@ -21,10 +21,10 @@
     "gdpr_fr": "https://ai.underside.be/gdpr",
     "gdpr_en": "https://ai.underside.be/en/gdpr",
     "google_verification": "https://ai.underside.be/google7af869e5e0e8f999.html",
-    "latest_article_fr": "https://ai.underside.be/article-openai-samsung-codex-entreprise-2026.html",
-    "latest_article_en": "https://ai.underside.be/en/article-openai-samsung-codex-entreprise-2026.html",
-    "latest_news_fr": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip/",
-    "latest_news_en": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip/",
+    "latest_article_fr": "https://ai.underside.be/article-oracle-defense-ecosystem-ia-souveraine-2026.html",
+    "latest_article_en": "https://ai.underside.be/en/article-oracle-defense-ecosystem-ia-souveraine-2026.html",
+    "latest_news_fr": "https://news.sap.com/2026/06/sovereign-data-ai-infrastructure-europe/",
+    "latest_news_en": "https://news.sap.com/2026/06/sovereign-data-ai-infrastructure-europe/",
     "ia_belgique_fr": "https://ai.underside.be/ia-belgique",
     "ia_belgique_en": "https://ai.underside.be/en/ia-belgique"
   },
@@ -49,9 +49,9 @@
     }
   ],
   "stats": {
-    "indexed_public_urls": 242,
-    "article_pairs": 114,
-    "article_urls": 228,
+    "indexed_public_urls": 244,
+    "article_pairs": 115,
+    "article_urls": 230,
     "hub_urls": 14
   },
   "indexing": {
