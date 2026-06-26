@@ -31,7 +31,13 @@
 - https://ai.underside.be/google7af869e5e0e8f999.html
 
 ## Articles (FR)
+- https://ai.underside.be/article-openai-samsung-codex-entreprise-2026.html
+- https://ai.underside.be/article-seven-boson-decision-intelligence-souveraine-2026.html
+- https://ai.underside.be/article-ravel-rtone-infrastructure-ia-souveraine-ameriques-2026.html
+- https://ai.underside.be/article-kps-giotto-ia-souveraine-portable-2026.html
+- https://ai.underside.be/article-ibm-engineering-ai-hub-mcp-2026.html
 - https://ai.underside.be/article-code-transparence-ia-article-50-2026.html
+- https://ai.underside.be/article-nvidia-france-ecosysteme-ia-souveraine-2026.html
 - https://ai.underside.be/article-ibm-dependances-souverainete-ia-2026.html
 - https://ai.underside.be/article-europa-consortium-frontier-ai-2026.html
 - https://ai.underside.be/article-equinix-cisco-singapour-ia-souveraine-2026.html
@@ -141,7 +147,13 @@
 - https://ai.underside.be/article-consilium-2026.html
 
 ## Articles (EN)
+- https://ai.underside.be/en/article-openai-samsung-codex-entreprise-2026.html
+- https://ai.underside.be/en/article-seven-boson-decision-intelligence-souveraine-2026.html
+- https://ai.underside.be/en/article-ravel-rtone-infrastructure-ia-souveraine-ameriques-2026.html
+- https://ai.underside.be/en/article-ibm-engineering-ai-hub-mcp-2026.html
+- https://ai.underside.be/en/article-kps-giotto-ia-souveraine-portable-2026.html
 - https://ai.underside.be/en/article-code-transparence-ia-article-50-2026.html
+- https://ai.underside.be/en/article-nvidia-france-ecosysteme-ia-souveraine-2026.html
 - https://ai.underside.be/en/article-ibm-ai-dependencies-sovereignty-2026.html
 - https://ai.underside.be/en/article-europa-consortium-frontier-ai-2026.html
 - https://ai.underside.be/en/article-equinix-cisco-singapour-ia-souveraine-2026.html
