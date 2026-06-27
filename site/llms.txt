@@ -33,6 +33,8 @@ Last updated: 2026-06-27
 - https://ai.underside.be/google7af869e5e0e8f999.html
 
 ## Articles (FR)
+- https://ai.underside.be/article-sap-agents-erp-odoo-entreprise-2026.html
+- https://ai.underside.be/article-mistral-ocr-4-documents-souverains-2026.html
 - https://ai.underside.be/article-oracle-defense-ecosystem-ia-souveraine-2026.html
 - https://ai.underside.be/article-openai-samsung-codex-entreprise-2026.html
 - https://ai.underside.be/article-seven-boson-decision-intelligence-souveraine-2026.html
@@ -150,6 +152,8 @@ Last updated: 2026-06-27
 - https://ai.underside.be/article-consilium-2026.html
 
 ## Articles (EN)
+- https://ai.underside.be/en/article-sap-agents-erp-odoo-entreprise-2026.html
+- https://ai.underside.be/en/article-mistral-ocr-4-documents-souverains-2026.html
 - https://ai.underside.be/en/article-oracle-defense-ecosystem-ia-souveraine-2026.html
 - https://ai.underside.be/en/article-openai-samsung-codex-entreprise-2026.html
 - https://ai.underside.be/en/article-seven-boson-decision-intelligence-souveraine-2026.html
