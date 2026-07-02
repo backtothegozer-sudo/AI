@@ -2,7 +2,7 @@
 
 > Site vitrine et éditorial sur l'IA souveraine pour les entreprises, avec contenu en français et en anglais.
 
-Last updated: 2026-07-01
+Last updated: 2026-07-02
 
 ## Canonical
 - https://ai.underside.be/
@@ -33,6 +33,8 @@ Last updated: 2026-07-01
 - https://ai.underside.be/google7af869e5e0e8f999.html
 
 ## Articles (FR)
+- https://ai.underside.be/article-ltm-ovhcloud-cloud-ia-souveraine-europe-2026.html
+- https://ai.underside.be/article-ibm-gujarat-ia-industrielle-souveraine-2026.html
 - https://ai.underside.be/article-openai-hp-frontier-odoo-entreprise-2026.html
 - https://ai.underside.be/article-openai-spend-controls-odoo-entreprise-2026.html
 - https://ai.underside.be/article-sap-infrastructure-data-ia-souveraine-europe-2026.html
@@ -155,6 +157,8 @@ Last updated: 2026-07-01
 - https://ai.underside.be/article-consilium-2026.html
 
 ## Articles (EN)
+- https://ai.underside.be/en/article-ltm-ovhcloud-cloud-ia-souveraine-europe-2026.html
+- https://ai.underside.be/en/article-ibm-gujarat-ia-industrielle-souveraine-2026.html
 - https://ai.underside.be/en/article-openai-hp-frontier-odoo-entreprise-2026.html
 - https://ai.underside.be/en/article-openai-spend-controls-odoo-entreprise-2026.html
 - https://ai.underside.be/en/article-sap-infrastructure-data-ia-souveraine-europe-2026.html
