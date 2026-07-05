@@ -2,7 +2,7 @@
 
 > Site vitrine et éditorial sur l'IA souveraine pour les entreprises, avec contenu en français et en anglais.
 
-Last updated: 2026-07-04
+Last updated: 2026-07-05
 
 ## Canonical
 - https://ai.underside.be/
@@ -34,6 +34,8 @@ Last updated: 2026-07-04
 
 ## Articles (FR)
 - https://ai.underside.be/article-openai-adoption-chatgpt-odoo-entreprise-2026.html
+- https://ai.underside.be/article-magna-naver-arabie-saoudite-ia-souveraine-2026.html
+- https://ai.underside.be/article-sap-ibm-cloud-erp-private-odoo-entreprise-2026.html
 - https://ai.underside.be/article-cognizant-domyn-ia-souveraine-emea-2026.html
 - https://ai.underside.be/article-amalia-portugal-modele-ia-souveraine-2026.html
 - https://ai.underside.be/article-ltm-ovhcloud-cloud-ia-souveraine-europe-2026.html
@@ -161,6 +163,7 @@ Last updated: 2026-07-04
 
 ## Articles (EN)
 - https://ai.underside.be/en/article-openai-adoption-chatgpt-odoo-entreprise-2026.html
+- https://ai.underside.be/en/article-magna-naver-arabie-saoudite-ia-souveraine-2026.html
 - https://ai.underside.be/en/article-cognizant-domyn-ia-souveraine-emea-2026.html
 - https://ai.underside.be/en/article-amalia-portugal-modele-ia-souveraine-2026.html
 - https://ai.underside.be/en/article-ltm-ovhcloud-cloud-ia-souveraine-europe-2026.html
