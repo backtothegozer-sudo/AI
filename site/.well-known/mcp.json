@@ -21,10 +21,10 @@
     "gdpr_fr": "https://ai.underside.be/gdpr",
     "gdpr_en": "https://ai.underside.be/en/gdpr",
     "google_verification": "https://ai.underside.be/google7af869e5e0e8f999.html",
-    "latest_article_fr": "https://ai.underside.be/article-nvidia-build-america-infrastructure-ia-souveraine-2026.html",
-    "latest_article_en": "https://ai.underside.be/en/article-nvidia-build-america-infrastructure-ia-souveraine-2026.html",
-    "latest_news_fr": "https://www.kyndryl.com/us/en/about-us/news/2026/07/expanding-sovereignty-services-with-microsoft",
-    "latest_news_en": "https://www.kyndryl.com/us/en/about-us/news/2026/07/expanding-sovereignty-services-with-microsoft",
+    "latest_article_fr": "https://ai.underside.be/article-microsoft-frontier-company-odoo-entreprise-2026.html",
+    "latest_article_en": "https://ai.underside.be/en/article-microsoft-frontier-company-odoo-entreprise-2026.html",
+    "latest_news_fr": "https://jp.newsroom.ibm.com/2026-07-06-mufg-bank-mitsubishi-ufj-information-technology-red-hat-and-ibm-japan-enter-into-a-strategic-partnership-for-financial-system-transformation-through-ai-driven-development",
+    "latest_news_en": "https://jp.newsroom.ibm.com/2026-07-06-mufg-bank-mitsubishi-ufj-information-technology-red-hat-and-ibm-japan-enter-into-a-strategic-partnership-for-financial-system-transformation-through-ai-driven-development",
     "ia_belgique_fr": "https://ai.underside.be/ia-belgique",
     "ia_belgique_en": "https://ai.underside.be/en/ia-belgique"
   },
@@ -49,9 +49,9 @@
     }
   ],
   "stats": {
-    "indexed_public_urls": 269,
-    "article_pairs": 127,
-    "article_urls": 255,
+    "indexed_public_urls": 272,
+    "article_pairs": 129,
+    "article_urls": 258,
     "hub_urls": 14
   },
   "indexing": {
