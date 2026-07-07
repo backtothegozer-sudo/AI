@@ -33,6 +33,7 @@ Last updated: 2026-07-07
 - https://ai.underside.be/google7af869e5e0e8f999.html
 
 ## Articles (FR)
+- https://ai.underside.be/article-nvidia-nations-priorites-strategiques-ia-souveraine-2026.html
 - https://ai.underside.be/article-microsoft-frontier-company-odoo-entreprise-2026.html
 - https://ai.underside.be/article-nvidia-europe-supercalculateurs-ia-souveraine-2026.html
 - https://ai.underside.be/article-nvidia-build-america-infrastructure-ia-souveraine-2026.html
@@ -165,6 +166,7 @@ Last updated: 2026-07-07
 - https://ai.underside.be/article-consilium-2026.html
 
 ## Articles (EN)
+- https://ai.underside.be/en/article-nvidia-nations-priorites-strategiques-ia-souveraine-2026.html
 - https://ai.underside.be/en/article-microsoft-frontier-company-odoo-entreprise-2026.html
 - https://ai.underside.be/en/article-nvidia-europe-supercalculateurs-ia-souveraine-2026.html
 - https://ai.underside.be/en/article-nvidia-build-america-infrastructure-ia-souveraine-2026.html
