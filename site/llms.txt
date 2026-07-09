@@ -145,6 +145,7 @@ Last updated: 2026-07-09
 - https://ai.underside.be/article-crusoe-edge-zones-ia-souveraine-2026.html
 - https://ai.underside.be/article-ipec-ia-industrielle-souveraine-2026.html
 - https://ai.underside.be/article-eu-ai-week-souverainete-2026.html
+- https://ai.underside.be/article-ntt-data-deepset-ai-ec-souverain-2026.html
 - https://ai.underside.be/article-nttdata-ai-factories-souverain-2026.html
 - https://ai.underside.be/article-schwarz-digits-aleph-alpha-workspace-2026.html
 - https://ai.underside.be/article-ue-apply-ai-souverainete-2026.html
@@ -278,6 +279,7 @@ Last updated: 2026-07-09
 - https://ai.underside.be/en/article-crusoe-edge-zones-ia-souveraine-2026.html
 - https://ai.underside.be/en/article-ipec-ia-industrielle-souveraine-2026.html
 - https://ai.underside.be/en/article-eu-ai-week-souverainete-2026.html
+- https://ai.underside.be/en/article-ntt-data-deepset-ai-ec-souverain-2026.html
 - https://ai.underside.be/en/article-nttdata-ai-factories-souverain-2026.html
 - https://ai.underside.be/en/article-schwarz-digits-aleph-alpha-workspace-2026.html
 - https://ai.underside.be/en/article-ue-apply-ai-souverainete-2026.html
