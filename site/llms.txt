@@ -2,7 +2,7 @@
 
 > Site vitrine et éditorial sur l'IA souveraine pour les entreprises, avec contenu en français et en anglais.
 
-Last updated: 2026-07-09
+Last updated: 2026-07-10
 
 ## Canonical
 - https://ai.underside.be/
@@ -33,6 +33,7 @@ Last updated: 2026-07-09
 - https://ai.underside.be/google7af869e5e0e8f999.html
 
 ## Articles (FR)
+- https://ai.underside.be/article-ntt-data-deepset-ai-ec-souverain-2026.html
 - https://ai.underside.be/article-nvidia-nations-priorites-strategiques-ia-souveraine-2026.html
 - https://ai.underside.be/article-microsoft-frontier-company-odoo-entreprise-2026.html
 - https://ai.underside.be/article-nvidia-europe-supercalculateurs-ia-souveraine-2026.html
@@ -145,7 +146,6 @@ Last updated: 2026-07-09
 - https://ai.underside.be/article-crusoe-edge-zones-ia-souveraine-2026.html
 - https://ai.underside.be/article-ipec-ia-industrielle-souveraine-2026.html
 - https://ai.underside.be/article-eu-ai-week-souverainete-2026.html
-- https://ai.underside.be/article-ntt-data-deepset-ai-ec-souverain-2026.html
 - https://ai.underside.be/article-nttdata-ai-factories-souverain-2026.html
 - https://ai.underside.be/article-schwarz-digits-aleph-alpha-workspace-2026.html
 - https://ai.underside.be/article-ue-apply-ai-souverainete-2026.html
@@ -167,6 +167,7 @@ Last updated: 2026-07-09
 - https://ai.underside.be/article-consilium-2026.html
 
 ## Articles (EN)
+- https://ai.underside.be/en/article-ntt-data-deepset-ai-ec-souverain-2026.html
 - https://ai.underside.be/en/article-nvidia-nations-priorites-strategiques-ia-souveraine-2026.html
 - https://ai.underside.be/en/article-microsoft-frontier-company-odoo-entreprise-2026.html
 - https://ai.underside.be/en/article-nvidia-europe-supercalculateurs-ia-souveraine-2026.html
@@ -279,7 +280,6 @@ Last updated: 2026-07-09
 - https://ai.underside.be/en/article-crusoe-edge-zones-ia-souveraine-2026.html
 - https://ai.underside.be/en/article-ipec-ia-industrielle-souveraine-2026.html
 - https://ai.underside.be/en/article-eu-ai-week-souverainete-2026.html
-- https://ai.underside.be/en/article-ntt-data-deepset-ai-ec-souverain-2026.html
 - https://ai.underside.be/en/article-nttdata-ai-factories-souverain-2026.html
 - https://ai.underside.be/en/article-schwarz-digits-aleph-alpha-workspace-2026.html
 - https://ai.underside.be/en/article-ue-apply-ai-souverainete-2026.html
