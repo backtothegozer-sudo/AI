@@ -33,6 +33,7 @@ Last updated: 2026-07-11
 - https://ai.underside.be/google7af869e5e0e8f999.html
 
 ## Articles (FR)
+- https://ai.underside.be/article-kore-atos-uk-agentic-ai-souverain-2026.html
 - https://ai.underside.be/article-humain-cohere-capacite-calcul-ia-souveraine-2026.html
 - https://ai.underside.be/article-ntt-data-deepset-ai-ec-souverain-2026.html
 - https://ai.underside.be/article-openai-transition-metiers-europe-odoo-entreprise-2026.html
@@ -170,6 +171,7 @@ Last updated: 2026-07-11
 - https://ai.underside.be/article-consilium-2026.html
 
 ## Articles (EN)
+- https://ai.underside.be/en/article-kore-atos-uk-agentic-ai-souverain-2026.html
 - https://ai.underside.be/en/article-humain-cohere-capacite-calcul-ia-souveraine-2026.html
 - https://ai.underside.be/en/article-ntt-data-deepset-ai-ec-souverain-2026.html
 - https://ai.underside.be/en/article-openai-transition-metiers-europe-odoo-entreprise-2026.html
