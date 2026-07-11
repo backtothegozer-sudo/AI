@@ -2,7 +2,7 @@
 
 > Site vitrine et éditorial sur l'IA souveraine pour les entreprises, avec contenu en français et en anglais.
 
-Last updated: 2026-07-10
+Last updated: 2026-07-11
 
 ## Canonical
 - https://ai.underside.be/
@@ -35,6 +35,8 @@ Last updated: 2026-07-10
 ## Articles (FR)
 - https://ai.underside.be/article-humain-cohere-capacite-calcul-ia-souveraine-2026.html
 - https://ai.underside.be/article-ntt-data-deepset-ai-ec-souverain-2026.html
+- https://ai.underside.be/article-openai-transition-metiers-europe-odoo-entreprise-2026.html
+- https://ai.underside.be/article-commission-plan-action-cybersecurite-ia-souveraine-2026.html
 - https://ai.underside.be/article-nvidia-nations-priorites-strategiques-ia-souveraine-2026.html
 - https://ai.underside.be/article-microsoft-frontier-company-odoo-entreprise-2026.html
 - https://ai.underside.be/article-nvidia-europe-supercalculateurs-ia-souveraine-2026.html
@@ -170,6 +172,8 @@ Last updated: 2026-07-10
 ## Articles (EN)
 - https://ai.underside.be/en/article-humain-cohere-capacite-calcul-ia-souveraine-2026.html
 - https://ai.underside.be/en/article-ntt-data-deepset-ai-ec-souverain-2026.html
+- https://ai.underside.be/en/article-openai-transition-metiers-europe-odoo-entreprise-2026.html
+- https://ai.underside.be/en/article-commission-plan-action-cybersecurite-ia-souveraine-2026.html
 - https://ai.underside.be/en/article-nvidia-nations-priorites-strategiques-ia-souveraine-2026.html
 - https://ai.underside.be/en/article-microsoft-frontier-company-odoo-entreprise-2026.html
 - https://ai.underside.be/en/article-nvidia-europe-supercalculateurs-ia-souveraine-2026.html
