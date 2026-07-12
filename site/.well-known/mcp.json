@@ -1,9 +1,9 @@
 {
   "name": "Underside MCP Discovery",
-  "version": "1.3.79",
+  "version": "1.3.80",
   "description": "MCP-ready discovery layer for AI indexing, contextual retrieval, and Google-friendly site discovery.",
   "website": "https://ai.underside.be/",
-  "updated_at": "2026-07-11",
+  "updated_at": "2026-07-12",
   "resources": {
     "sitemap": "https://ai.underside.be/sitemap.xml",
     "robots": "https://ai.underside.be/robots.txt",
@@ -49,14 +49,14 @@
     }
   ],
   "stats": {
-    "indexed_public_urls": 284,
-    "article_pairs": 135,
-    "article_urls": 270,
+    "indexed_public_urls": 286,
+    "article_pairs": 136,
+    "article_urls": 272,
     "hub_urls": 14
   },
   "indexing": {
     "google_ready": true,
-    "checked_at": "2026-07-11",
+    "checked_at": "2026-07-12",
     "discovery_endpoints": [
       "https://ai.underside.be/sitemap.xml",
       "https://ai.underside.be/robots.txt",
