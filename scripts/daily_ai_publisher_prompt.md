@@ -12,13 +12,6 @@ You are running inside the `underside-ai` repository to prepare the daily public
 
 Follow `AGENTS.md` exactly. Your responsibility is content discovery, content decision, site file updates, quality checks, and manifest generation. Do not commit. Do not push. Do not use `danger-full-access`.
 
-## Non-Negotiable Startup Checks
-
-1. Run `git fetch`.
-2. Verify the current branch is `main`.
-3. Verify local `main` is synchronized with `origin/main`.
-4. Stop immediately if `git status --porcelain` is not empty before your work begins.
-5. If any startup check fails, make no changes and report the failure.
 
 ## News Research Scope
 
