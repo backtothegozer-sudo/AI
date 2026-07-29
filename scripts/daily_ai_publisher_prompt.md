@@ -67,6 +67,14 @@ Choose exactly one outcome:
 
 The best outcome may be "publish nothing". Use it when the available official information is weak, repetitive, not relevant enough, or already covered.
 
+Mandatory news companion rule:
+
+- When creating a new blog article pair, also create a corresponding short news item in both `site/actualites.html` and `site/en/actualites.html`.
+- The news item must link to the full article, use the same publication date, and cite the same official source as the article.
+- The news item must follow exactly the existing HTML format already used in `site/actualites.html` and `site/en/actualites.html`.
+- Never create a duplicate news item. If a news item already exists for the article, do not recreate it.
+- A new article publication is incomplete unless the matching FR and EN news items exist or are created in the same run.
+
 ## Required Language Output
 
 For any public content update, produce French and English together.
@@ -118,9 +126,10 @@ When creating a new article or news item:
 2. Update homepage FR and homepage EN when their visible latest-content sections require it.
 3. Update blog FR and blog EN for articles.
 4. Update actualites FR and actualites EN for news items.
-5. Update `site/sitemap.xml` with FR and EN URLs, `lastmod`, `hreflang`, `changefreq`, and `priority`.
-6. Update `site/llms.txt`.
-7. Update `site/.well-known/mcp.json`, including latest URLs, dates, and stats if changed.
+5. When creating a new article, create the mandatory corresponding short news item in `site/actualites.html` and `site/en/actualites.html`, unless it already exists for that article.
+6. Update `site/sitemap.xml` with FR and EN URLs, `lastmod`, `hreflang`, `changefreq`, and `priority`.
+7. Update `site/llms.txt`.
+8. Update `site/.well-known/mcp.json`, including latest URLs, dates, and stats if changed.
 
 When updating an existing article:
 
@@ -142,6 +151,9 @@ Before finishing, run appropriate checks:
 - parse or validate every touched HTML file;
 - verify JSON-LD blocks parse as JSON;
 - verify canonical and hreflang URLs are symmetrical for FR/EN pairs;
+- verify that any new article added to `site/blog.html` also has a corresponding non-duplicate item in `site/actualites.html`;
+- verify that any new article added to `site/en/blog.html` also has a corresponding non-duplicate item in `site/en/actualites.html`;
+- if `site/blog.html` is modified without `site/actualites.html`, or `site/en/blog.html` is modified without `site/en/actualites.html`, consider the publication incomplete, write an empty manifest, and do not allow the automation to commit;
 - verify newly added source links are official and open in a new tab with `rel="noopener"` when `target="_blank"` is used;
 - verify `site/sitemap.xml` is well-formed XML if touched;
 - verify `site/.well-known/mcp.json` is valid JSON if touched;
