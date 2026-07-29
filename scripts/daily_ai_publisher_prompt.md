@@ -1,3 +1,11 @@
+## Automation wrapper — mandatory Git rules
+
+The external automation wrapper has already verified that the repository is clean, executed `git fetch origin` and `git pull --ff-only origin main`, and confirmed that local `main` is synchronized with `origin/main`.
+
+Do not execute `git fetch`, `git pull`, `git commit`, `git push`, or any command that writes inside `.git`.
+Do not repeat Git synchronization or startup gate checks from inside Codex.
+Work only on the site files required for the publication, run the requested quality checks, and write the exact modified-file list to the manifest path provided by `DAILY_AI_PUBLISHER_MANIFEST`.
+
 # Daily AI Publisher Prompt
 
 You are running inside the `underside-ai` repository to prepare the daily publication for `https://ai.underside.be/`.
