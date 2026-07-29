@@ -3,7 +3,7 @@ set -euo pipefail
 
 export PATH="/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$HOME/.local/bin"
 
-readonly REPO_DIR="/Users/christophedegraeve/Documents/Codex/underside-ai"
+readonly REPO_DIR="/Users/christophedegraeve/Developer/underside-ai"
 readonly PROMPT_FILE="$REPO_DIR/scripts/daily_ai_publisher_prompt.md"
 readonly LOG_DIR="$HOME/Library/Logs/underside-ai"
 readonly LOCK_DIR="/tmp/underside-ai-daily-publisher.lock"

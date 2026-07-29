@@ -6,10 +6,10 @@
   <string>be.underside.ai.daily-publisher</string>
   <key>ProgramArguments</key>
   <array>
-    <string>/Users/christophedegraeve/Documents/Codex/underside-ai/scripts/run_daily_ai_publisher.sh</string>
+    <string>/Users/christophedegraeve/Developer/underside-ai/scripts/run_daily_ai_publisher.sh</string>
   </array>
   <key>WorkingDirectory</key>
-  <string>/Users/christophedegraeve/Documents/Codex/underside-ai</string>
+  <string>/Users/christophedegraeve/Developer/underside-ai</string>
   <key>StartCalendarInterval</key>
   <dict>
     <key>Hour</key>
