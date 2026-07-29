@@ -2,7 +2,7 @@
 
 > Site vitrine et éditorial sur l'IA souveraine pour les entreprises, avec contenu en français et en anglais.
 
-Last updated: 2026-07-13
+Last updated: 2026-07-29
 
 ## Canonical
 - https://ai.underside.be/
@@ -33,6 +33,7 @@ Last updated: 2026-07-13
 - https://ai.underside.be/google7af869e5e0e8f999.html
 
 ## Articles (FR)
+- https://ai.underside.be/article-microsoft-project-perception-cybersecurite-ia-2026.html
 - https://ai.underside.be/article-openai-chatgpt-work-odoo-entreprise-2026.html
 - https://ai.underside.be/article-openai-deutsche-telekom-odoo-entreprise-2026.html
 - https://ai.underside.be/article-sk-telecom-15gw-ai-data-center-coree-souveraine-2026.html
@@ -174,6 +175,7 @@ Last updated: 2026-07-13
 - https://ai.underside.be/article-consilium-2026.html
 
 ## Articles (EN)
+- https://ai.underside.be/en/article-microsoft-project-perception-cybersecurite-ia-2026.html
 - https://ai.underside.be/en/article-openai-chatgpt-work-odoo-entreprise-2026.html
 - https://ai.underside.be/en/article-openai-deutsche-telekom-odoo-entreprise-2026.html
 - https://ai.underside.be/en/article-sk-telecom-15gw-ai-data-center-coree-souveraine-2026.html
