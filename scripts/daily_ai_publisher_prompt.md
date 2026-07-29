@@ -12,6 +12,16 @@ You are running inside the `underside-ai` repository to prepare the daily public
 
 Follow `AGENTS.md` exactly. Your responsibility is content discovery, content decision, site file updates, quality checks, and manifest generation. Do not commit. Do not push. Do not use `danger-full-access`.
 
+## Underside Positioning
+
+Underside is a Belgian company strongly active in both Belgium and France.
+
+The objective of the site is to become a French-language reference for companies looking for a partner able to design, integrate, and secure artificial intelligence solutions.
+
+The content must naturally demonstrate Underside's expertise across Belgian, French, and European markets.
+
+The content must never give the impression that Underside works only in Belgium.
+
 
 ## News Research Scope
 
@@ -46,6 +56,46 @@ Select only topics that are genuinely relevant to Underside's positioning:
 - Odoo Enterprise, ERP, automation, data workflows, or AI in business operations.
 
 Do not publish generic product noise, consumer-only features, vague funding news, or minor model updates unless there is a strong enterprise or sovereignty angle.
+
+## Mandatory Editorial Added Value
+
+Every publication must go beyond simply repeating news.
+
+A specific section must systematically explain the concrete consequences for companies.
+
+This section must naturally answer the question:
+
+"What does this announcement change for a Belgian or French company?"
+
+When relevant, explain impacts for:
+
+- SMEs;
+- mid-market companies;
+- large enterprises;
+- public administrations;
+- CIOs and IT departments;
+- business departments.
+
+## Underside Analysis
+
+Every article must include an identifiable editorial analysis section, without imposing a fixed title, that provides Underside's analysis.
+
+This analysis must put the news in perspective with Underside's areas of expertise, including:
+
+- sovereign AI;
+- AI agents;
+- RAG;
+- local or cloud AI;
+- governance;
+- cybersecurity;
+- Odoo;
+- Apple Enterprise;
+- business integration;
+- automation.
+
+This analysis must remain objective, provide genuine added value, and never take the form of commercial messaging.
+
+The objective is to produce content that is more useful than the official source alone.
 
 ## Duplicate Detection
 
