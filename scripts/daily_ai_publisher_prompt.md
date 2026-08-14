@@ -108,12 +108,13 @@ Before deciding to publish:
 
 ## Publication Decision
 
-Choose exactly one outcome:
+Evaluate Blog and News independently during every run. The run may therefore produce one or more of the following outcomes:
 
-- create a new article;
-- create a short news item;
-- update an existing article pair;
-- publish nothing.
+- create a new blog article pair;
+- create a short news item pair;
+- create both when they cover distinct editorial angles;
+- update existing content;
+- publish nothing only when no sufficiently useful and credible content is available.
 
 Publishing nothing must be a last resort. The automation is expected to maintain a regular editorial cadence. If no major breaking news is available, look for a recent official development, documentation update, regulation milestone, enterprise AI architecture topic, sovereign AI development, Odoo-related AI evolution, governance topic, cybersecurity topic, or a practical analysis based on a recent primary source. Publish nothing only when no credible and genuinely useful topic can be identified after searching the extended 7-day window.
 
@@ -125,6 +126,26 @@ Editorial separation rule:
 - Avoid publishing both formats on exactly the same topic in the same run unless they provide clearly different editorial value.
 - Prefer blog articles for durable analysis, guides, architecture, governance, practical enterprise implications, and strategic topics.
 - Prefer news items for short, recent, factual developments.
+
+## Independent Blog and News Cadence
+
+Blog and News are two independent editorial streams. Do not treat them as mutually exclusive publication outcomes.
+
+At every daily run, evaluate BOTH opportunities separately:
+
+1. NEWS: actively search for at least one recent, factual, enterprise-relevant AI development suitable for `site/actualites.html` and `site/en/actualites.html`. Prefer the last 24-48 hours and extend up to 7 days when necessary. A news item should be concise, based on a primary official source, explain the concrete relevance for Belgian, French or European companies, and link to the official source. Publishing a news item does not require a blog article.
+
+2. BLOG: independently evaluate whether a topic justifies a durable, in-depth article. Blog content should provide analysis, practical guidance, architecture, governance, security, sovereignty, Odoo/business integration or other substantial editorial value. Publishing a blog article does not require a matching news item.
+
+The expected normal cadence is to keep BOTH sections active. Therefore, when credible and relevant material exists, publish a News item even if no Blog article is justified, and publish a Blog article even if no matching News item is justified.
+
+A single run MAY publish both a Blog article and a News item, but they should preferably cover different subjects. Never create a short News item merely to summarize the Blog article published during the same run.
+
+If Blog and News concern related developments, they must have clearly distinct angles and independent editorial value.
+
+Publishing nothing in News should be a last resort after the extended search window has been checked. Publishing nothing in Blog remains acceptable when no topic warrants substantial analysis.
+
+For every public publication, maintain the existing mandatory French and English parity.
 
 ## Required Language Output
 
