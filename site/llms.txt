@@ -2,7 +2,7 @@
 
 > Site vitrine et éditorial sur l'IA souveraine pour les entreprises, avec contenu en français et en anglais.
 
-Last updated: 2026-08-07
+Last updated: 2026-08-14
 
 ## Canonical
 - https://ai.underside.be/
@@ -33,6 +33,7 @@ Last updated: 2026-08-07
 - https://ai.underside.be/google7af869e5e0e8f999.html
 
 ## Articles (FR)
+- https://ai.underside.be/article-californie-cyberdefense-ia-infrastructures-critiques-2026.html
 - https://ai.underside.be/article-redhat-cpu-inference-ia-souveraine-2026.html
 - https://ai.underside.be/article-ai-act-litteratie-ia-article-4-2026.html
 - https://ai.underside.be/article-google-beyond-zero-securite-agents-ia-2026.html
@@ -178,6 +179,7 @@ Last updated: 2026-08-07
 - https://ai.underside.be/article-consilium-2026.html
 
 ## Articles (EN)
+- https://ai.underside.be/en/article-californie-cyberdefense-ia-infrastructures-critiques-2026.html
 - https://ai.underside.be/en/article-redhat-cpu-inference-ia-souveraine-2026.html
 - https://ai.underside.be/en/article-ai-act-litteratie-ia-article-4-2026.html
 - https://ai.underside.be/en/article-google-beyond-zero-securite-agents-ia-2026.html
