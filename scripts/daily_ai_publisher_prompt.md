@@ -25,7 +25,7 @@ The content must never give the impression that Underside works only in Belgium.
 
 ## News Research Scope
 
-Research AI news from the last 24 to 48 hours only.
+Research AI news from the last 24 to 48 hours first. If no sufficiently relevant and reliable official source is found, progressively extend the research window up to the last 7 days. Do not reject a strong enterprise, sovereignty, governance, infrastructure, Odoo, or cybersecurity topic solely because it is more than 48 hours old.
 
 Prioritize official sources:
 
@@ -115,15 +115,16 @@ Choose exactly one outcome:
 - update an existing article pair;
 - publish nothing.
 
-The best outcome may be "publish nothing". Use it when the available official information is weak, repetitive, not relevant enough, or already covered.
+Publishing nothing must be a last resort. The automation is expected to maintain a regular editorial cadence. If no major breaking news is available, look for a recent official development, documentation update, regulation milestone, enterprise AI architecture topic, sovereign AI development, Odoo-related AI evolution, governance topic, cybersecurity topic, or a practical analysis based on a recent primary source. Publish nothing only when no credible and genuinely useful topic can be identified after searching the extended 7-day window.
 
-Mandatory news companion rule:
+Editorial separation rule:
 
-- When creating a new blog article pair, also create a corresponding short news item in both `site/actualites.html` and `site/en/actualites.html`.
-- The news item must link to the full article, use the same publication date, and cite the same official source as the article.
-- The news item must follow exactly the existing HTML format already used in `site/actualites.html` and `site/en/actualites.html`.
-- Never create a duplicate news item. If a news item already exists for the article, do not recreate it.
-- A new article publication is incomplete unless the matching FR and EN news items exist or are created in the same run.
+- Blog articles and news items are separate editorial formats.
+- A new blog article does not require a matching news item.
+- A short news item does not require a matching blog article.
+- Avoid publishing both formats on exactly the same topic in the same run unless they provide clearly different editorial value.
+- Prefer blog articles for durable analysis, guides, architecture, governance, practical enterprise implications, and strategic topics.
+- Prefer news items for short, recent, factual developments.
 
 ## Required Language Output
 
@@ -176,7 +177,7 @@ When creating a new article or news item:
 2. Update homepage FR and homepage EN when their visible latest-content sections require it.
 3. Update blog FR and blog EN for articles.
 4. Update actualites FR and actualites EN for news items.
-5. When creating a new article, create the mandatory corresponding short news item in `site/actualites.html` and `site/en/actualites.html`, unless it already exists for that article.
+5. When creating a new article, update only the blog, homepage, discovery and metadata files required by that article. Do not create a news item unless it has a clearly distinct editorial purpose.
 6. Update `site/sitemap.xml` with FR and EN URLs, `lastmod`, `hreflang`, `changefreq`, and `priority`.
 7. Update `site/llms.txt`.
 8. Update `site/.well-known/mcp.json`, including latest URLs, dates, and stats if changed.
@@ -201,9 +202,9 @@ Before finishing, run appropriate checks:
 - parse or validate every touched HTML file;
 - verify JSON-LD blocks parse as JSON;
 - verify canonical and hreflang URLs are symmetrical for FR/EN pairs;
-- verify that any new article added to `site/blog.html` also has a corresponding non-duplicate item in `site/actualites.html`;
-- verify that any new article added to `site/en/blog.html` also has a corresponding non-duplicate item in `site/en/actualites.html`;
-- if `site/blog.html` is modified without `site/actualites.html`, or `site/en/blog.html` is modified without `site/en/actualites.html`, consider the publication incomplete, write an empty manifest, and do not allow the automation to commit;
+- verify that any new article added to `site/blog.html` is correctly linked from the relevant blog and discovery pages;
+- verify that any new article added to `site/en/blog.html` is correctly linked from the relevant English blog and discovery pages;
+- do not consider a blog publication incomplete solely because `site/actualites.html` or `site/en/actualites.html` was not modified;
 - verify newly added source links are official and open in a new tab with `rel="noopener"` when `target="_blank"` is used;
 - verify `site/sitemap.xml` is well-formed XML if touched;
 - verify `site/.well-known/mcp.json` is valid JSON if touched;
