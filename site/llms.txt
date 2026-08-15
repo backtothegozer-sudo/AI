@@ -33,6 +33,7 @@ Last updated: 2026-08-15
 - https://ai.underside.be/google7af869e5e0e8f999.html
 
 ## Articles (FR)
+- https://ai.underside.be/article-mistral-inference-regionale-ia-souveraine-2026.html
 - https://ai.underside.be/article-californie-cyberdefense-ia-infrastructures-critiques-2026.html
 - https://ai.underside.be/article-redhat-cpu-inference-ia-souveraine-2026.html
 - https://ai.underside.be/article-ai-act-litteratie-ia-article-4-2026.html
@@ -179,6 +180,7 @@ Last updated: 2026-08-15
 - https://ai.underside.be/article-consilium-2026.html
 
 ## Articles (EN)
+- https://ai.underside.be/en/article-mistral-inference-regionale-ia-souveraine-2026.html
 - https://ai.underside.be/en/article-californie-cyberdefense-ia-infrastructures-critiques-2026.html
 - https://ai.underside.be/en/article-redhat-cpu-inference-ia-souveraine-2026.html
 - https://ai.underside.be/en/article-ai-act-litteratie-ia-article-4-2026.html

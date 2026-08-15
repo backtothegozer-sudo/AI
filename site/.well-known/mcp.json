@@ -21,8 +21,8 @@
     "gdpr_fr": "https://ai.underside.be/gdpr",
     "gdpr_en": "https://ai.underside.be/en/gdpr",
     "google_verification": "https://ai.underside.be/google7af869e5e0e8f999.html",
-    "latest_article_fr": "https://ai.underside.be/article-californie-cyberdefense-ia-infrastructures-critiques-2026.html",
-    "latest_article_en": "https://ai.underside.be/en/article-californie-cyberdefense-ia-infrastructures-critiques-2026.html",
+    "latest_article_fr": "https://ai.underside.be/article-mistral-inference-regionale-ia-souveraine-2026.html",
+    "latest_article_en": "https://ai.underside.be/en/article-mistral-inference-regionale-ia-souveraine-2026.html",
     "latest_news_fr": "https://ai.underside.be/article-redhat-cpu-inference-ia-souveraine-2026.html",
     "latest_news_en": "https://ai.underside.be/en/article-redhat-cpu-inference-ia-souveraine-2026.html",
     "ia_belgique_fr": "https://ai.underside.be/ia-belgique",
@@ -49,9 +49,9 @@
     }
   ],
   "stats": {
-    "indexed_public_urls": 304,
-    "article_pairs": 145,
-    "article_urls": 290,
+    "indexed_public_urls": 306,
+    "article_pairs": 146,
+    "article_urls": 292,
     "hub_urls": 14
   },
   "indexing": {
