@@ -1,6 +1,6 @@
 {
   "name": "Underside MCP Discovery",
-  "version": "1.3.88",
+  "version": "1.3.89",
   "description": "MCP-ready discovery layer for AI indexing, contextual retrieval, and Google-friendly site discovery.",
   "website": "https://ai.underside.be/",
   "updated_at": "2026-08-16",
@@ -21,8 +21,8 @@
     "gdpr_fr": "https://ai.underside.be/gdpr",
     "gdpr_en": "https://ai.underside.be/en/gdpr",
     "google_verification": "https://ai.underside.be/google7af869e5e0e8f999.html",
-    "latest_article_fr": "https://ai.underside.be/article-mistral-inference-regionale-ia-souveraine-2026.html",
-    "latest_article_en": "https://ai.underside.be/en/article-mistral-inference-regionale-ia-souveraine-2026.html",
+    "latest_article_fr": "https://ai.underside.be/article-ibm-datapower-interact-gateway-gouvernance-agents-2026.html",
+    "latest_article_en": "https://ai.underside.be/en/article-ibm-datapower-interact-gateway-gouvernance-agents-2026.html",
     "latest_news_fr": "https://ai.underside.be/actualites",
     "latest_news_en": "https://ai.underside.be/en/actualites",
     "ia_belgique_fr": "https://ai.underside.be/ia-belgique",
@@ -49,9 +49,9 @@
     }
   ],
   "stats": {
-    "indexed_public_urls": 306,
-    "article_pairs": 146,
-    "article_urls": 292,
+    "indexed_public_urls": 308,
+    "article_pairs": 147,
+    "article_urls": 294,
     "hub_urls": 14
   },
   "indexing": {
