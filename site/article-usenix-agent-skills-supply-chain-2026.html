@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>USENIX Security '26: les skills d'agents IA deviennent une chaîne logicielle à gouverner | Underside</title>
+  <link rel="icon" href="logo-underside-fav.svg?v=20260328a" type="image/svg+xml" />
+  <link rel="icon" href="favicon.ico?v=20260328a" sizes="any" />
+  <link rel="shortcut icon" href="favicon.ico?v=20260328a" />
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png?v=20260328a" />
+  <link rel="icon" type="image/png" sizes="48x48" href="favicon-48x48.png?v=20260328a" />
+  <link rel="icon" type="image/png" sizes="192x192" href="favicon-192x192.png?v=20260328a" />
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png?v=20260328a" />
+
+  <meta name="description" content="Analyse de l'étude USENIX Security '26 sur les skills d'agents IA malveillants: implications concrètes pour la cybersécurité, la souveraineté, Odoo, RAG et l'automatisation en Belgique et en France." />
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1" />
+  <link rel="canonical" href="https://ai.underside.be/article-usenix-agent-skills-supply-chain-2026.html" />
+  <link rel="alternate" hreflang="fr" href="https://ai.underside.be/article-usenix-agent-skills-supply-chain-2026.html" />
+  <link rel="alternate" hreflang="en" href="https://ai.underside.be/en/article-usenix-agent-skills-supply-chain-2026.html" />
+  <link rel="alternate" hreflang="x-default" href="https://ai.underside.be/article-usenix-agent-skills-supply-chain-2026.html" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="USENIX Security '26: les skills d'agents IA deviennent une chaîne logicielle à gouverner" />
+  <meta property="og:description" content="Une étude USENIX analyse 98 380 skills d'agents et montre pourquoi les extensions IA doivent être traitées comme du code tiers critique." />
+  <meta property="og:url" content="https://ai.underside.be/article-usenix-agent-skills-supply-chain-2026.html" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+<link rel="alternate" type="application/json" title="MCP Connectors" href="/.well-known/mcp.json" />
+  <style>
+    :root { --bg:#060607; --ink:#f5f7fb; --muted:#cbd2dc; --line:rgba(255,255,255,.12); --accent:#e64bff; --accent2:#4b5bff; }
+    * { box-sizing:border-box; } body { margin:0; font-family:Manrope,system-ui,sans-serif; background:var(--bg); color:var(--ink); }
+    .wrap { max-width:980px; margin:0 auto; padding:0 24px; } header { padding:28px 0; border-bottom:1px solid rgba(255,255,255,.06); }
+    a { color:inherit; text-decoration:none; } .back { display:inline-block; font-size:13px; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); }
+    h1 { font-size:clamp(34px,5vw,52px); line-height:1.08; margin:28px 0 10px; } .meta { color:var(--muted); font-size:14px; }
+    article { padding:28px 0 40px; } .lead { font-size:20px; line-height:1.6; color:var(--ink); font-weight:600; }
+    h2 { margin:30px 0 10px; font-size:26px; line-height:1.2; } p { font-size:17px; line-height:1.84; color:var(--muted); }
+    .box { margin:24px 0; padding:20px; border:1px solid var(--line); border-radius:16px; background:rgba(255,255,255,.03); }
+    .cta { display:inline-block; margin-top:12px; padding:11px 18px; border-radius:999px; background:linear-gradient(135deg,var(--accent),var(--accent2)); color:#fff; }
+    .share-bar { margin:14px 0 0; display:flex; align-items:center; gap:8px; flex-wrap:wrap; }
+    .share-label { font-size:12px; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); }
+    .share-pill { display:inline-flex; align-items:center; justify-content:center; width:30px; height:30px; border-radius:999px; border:1px solid var(--line); background:rgba(255,255,255,.04); font-size:0; color:var(--ink); }
+    .share-icon { font-size:14px; line-height:1; font-weight:700; }
+  </style>
+  <link rel="stylesheet" href="page-transition.css" />
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"USENIX Security '26: les skills d'agents IA deviennent une chaîne logicielle à gouverner","datePublished":"2026-08-17","dateModified":"2026-08-17","inLanguage":"fr-BE","author":{"@type":"Organization","name":"Underside"},"publisher":{"@type":"Organization","name":"Underside"},"mainEntityOfPage":"https://ai.underside.be/article-usenix-agent-skills-supply-chain-2026.html"}</script>
+</head>
+<body>
+  <header><div class="wrap"><a class="back" href="blog.html">Retour au blog</a></div></header>
+  <main class="wrap"><article>
+    <h1>USENIX Security '26: les skills d'agents IA deviennent une chaîne logicielle à gouverner</h1>
+    <p class="meta">Article créé le 17 août 2026 · Publication analysée: étude USENIX Security '26 · Source: USENIX Association</p>
+    <div class="share-bar" aria-label="Partager cet article"><span class="share-label">Partager</span><a class="share-pill" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fai.underside.be%2Farticle-usenix-agent-skills-supply-chain-2026.html" target="_blank" rel="noopener" aria-label="Partager sur LinkedIn"><span class="share-icon" aria-hidden="true">in</span><span class="sr-only" style="position:absolute;left:-9999px;">LinkedIn</span></a><a class="share-pill" href="https://x.com/intent/tweet?text=USENIX%20Security%2026%3A%20les%20skills%20d%27agents%20IA%20deviennent%20une%20chaine%20logicielle%20a%20gouverner&url=https%3A%2F%2Fai.underside.be%2Farticle-usenix-agent-skills-supply-chain-2026.html" target="_blank" rel="noopener" aria-label="Partager sur X"><span class="share-icon" aria-hidden="true">X</span><span class="sr-only" style="position:absolute;left:-9999px;">X</span></a><a class="share-pill" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fai.underside.be%2Farticle-usenix-agent-skills-supply-chain-2026.html" target="_blank" rel="noopener" aria-label="Partager sur Facebook"><span class="share-icon" aria-hidden="true">f</span><span class="sr-only" style="position:absolute;left:-9999px;">Facebook</span></a></div>
+
+    <p class="lead">Une étude publiée dans les actes officiels d'USENIX Security '26 analyse 98 380 skills d'agents IA et identifie 157 extensions au comportement malveillant confirmé. Pour les entreprises belges et françaises, le message est direct: les composants d'agents doivent être gouvernés comme une chaîne logicielle critique, pas comme de simples prompts réutilisables.</p>
+
+    <h2>1. Ce que l'étude établit</h2>
+    <p>Les auteurs expliquent que les agents de codage et d'automatisation s'appuient de plus en plus sur des skills: instructions en langage naturel, scripts auxiliaires, fichiers de configuration et parfois capacités non documentées. Ces extensions peuvent s'exécuter avec les privilèges de l'utilisateur, ce qui les rapproche davantage d'un paquet logiciel que d'un modèle de prompt.</p>
+    <p>L'étude combine analyse statique et vérification dynamique. Elle recense 632 vulnérabilités distinctes dans les 157 skills malveillants confirmés, réparties sur 13 techniques d'attaque. Les auteurs indiquent aussi que tous les skills signalés ont été retirés après divulgation responsable.</p>
+
+    <h2>2. Ce que cela change pour une entreprise belge ou française</h2>
+    <p>Pour une PME, cela signifie qu'une extension téléchargée pour accélérer un flux commercial, support ou développement peut ouvrir un accès aux fichiers, secrets, identifiants ou données client. Pour une ETI, le risque se déplace vers la multiplication de registres, dépôts internes, connecteurs métiers et automatisations locales. Pour un grand groupe ou une administration, la question devient celle de la traçabilité: qui a validé le skill, avec quels droits, pour quel périmètre, et avec quelle procédure de retrait.</p>
+    <p>La conséquence opérationnelle est nette: avant de connecter un agent à Odoo, à un RAG documentaire, à un cloud privé, à des API métiers ou à un poste Apple Enterprise, l'organisation doit savoir d'où vient chaque extension, ce qu'elle exécute, quelles données elle peut lire, quels secrets elle peut atteindre et quelles traces restent disponibles en cas d'incident.</p>
+
+    <h2>3. Analyse Underside: souveraineté, agents et intégration métier</h2>
+    <p>Cette étude rappelle une limite importante des stratégies d'IA souveraine: l'hébergement local ne suffit pas si la chaîne d'outillage est compromise. Un modèle exécuté en Europe peut encore recevoir des instructions adversariales via une skill; un agent connecté à un ERP peut propager une action dangereuse; un RAG interne peut exposer des documents si les droits et les filtres ne sont pas propagés jusqu'àux outils.</p>
+    <p>Dans les projets Odoo Belgique, Odoo France et Odoo Entreprise, la bonne unité de gouvernance n'est donc pas seulement le modèle. Elle inclut le skill, le connecteur, le prompt système, les scripts, les permissions, les secrets, les journaux, les validations humaines et les règles de retrait. C'est aussi un sujet de cybersécurité et de conformité: l'AI Act, le RGPD et les politiques internes exigent des preuves, pas uniquement des intentions.</p>
+
+    <h2>4. Recommandation opérationnelle</h2>
+    <p>Les DSI devraient créer un registre interne des composants agentiques autorisés. Chaque skill doit avoir un propriétaire, une source, une version, une revue de sécurité, une liste de permissions, un périmètre métier, des tests de comportement et une procédure de révocation. Les environnements de production devraient interdire l'installation directe depuis des registres communautaires non validés.</p>
+
+    <div class="box"><p>Priorité concrète: traiter les skills d'agents comme des dépendances logicielles tierces, avec revue, sandbox, droits minimaux, journalisation et retrait rapide avant toute intégration avec Odoo, RAG, cloud ou données sensibles.</p><a class="cta" href="index.html#contact">Auditer une chaîne agentique</a></div>
+
+    <p><a href="https://www.usenix.org/conference/usenixsecurity26/presentation/liu-yi" target="_blank" rel="noopener">Lire la source officielle</a></p>
+  </article></main>
+  <script src="page-transition.js" defer></script>
+</body>
+</html>

@@ -21,8 +21,8 @@
     "gdpr_fr": "https://ai.underside.be/gdpr",
     "gdpr_en": "https://ai.underside.be/en/gdpr",
     "google_verification": "https://ai.underside.be/google7af869e5e0e8f999.html",
-    "latest_article_fr": "https://ai.underside.be/article-ibm-datapower-interact-gateway-gouvernance-agents-2026.html",
-    "latest_article_en": "https://ai.underside.be/en/article-ibm-datapower-interact-gateway-gouvernance-agents-2026.html",
+    "latest_article_fr": "https://ai.underside.be/article-usenix-agent-skills-supply-chain-2026.html",
+    "latest_article_en": "https://ai.underside.be/en/article-usenix-agent-skills-supply-chain-2026.html",
     "latest_news_fr": "https://ai.underside.be/actualites",
     "latest_news_en": "https://ai.underside.be/en/actualites",
     "ia_belgique_fr": "https://ai.underside.be/ia-belgique",
@@ -49,9 +49,9 @@
     }
   ],
   "stats": {
-    "indexed_public_urls": 308,
-    "article_pairs": 147,
-    "article_urls": 294,
+    "indexed_public_urls": 310,
+    "article_pairs": 148,
+    "article_urls": 296,
     "hub_urls": 14
   },
   "indexing": {
