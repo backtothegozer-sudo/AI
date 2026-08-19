@@ -2,7 +2,7 @@
 
 > Site vitrine et éditorial sur l'IA souveraine pour les entreprises, avec contenu en français et en anglais.
 
-Last updated: 2026-08-18
+Last updated: 2026-08-19
 
 ## Canonical
 - https://ai.underside.be/
