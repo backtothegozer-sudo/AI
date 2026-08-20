@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Odoo 19.4: AI agents, MCP, and ERP governance move into production | Underside</title>
+  <link rel="icon" href="../logo-underside-fav.svg?v=20260328a" type="image/svg+xml" />
+  <link rel="icon" href="../favicon.ico?v=20260328a" sizes="any" />
+  <link rel="shortcut icon" href="../favicon.ico?v=20260328a" />
+  <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png?v=20260328a" />
+  <link rel="icon" type="image/png" sizes="48x48" href="../favicon-48x48.png?v=20260328a" />
+  <link rel="icon" type="image/png" sizes="192x192" href="../favicon-192x192.png?v=20260328a" />
+  <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png?v=20260328a" />
+
+  <meta name="description" content="Analysis of Odoo 19.4 release notes: automatic AI model selection, MCP database connection, skills, stored conversations, and implications for Odoo Enterprise in Belgium and France." />
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1" />
+  <link rel="canonical" href="https://ai.underside.be/en/article-odoo-19-4-agents-mcp-gouvernance-2026.html" />
+  <link rel="alternate" hreflang="fr" href="https://ai.underside.be/article-odoo-19-4-agents-mcp-gouvernance-2026.html" />
+  <link rel="alternate" hreflang="en" href="https://ai.underside.be/en/article-odoo-19-4-agents-mcp-gouvernance-2026.html" />
+  <link rel="alternate" hreflang="x-default" href="https://ai.underside.be/article-odoo-19-4-agents-mcp-gouvernance-2026.html" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Odoo 19.4: AI agents, MCP, and ERP governance move into production" />
+  <meta property="og:description" content="Odoo 19.4 adds AI building blocks that change how companies govern agents, ERP data, and business workflows." />
+  <meta property="og:url" content="https://ai.underside.be/en/article-odoo-19-4-agents-mcp-gouvernance-2026.html" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+<link rel="alternate" type="application/json" title="MCP Connectors" href="../.well-known/mcp.json" />
+  <style>
+    :root { --bg:#060607; --ink:#f5f7fb; --muted:#cbd2dc; --line:rgba(255,255,255,.12); --accent:#e64bff; --accent2:#4b5bff; }
+    * { box-sizing:border-box; } body { margin:0; font-family:Manrope,system-ui,sans-serif; background:var(--bg); color:var(--ink); }
+    .wrap { max-width:980px; margin:0 auto; padding:0 24px; } header { padding:28px 0; border-bottom:1px solid rgba(255,255,255,.06); }
+    a { color:inherit; text-decoration:none; } .back { display:inline-block; font-size:13px; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); }
+    h1 { font-size:clamp(34px,5vw,52px); line-height:1.08; margin:28px 0 10px; } .meta { color:var(--muted); font-size:14px; }
+    article { padding:28px 0 40px; } .lead { font-size:20px; line-height:1.6; color:var(--ink); font-weight:600; }
+    h2 { margin:30px 0 10px; font-size:26px; line-height:1.2; } p { font-size:17px; line-height:1.84; color:var(--muted); }
+    .box { margin:24px 0; padding:20px; border:1px solid var(--line); border-radius:16px; background:rgba(255,255,255,.03); }
+    .cta { display:inline-block; margin-top:12px; padding:11px 18px; border-radius:999px; background:linear-gradient(135deg,var(--accent),var(--accent2)); color:#fff; }
+    .share-bar { margin:14px 0 0; display:flex; align-items:center; gap:8px; flex-wrap:wrap; }
+    .share-label { font-size:12px; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); }
+    .share-pill { display:inline-flex; align-items:center; justify-content:center; width:30px; height:30px; border-radius:999px; border:1px solid var(--line); background:rgba(255,255,255,.04); font-size:0; color:var(--ink); }
+    .share-icon { font-size:14px; line-height:1; font-weight:700; }
+  </style>
+  <link rel="stylesheet" href="../page-transition.css" />
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Odoo 19.4: AI agents, MCP, and ERP governance move into production","datePublished":"2026-08-20","dateModified":"2026-08-20","inLanguage":"en-BE","author":{"@type":"Organization","name":"Underside"},"publisher":{"@type":"Organization","name":"Underside"},"mainEntityOfPage":"https://ai.underside.be/en/article-odoo-19-4-agents-mcp-gouvernance-2026.html"}</script>
+</head>
+<body>
+  <header><div class="wrap"><a class="back" href="blog.html">Back to blog</a></div></header>
+  <main class="wrap"><article>
+    <h1>Odoo 19.4: AI agents, MCP, and ERP governance move into production</h1>
+    <p class="meta">Article created on 20 August 2026 · Publication analyzed: Odoo 19.4 release notes, July 2026 · Source: Odoo</p>
+    <div class="share-bar" aria-label="Share this article"><span class="share-label">Share</span><a class="share-pill" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fai.underside.be%2Fen%2Farticle-odoo-19-4-agents-mcp-gouvernance-2026.html" target="_blank" rel="noopener" aria-label="Share on LinkedIn"><span class="share-icon" aria-hidden="true">in</span><span class="sr-only" style="position:absolute;left:-9999px;">LinkedIn</span></a><a class="share-pill" href="https://x.com/intent/tweet?text=Odoo%2019.4%3A%20AI%20agents%2C%20MCP%2C%20and%20ERP%20governance%20move%20into%20production&url=https%3A%2F%2Fai.underside.be%2Fen%2Farticle-odoo-19-4-agents-mcp-gouvernance-2026.html" target="_blank" rel="noopener" aria-label="Share on X"><span class="share-icon" aria-hidden="true">X</span><span class="sr-only" style="position:absolute;left:-9999px;">X</span></a><a class="share-pill" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fai.underside.be%2Fen%2Farticle-odoo-19-4-agents-mcp-gouvernance-2026.html" target="_blank" rel="noopener" aria-label="Share on Facebook"><span class="share-icon" aria-hidden="true">f</span><span class="sr-only" style="position:absolute;left:-9999px;">Facebook</span></a></div>
+
+    <p class="lead">Odoo's official 19.4 release notes add several AI building blocks tied directly to business execution: automatic model selection, database connection through MCP, richer cards in live chat, agent conversations stored for up to 30 days, topics renamed as skills, and voice interaction. For Belgian and French companies, Odoo is becoming less of an AI-assisted ERP and more of an agentic surface that must be governed.</p>
+
+    <h2>1. What Odoo 19.4 changes concretely</h2>
+    <p>Automatic model selection shifts part of the technical choice into the platform: users select an AI provider, then Odoo uses the best model for the task. The MCP database connection creates a more standardized path to connect external agents and tools to Odoo data. Skills formalize the instructions and tools that define how an agent behaves in a given context.</p>
+    <p>Conversations stored for thirty days, live-chat record cards, and voice interaction bring agents closer to real sales, support, operations, and back-office workflows. These are useful gains, but they also expand the surface that must be supervised: data access, retention period, permissions, logging, and responsibility for actions.</p>
+
+    <h2>2. What this changes for Belgian and French companies</h2>
+    <p>For SMEs, the issue is to start without creating a black box: which AI providers are allowed, which Odoo data may be sent, and which employees may create or modify skills. For mid-market companies, the topic becomes organizational: separate sales, support, finance, purchasing, and logistics agents, with rights and approvals adapted to each flow. For large enterprises and public administrations, Odoo 19.4 requires a registry logic: agents, skills, MCP connectors, conversations, sources, and owners must be traceable.</p>
+    <p>Business departments gain smoother automation: natural-language requests, faster access to records, enriched customer support, content production, and cross-functional actions. CIOs, in return, must define guardrails: data residency and confidentiality, access levels, human validation for sensitive actions, cyber supervision, and AI Act and GDPR compliance evidence.</p>
+
+    <h2>3. Underside analysis: Odoo is becoming an AI orchestration layer</h2>
+    <p>The combination of MCP, skills, and automatic model selection brings Odoo closer to modern agent architectures: the ERP provides business context, tools provide action, and models provide interpretation. In an Odoo Enterprise project, value therefore comes not only from enabling an AI option, but from designing the whole chain: sources, document RAG, permissions, prompts, skills, controls, logs, and metrics.</p>
+    <p>Sovereignty must be handled at the level of that chain. A local or European model is not enough if an MCP connector exposes too many fields, if a skill triggers an unapproved action, or if a stored conversation contains sensitive data. Conversely, a cloud deployment can remain governable if flows are limited, documented, controlled, and auditable.</p>
+    <p>For Apple Enterprise environments, voice assistants and Odoo agents also raise workstation and identity questions: who is speaking, from which device, with which session, and for which action. Governance must reach daily usage, not remain at AI committee level.</p>
+
+    <h2>4. Operational recommendation</h2>
+    <p>Before scaling Odoo 19.4, companies should map three objects: agents, skills, and MCP connections. Each object needs an owner, business scope, authorized data, retention rules, tests, logs, and deactivation procedure. The first use cases should be those where value is measurable and risk is controlled: internal support, document RAG search, CRM qualification, quote preparation, ticket analysis, and operations assistance.</p>
+
+    <div class="box"><p>Concrete priority: treat Odoo 19.4 AI features as an execution architecture, with an agent registry, skill governance, MCP control, least privilege, and usable evidence before broad deployment.</p><a class="cta" href="index.html#contact">Frame an Odoo AI architecture</a></div>
+
+    <p><a href="https://www.odoo.com/odoo-19-4-release-notes" target="_blank" rel="noopener">Read the official source</a></p>
+  </article></main>
+  <script src="../page-transition.js" defer></script>
+</body>
+</html>
