@@ -33,6 +33,7 @@ Last updated: 2026-08-21
 - https://ai.underside.be/google7af869e5e0e8f999.html
 
 ## Articles (FR)
+- https://ai.underside.be/article-openai-cyber-capacites-critiques-gouvernance-agents-2026.html
 - https://ai.underside.be/article-conduent-google-cloud-ediscovery-ia-souveraine-2026.html
 - https://ai.underside.be/article-odoo-19-4-agents-mcp-gouvernance-2026.html
 - https://ai.underside.be/article-usenix-agent-skills-supply-chain-2026.html
@@ -184,6 +185,7 @@ Last updated: 2026-08-21
 - https://ai.underside.be/article-consilium-2026.html
 
 ## Articles (EN)
+- https://ai.underside.be/en/article-openai-cyber-capacites-critiques-gouvernance-agents-2026.html
 - https://ai.underside.be/en/article-conduent-google-cloud-ediscovery-ia-souveraine-2026.html
 - https://ai.underside.be/en/article-odoo-19-4-agents-mcp-gouvernance-2026.html
 - https://ai.underside.be/en/article-usenix-agent-skills-supply-chain-2026.html
