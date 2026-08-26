@@ -33,6 +33,7 @@ Last updated: 2026-08-26
 - https://ai.underside.be/google7af869e5e0e8f999.html
 
 ## Articles (FR)
+- https://ai.underside.be/article-openai-jalapeno-inference-souverainete-2026.html
 - https://ai.underside.be/article-mistral-agentic-search-rag-gouvernance-2026.html
 - https://ai.underside.be/article-redhat-selection-modeles-ia-entreprise-2026.html
 - https://ai.underside.be/article-openai-cyber-capacites-critiques-gouvernance-agents-2026.html
@@ -187,6 +188,7 @@ Last updated: 2026-08-26
 - https://ai.underside.be/article-consilium-2026.html
 
 ## Articles (EN)
+- https://ai.underside.be/en/article-openai-jalapeno-inference-souverainete-2026.html
 - https://ai.underside.be/en/article-mistral-agentic-search-rag-gouvernance-2026.html
 - https://ai.underside.be/en/article-redhat-selection-modeles-ia-entreprise-2026.html
 - https://ai.underside.be/en/article-openai-cyber-capacites-critiques-gouvernance-agents-2026.html
