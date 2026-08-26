@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mistral Agentic Search: moving beyond RAG without losing control | Underside</title>
+  <link rel="icon" href="../logo-underside-fav.svg?v=20260328a" type="image/svg+xml" />
+  <meta name="description" content="Analysis of Mistral Agentic Search: multi-step document retrieval, cloud or on-prem deployment, evidence, security, and impact for Belgian and French organizations." />
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1" />
+  <link rel="canonical" href="https://ai.underside.be/en/article-mistral-agentic-search-rag-gouvernance-2026.html" />
+  <link rel="alternate" hreflang="fr" href="https://ai.underside.be/article-mistral-agentic-search-rag-gouvernance-2026.html" />
+  <link rel="alternate" hreflang="en" href="https://ai.underside.be/en/article-mistral-agentic-search-rag-gouvernance-2026.html" />
+  <link rel="alternate" hreflang="x-default" href="https://ai.underside.be/article-mistral-agentic-search-rag-gouvernance-2026.html" />
+  <meta property="og:type" content="article" /><meta property="og:title" content="Mistral Agentic Search: moving beyond RAG without losing control" /><meta property="og:description" content="An agentic retrieval loop improves complex document exploration, but creates decisions, access paths, and evidence that must be governed." /><meta property="og:url" content="https://ai.underside.be/en/article-mistral-agentic-search-rag-gouvernance-2026.html" /><meta property="og:image" content="https://ai.underside.be/favicon-512.png" />
+  <meta name="twitter:card" content="summary_large_image" /><meta name="twitter:title" content="Mistral Agentic Search: moving beyond RAG without losing control" /><meta name="twitter:description" content="Architecture, security, and governance for enterprise agentic document retrieval." />
+  <link rel="alternate" type="application/json" title="MCP Connectors" href="/.well-known/mcp.json" />
+  <style>
+    :root { --bg:#060607; --ink:#f5f7fb; --muted:#cbd2dc; --line:rgba(255,255,255,.12); --accent:#e64bff; --accent2:#4b5bff; }
+    * { box-sizing:border-box; } body { margin:0; font-family:Manrope,system-ui,sans-serif; background:var(--bg); color:var(--ink); } .wrap { max-width:980px; margin:0 auto; padding:0 24px; } header { padding:28px 0; border-bottom:1px solid rgba(255,255,255,.06); }
+    a { color:inherit; text-decoration:none; } .back { display:inline-block; font-size:13px; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); } h1 { font-size:clamp(34px,5vw,52px); line-height:1.08; margin:28px 0 10px; } .meta { color:var(--muted); font-size:14px; }
+    article { padding:28px 0 40px; } .lead { font-size:20px; line-height:1.6; color:var(--ink); font-weight:600; } h2 { margin:30px 0 10px; font-size:26px; line-height:1.2; } p { font-size:17px; line-height:1.84; color:var(--muted); } .box { margin:24px 0; padding:20px; border:1px solid var(--line); border-radius:16px; background:rgba(255,255,255,.03); } .cta { display:inline-block; margin-top:12px; padding:11px 18px; border-radius:999px; background:linear-gradient(135deg,var(--accent),var(--accent2)); color:#fff; }
+    .share-bar { margin:14px 0 0; display:flex; align-items:center; gap:8px; flex-wrap:wrap; } .share-label { font-size:12px; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); } .share-pill { display:inline-flex; align-items:center; justify-content:center; width:30px; height:30px; border-radius:999px; border:1px solid var(--line); background:rgba(255,255,255,.04); font-size:0; } .share-icon { font-size:14px; line-height:1; font-weight:700; }
+  </style>
+  <link rel="stylesheet" href="../page-transition.css" />
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Mistral Agentic Search: moving beyond RAG without losing control","description":"Analysis of agentic document retrieval, its architecture, and governance.","datePublished":"2026-08-26","dateModified":"2026-08-26","inLanguage":"en","author":{"@type":"Organization","name":"Underside"},"publisher":{"@type":"Organization","name":"Underside"},"mainEntityOfPage":"https://ai.underside.be/en/article-mistral-agentic-search-rag-gouvernance-2026.html"}</script>
+</head>
+<body>
+  <header><div class="wrap"><a class="back" href="blog.html">Back to blog</a></div></header>
+  <main class="wrap"><article>
+    <h1>Mistral Agentic Search: moving beyond RAG without losing control</h1>
+    <p class="meta">Created on 26 August 2026 · Publication reviewed: 20 August 2026 · Source: Mistral AI</p>
+    <div class="share-bar" aria-label="Share this article"><span class="share-label">Share</span><a class="share-pill" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fai.underside.be%2Fen%2Farticle-mistral-agentic-search-rag-gouvernance-2026.html" target="_blank" rel="noopener" aria-label="Share on LinkedIn"><span class="share-icon" aria-hidden="true">in</span></a><a class="share-pill" href="https://x.com/intent/tweet?text=Mistral%20Agentic%20Search%3A%20moving%20beyond%20RAG%20without%20losing%20control&url=https%3A%2F%2Fai.underside.be%2Fen%2Farticle-mistral-agentic-search-rag-gouvernance-2026.html" target="_blank" rel="noopener" aria-label="Share on X"><span class="share-icon" aria-hidden="true">X</span></a><a class="share-pill" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fai.underside.be%2Fen%2Farticle-mistral-agentic-search-rag-gouvernance-2026.html" target="_blank" rel="noopener" aria-label="Share on Facebook"><span class="share-icon" aria-hidden="true">f</span></a></div>
+    <p class="lead">Mistral turns document retrieval into an investigation loop: the model can search, open, navigate, read, and filter sources before answering. For Belgian and French organizations, the potential gain on contracts, reports, and tables is tangible; this new ability to act must be governed, not merely measured for accuracy.</p>
+    <h2>1. What the announcement adds to conventional RAG</h2>
+    <p>One-shot RAG retrieves a few chunks and then produces an answer. Agentic Search builds on an existing index and gives the model five tools — search, open, navigate, read, and grep — so that it can refine a query, inspect a long document, and verify where information appears. Mistral provides it through Search Toolkit and Libraries in Studio and Vibe, with cloud and on-premises options.</p>
+    <p>The published results are vendor measurements, not customer guarantees. On FinanceBench, Mistral reports accuracy moving from 26.7% to 86% in its comparison and up to a 39.6% reduction in p90 latency; on OfficeQA Pro, the highest reported result is 51.9%. These figures support running a pilot, while also requiring evaluation on each organization's own documents, questions, and failure modes.</p>
+    <h2>2. What this changes for a Belgian or French organization</h2>
+    <p>An SME can query manuals, proposals, or customer files more effectively without immediately rebuilding its full search stack. A mid-market organization can connect several technical or contractual corpora. A large enterprise or public administration can target answers referenced within extensive reports. In every case, the agent performs more steps, creating more access events, logs, costs, and failure paths to control.</p>
+    <p>For personal, financial, or legal data, teams must define authorized corpora, inherited document permissions, trace retention, index and model residency, and behavior when sources conflict. A citation alone is insufficient: the answer must be testable, the excerpt faithful, and the document version identifiable.</p>
+    <h2>3. Underside analysis: sovereignty, agents, Odoo, and cybersecurity</h2>
+    <p>The architectural shift matters: RAG is no longer only a pipeline between an index and a model, but an agent choosing where to search. Sovereignty therefore depends on the entire chain — ingestion, embeddings, index, search engine, model, telemetry, and administration — and on whether these components can run in a European cloud, private environment, or locally according to risk.</p>
+    <p>With Odoo Enterprise, this approach can connect product documentation, contracts, procedures, and ERP records. Document reading must nevertheless remain separate from transactional actions: finding a clause must not grant permission to change an invoice or order. Technical identities, allowlists, human approvals, and cybersecurity logs must remain explicit. On Apple Enterprise or local workstations, a local index can also reduce exposure for some corpora without removing the need for governance.</p>
+    <h2>4. Operational recommendation</h2>
+    <p>Start with a bounded corpus and a representative question set. Compare simple RAG and agentic search for accuracy, evidence quality, refusals, latency, cost, and tool-call count. Add tests for cross-permission access, contradictory documents, malicious content, and source updates before connecting retrieval to business workflows.</p>
+    <div class="box"><p>Immediate priority: for every sensitive answer, require the source, exact location, document version, and tool trajectory, then retain these elements in an actionable audit trail.</p><a class="cta" href="index.html#contact">Frame an enterprise RAG project</a></div>
+    <p><a href="https://mistral.ai/news/agentic-search/" target="_blank" rel="noopener">Read the official source</a></p>
+  </article></main>
+  <script src="../page-transition.js" defer></script>
+</body>
+</html>
