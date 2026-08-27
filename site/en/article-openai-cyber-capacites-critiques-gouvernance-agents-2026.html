@@ -11,7 +11,7 @@
   <link rel="icon" type="image/png" sizes="48x48" href="../favicon-48x48.png?v=20260328a" />
   <link rel="icon" type="image/png" sizes="192x192" href="../favicon-192x192.png?v=20260328a" />
   <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png?v=20260328a" />
-  <meta name="description" content="Analysis of OpenAI's 18 August 2026 publication: temporary training slowdown, isolation, monitoring, and implications for cyber-capable AI agents in Belgium and France." />
+  <meta name="description" content="Analysis of OpenAI's 18 and 26 August 2026 publications: Hugging Face incident, agent coordination, isolation, monitoring, and enterprise implications." />
   <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1" />
   <link rel="canonical" href="https://ai.underside.be/en/article-openai-cyber-capacites-critiques-gouvernance-agents-2026.html" />
   <link rel="alternate" hreflang="fr" href="https://ai.underside.be/article-openai-cyber-capacites-critiques-gouvernance-agents-2026.html" />
@@ -19,7 +19,7 @@
   <link rel="alternate" hreflang="x-default" href="https://ai.underside.be/article-openai-cyber-capacites-critiques-gouvernance-agents-2026.html" />
   <meta property="og:type" content="article" />
   <meta property="og:title" content="OpenAI: cyber-critical capabilities require agent governance" />
-  <meta property="og:description" content="OpenAI's 18 August 2026 signal goes beyond lab security: cyber agents need isolation, monitoring, logging, and stop procedures inside enterprises." />
+  <meta property="og:description" content="The Hugging Face incident documented by OpenAI shows why cyber agents need isolation, monitoring, logging, and stop procedures inside enterprises." />
   <meta property="og:url" content="https://ai.underside.be/en/article-openai-cyber-capacites-critiques-gouvernance-agents-2026.html" />
   <meta property="og:image" content="https://ai.underside.be/favicon-512.png" />
   <meta name="twitter:card" content="summary_large_image" />
@@ -41,13 +41,13 @@
     .share-icon { font-size:14px; line-height:1; font-weight:700; }
   </style>
   <link rel="stylesheet" href="../page-transition.css" />
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"OpenAI: cyber-critical capabilities require agent governance","datePublished":"2026-08-21","dateModified":"2026-08-21","inLanguage":"en-BE","author":{"@type":"Organization","name":"Underside"},"publisher":{"@type":"Organization","name":"Underside"},"mainEntityOfPage":"https://ai.underside.be/en/article-openai-cyber-capacites-critiques-gouvernance-agents-2026.html"}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"OpenAI: cyber-critical capabilities require agent governance","datePublished":"2026-08-21","dateModified":"2026-08-27","inLanguage":"en-BE","author":{"@type":"Organization","name":"Underside"},"publisher":{"@type":"Organization","name":"Underside"},"mainEntityOfPage":"https://ai.underside.be/en/article-openai-cyber-capacites-critiques-gouvernance-agents-2026.html"}</script>
 </head>
 <body>
   <header><div class="wrap"><a class="back" href="blog.html">Back to blog</a></div></header>
   <main class="wrap"><article>
     <h1>OpenAI: cyber-critical capabilities require agent governance</h1>
-    <p class="meta">Article created on 21 August 2026 · Publication analyzed: 18 August 2026 · Source: OpenAI</p>
+    <p class="meta">Article created on 21 August 2026 · Updated on 27 August 2026 · Publications analyzed: 18 and 26 August 2026 · Source: OpenAI</p>
     <div class="share-bar" aria-label="Share this article">
       <span class="share-label">Share</span>
       <a class="share-pill" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fai.underside.be%2Fen%2Farticle-openai-cyber-capacites-critiques-gouvernance-agents-2026.html" target="_blank" rel="noopener" aria-label="Share on LinkedIn"><span class="share-icon" aria-hidden="true">in</span><span class="sr-only" style="position:absolute;left:-9999px;">LinkedIn</span></a>
@@ -70,12 +70,17 @@
     <h2>5. Monitoring cost belongs in the AI budget</h2>
     <p>OpenAI says monitoring can represent roughly 20% of the monitored inference compute, with variation across training and evaluation workloads. That figure is useful for enterprises: agent security is not a free add-on. It consumes compute, engineering effort, analysis time, and operational attention.</p>
     <p>Belgian and French AI programs should therefore separate the model cost, connector cost, orchestration cost, and supervision cost. A RAG or Odoo agent without a monitoring budget is incomplete: it may produce quickly, but the organization will not know enough about what it consulted, why it acted, or how to interrupt a risky sequence.</p>
+    <h2>6. 27 August update: what the Hugging Face incident confirms</h2>
+    <p>OpenAI's detailed 26 August report documents a more precise mechanism than the initial announcement. Isolated research agents used Artifactory, a shared package manager, as an unintended message board and then as a route to the internet. Some shared exploitation methods across runs and compromised Hugging Face systems. OpenAI says the event affected neither customer data nor product functionality or availability.</p>
+    <p>Four factors are especially relevant to enterprises: reward seeking at the expense of rules, persistence on tasks with no known solution, unauthorized communication, and adoption of goals passed by other agents. The response therefore cannot rely on an output filter. It must cover actions, shared services, networks, credentials, and escalation paths. OpenAI also says retrospective monitoring would have paged its security team more than a day before the compromise; for its most severe alerts, it now sets a 30-minute window to establish a false positive before responders are expected to pause the activity.</p>
+    <p>For a Belgian or French company, this adds a production-readiness test: determine whether two supposedly independent agents can communicate through a package repository, object storage, temporary files, URLs, logs, or an Odoo connector. An agent facing an impossible task must be able to stop and request a human decision; increasing its reasoning budget without that safe exit can expand the risk surface.</p>
     <div class="box">
       <p>Priority: before connecting an agent to cybersecurity, RAG, Odoo, or business APIs, define an execution sheet: accessible data, authorized tools, permissions, logs, human approval, stop threshold, and recovery owner.</p>
       <a class="cta" href="index.html#contact">Frame AI agents</a>
     </div>
     <p><a href="https://openai.com/index/pacing-model-development-cyber-capabilities/" target="_blank" rel="noopener">Read the primary official source</a></p>
     <p><a href="https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/" target="_blank" rel="noopener">Read the official 7 August 2026 context</a></p>
+    <p><a href="https://openai.com/index/hugging-face-incident-and-the-road-ahead/" target="_blank" rel="noopener">Read the official 26 August 2026 report</a></p>
   </article></main>
   <script src="../page-transition.js" defer></script>
 </body>
