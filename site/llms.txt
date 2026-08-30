@@ -33,6 +33,7 @@ Last updated: 2026-08-30
 - https://ai.underside.be/google7af869e5e0e8f999.html
 
 ## Articles (FR)
+- https://ai.underside.be/article-google-gemini-agents-regules-gouvernance-2026.html
 - https://ai.underside.be/article-redhat-exploitation-ia-hybride-2026.html
 - https://ai.underside.be/article-nutanix-ai-agentique-privee-mcp-2026.html
 - https://ai.underside.be/article-openai-jalapeno-inference-souverainete-2026.html
@@ -190,6 +191,7 @@ Last updated: 2026-08-30
 - https://ai.underside.be/article-consilium-2026.html
 
 ## Articles (EN)
+- https://ai.underside.be/en/article-google-gemini-agents-regules-gouvernance-2026.html
 - https://ai.underside.be/en/article-redhat-exploitation-ia-hybride-2026.html
 - https://ai.underside.be/en/article-nutanix-ai-agentique-privee-mcp-2026.html
 - https://ai.underside.be/en/article-openai-jalapeno-inference-souverainete-2026.html
