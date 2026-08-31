@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>OpenAI Admin Console: gouverner ChatGPT Work, Codex et les agents | Underside</title>
+  <link rel="icon" href="logo-underside-fav.svg?v=20260328a" type="image/svg+xml" />
+  <link rel="icon" href="favicon.ico?v=20260328a" sizes="any" />
+  <link rel="shortcut icon" href="favicon.ico?v=20260328a" />
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png?v=20260328a" />
+  <link rel="icon" type="image/png" sizes="48x48" href="favicon-48x48.png?v=20260328a" />
+  <link rel="icon" type="image/png" sizes="192x192" href="favicon-192x192.png?v=20260328a" />
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png?v=20260328a" />
+
+  <meta name="description" content="Analyse des mises à jour OpenAI Enterprise d'août 2026: Admin Console, clés d'administration, API workspace, RBAC, analytics et conséquences pour les agents, RAG et Odoo." />
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1" />
+  <link rel="canonical" href="https://ai.underside.be/article-openai-admin-apis-gouvernance-agents-2026.html" />
+  <link rel="alternate" hreflang="fr" href="https://ai.underside.be/article-openai-admin-apis-gouvernance-agents-2026.html" />
+  <link rel="alternate" hreflang="en" href="https://ai.underside.be/en/article-openai-admin-apis-gouvernance-agents-2026.html" />
+  <link rel="alternate" hreflang="x-default" href="https://ai.underside.be/article-openai-admin-apis-gouvernance-agents-2026.html" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="OpenAI Admin Console: gouverner ChatGPT Work, Codex et les agents" />
+  <meta property="og:description" content="Les mises à jour Enterprise d'OpenAI déplacent la gouvernance IA vers les rôles, clés, API, journaux, budgets et places de marché de plugins." />
+  <meta property="og:url" content="https://ai.underside.be/article-openai-admin-apis-gouvernance-agents-2026.html" />
+  <meta property="og:image" content="https://ai.underside.be/favicon-512.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="OpenAI Admin Console: gouverner ChatGPT Work, Codex et les agents" />
+  <meta name="twitter:description" content="Les mises à jour Enterprise d'OpenAI rendent rôles, clés, API, journaux, budgets et plugins centraux dans la gouvernance IA." />
+  <meta name="twitter:image" content="https://ai.underside.be/favicon-512.png" />
+
+<link rel="alternate" type="application/json" title="MCP Connectors" href="/.well-known/mcp.json" />
+  <style>
+    :root { --bg:#060607; --ink:#f5f7fb; --muted:#cbd2dc; --line:rgba(255,255,255,.12); --accent:#e64bff; --accent2:#4b5bff; }
+    * { box-sizing:border-box; } body { margin:0; font-family:Manrope,system-ui,sans-serif; background:var(--bg); color:var(--ink); }
+    .wrap { max-width:980px; margin:0 auto; padding:0 24px; } header { padding:28px 0; border-bottom:1px solid rgba(255,255,255,.06); }
+    a { color:inherit; text-decoration:none; } .back { display:inline-block; font-size:13px; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); }
+    h1 { font-size:clamp(34px,5vw,52px); line-height:1.08; margin:28px 0 10px; } .meta { color:var(--muted); font-size:14px; }
+    article { padding:28px 0 40px; } .lead { font-size:20px; line-height:1.6; color:var(--ink); font-weight:600; }
+    h2 { margin:30px 0 10px; font-size:26px; line-height:1.2; } p { font-size:17px; line-height:1.84; color:var(--muted); }
+    .box { margin:24px 0; padding:20px; border:1px solid var(--line); border-radius:16px; background:rgba(255,255,255,.03); }
+    .cta { display:inline-block; margin-top:12px; padding:11px 18px; border-radius:999px; background:linear-gradient(135deg,var(--accent),var(--accent2)); color:#fff; }
+    .share-bar { margin:14px 0 0; display:flex; align-items:center; gap:8px; flex-wrap:wrap; }
+    .share-label { font-size:12px; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); }
+    .share-pill { display:inline-flex; align-items:center; justify-content:center; width:30px; height:30px; border-radius:999px; border:1px solid var(--line); background:rgba(255,255,255,.04); font-size:0; color:var(--ink); }
+    .share-icon { font-size:14px; line-height:1; font-weight:700; }
+  </style>
+  <link rel="stylesheet" href="page-transition.css" />
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"OpenAI Admin Console: gouverner ChatGPT Work, Codex et les agents","datePublished":"2026-08-31","dateModified":"2026-08-31","inLanguage":"fr-BE","author":{"@type":"Organization","name":"Underside"},"publisher":{"@type":"Organization","name":"Underside"},"mainEntityOfPage":"https://ai.underside.be/article-openai-admin-apis-gouvernance-agents-2026.html"}</script>
+</head>
+<body>
+  <header><div class="wrap"><a class="back" href="blog.html">Retour au blog</a></div></header>
+  <main class="wrap"><article>
+    <h1>OpenAI Admin Console: gouverner ChatGPT Work, Codex et les agents</h1>
+    <p class="meta">Article créé le 31 août 2026 · Publications analysées: notes OpenAI Enterprise des 20, 27 et 28 août 2026 · Source: OpenAI Help Center</p>
+    <div class="share-bar" aria-label="Partager cet article"><span class="share-label">Partager</span><a class="share-pill" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fai.underside.be%2Farticle-openai-admin-apis-gouvernance-agents-2026.html" target="_blank" rel="noopener" aria-label="Partager sur LinkedIn"><span class="share-icon" aria-hidden="true">in</span><span class="sr-only" style="position:absolute;left:-9999px;">LinkedIn</span></a><a class="share-pill" href="https://x.com/intent/tweet?text=OpenAI%20Admin%20Console%3A%20gouverner%20ChatGPT%20Work%2C%20Codex%20et%20les%20agents&url=https%3A%2F%2Fai.underside.be%2Farticle-openai-admin-apis-gouvernance-agents-2026.html" target="_blank" rel="noopener" aria-label="Partager sur X"><span class="share-icon" aria-hidden="true">X</span><span class="sr-only" style="position:absolute;left:-9999px;">X</span></a><a class="share-pill" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fai.underside.be%2Farticle-openai-admin-apis-gouvernance-agents-2026.html" target="_blank" rel="noopener" aria-label="Partager sur Facebook"><span class="share-icon" aria-hidden="true">f</span><span class="sr-only" style="position:absolute;left:-9999px;">Facebook</span></a></div>
+
+    <p class="lead">Les notes de version OpenAI Enterprise d'août 2026 ajoutent plusieurs contrôles administratifs: clés d'administration limitées au workspace, API pour invitations et membres, centralisation de l'identité dans l'Admin Console, RBAC, analytics, coûts Work/Codex et import de places de marché de plugins depuis GitHub. Pour les entreprises belges et françaises, le signal est clair: l'IA d'entreprise doit désormais être exploitée comme une plateforme gouvernée, pas comme une collection d'assistants individuels.</p>
+
+    <h2>1. Ce qui est officiellement annoncé</h2>
+    <p>OpenAI indique que les propriétaires et administrateurs de workspaces peuvent utiliser des API d'administration limitées au périmètre du workspace pour automatiser la gestion des invitations et des membres. Les clés d'administration sont créées dans l'Admin Console, héritent des permissions du rôle concerné et ne donnent pas accès à l'inférence de modèles.</p>
+    <p>La même série de mises à jour étend aussi la gestion centralisée des utilisateurs, groupes, rôles, permissions et paramètres. Les contrôles de modèles peuvent être pilotés au niveau workspace et rôle. Les événements d'audit, analytics, limites d'usage, données de coût Work/Codex et catalogues de plugins deviennent progressivement des objets administrables.</p>
+
+    <h2>2. Ce que cela change pour une entreprise belge ou française</h2>
+    <p>Pour une PME, l'enjeu est de garder une administration simple: quelques rôles, des groupes liés aux métiers, des limites d'usage et une revue mensuelle des accès. Pour une ETI ou une grande entreprise, l'intérêt est plus structurel: relier SCIM, groupes, RBAC, coûts, logs et catalogues de plugins à une gouvernance qui distingue les usages bureautiques, les agents, Codex, les workflows sensibles et les intégrations métiers.</p>
+    <p>Les administrations publiques et secteurs régulés y trouvent une trajectoire utile pour les preuves: qui a accès, avec quel rôle, à quel modèle, à quel plugin, avec quel budget et dans quel workspace. Cette granularité devient indispensable lorsque ChatGPT Work, Codex ou des agents sont connectés à des données contractuelles, RH, financières, support, CRM, Odoo ou documentaires.</p>
+
+    <h2>3. Analyse Underside: de l'accès utilisateur à l'exploitation IA</h2>
+    <p>La bascule importante n'est pas seulement fonctionnelle. Elle déplace la gouvernance de l'IA vers des objets d'exploitation: clés, rôles, journaux, budgets, catalogues, plugins, tâches planifiées et workspaces. C'est le même mouvement que l'on observe dans les architectures RAG, MCP et Odoo: la valeur dépend moins du modèle isolé que de la chaîne complète qui relie identité, données, outils et actions.</p>
+    <p>Pour une stratégie d'IA souveraine, ces contrôles doivent être articulés avec le choix local, cloud ou hybride. Un hébergement européen ne suffit pas si les rôles sont trop larges, si les plugins ne sont pas inventoriés ou si les logs ne permettent pas d'expliquer une action. A l'inverse, une plateforme cloud peut être intégrée de façon plus maîtrisée si les flux de données, droits, coûts, révocations et preuves sont documentés.</p>
+    <p>Dans un contexte Apple Enterprise, Codex et Work ajoutent aussi une dimension poste de travail: fichiers, conversations, applications, historiques, plugins et appareils managés doivent être cadrés ensemble. La gouvernance IA devient donc une extension de la gouvernance IT, sécurité et métier.</p>
+
+    <h2>4. Recommandation opérationnelle</h2>
+    <p>Avant d'étendre l'usage, les DSI devraient construire une matrice "population x outil x données x action": quels groupes ont accès à ChatGPT Work, Codex, aux modèles, plugins, tâches planifiées, Admin APIs et analytics; quelles actions sont seulement recommandées ou réellement exécutées; quels journaux sont conservés; quelles alertes sont remontées; et qui peut suspendre un périmètre en cas d'incident.</p>
+    <p>Pour les workflows Odoo, cette matrice doit descendre au processus: CRM, achat, facturation, support, RH, documents, projets et BI n'ont pas les mêmes risques. Un agent connecté à Odoo ou à un RAG documentaire doit avoir un propriétaire, des permissions minimales, une limite budgétaire, une preuve de test et une procédure de retrait.</p>
+
+    <div class="box"><p>Priorité concrète: traiter ChatGPT Enterprise, Work et Codex comme une plateforme d'exploitation IA, avec RBAC, clés d'administration, journaux, budgets, catalogues de plugins et cartographie des workflows avant toute automatisation sensible.</p><a class="cta" href="index.html#contact">Cadrer une gouvernance IA</a></div>
+
+    <p><a href="https://help.openai.com/en/articles/10128477-chatgpt-enterprise-edu-release-notes" target="_blank" rel="noopener">Lire les notes de version officielles</a></p>
+    <p><a href="https://help.openai.com/en/articles/20001407-managing-admin-keys-in-admin-console" target="_blank" rel="noopener">Lire la documentation officielle sur les clés d'administration</a></p>
+  </article></main>
+  <script src="page-transition.js" defer></script>
+</body>
+</html>
