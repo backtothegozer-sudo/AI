@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Anthropic EFS: concilier confidentialité et supervision des agents | Underside</title>
+  <link rel="icon" href="logo-underside-fav.svg?v=20260328a" type="image/svg+xml" />
+  <link rel="icon" href="favicon.ico?v=20260328a" sizes="any" />
+  <link rel="shortcut icon" href="favicon.ico?v=20260328a" />
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png?v=20260328a" />
+  <link rel="icon" type="image/png" sizes="48x48" href="favicon-48x48.png?v=20260328a" />
+  <link rel="icon" type="image/png" sizes="192x192" href="favicon-192x192.png?v=20260328a" />
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png?v=20260328a" />
+  <meta name="description" content="Analyse Anthropic EFS du 2 septembre 2026: rétention zéro, logs sous contrôle client, clés maîtrisées et supervision des agents IA pour entreprises régulées." />
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1" />
+  <link rel="canonical" href="https://ai.underside.be/article-anthropic-efs-garde-fous-frontier-entreprise-2026.html" />
+  <link rel="alternate" hreflang="fr" href="https://ai.underside.be/article-anthropic-efs-garde-fous-frontier-entreprise-2026.html" />
+  <link rel="alternate" hreflang="en" href="https://ai.underside.be/en/article-anthropic-efs-garde-fous-frontier-entreprise-2026.html" />
+  <link rel="alternate" hreflang="x-default" href="https://ai.underside.be/article-anthropic-efs-garde-fous-frontier-entreprise-2026.html" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Anthropic EFS: concilier confidentialité et supervision des agents" />
+  <meta property="og:description" content="Enterprise Frontier Safeguards déplace la gouvernance IA vers une architecture où l'entreprise garde ses logs, ses clés et la revue humaine." />
+  <meta property="og:url" content="https://ai.underside.be/article-anthropic-efs-garde-fous-frontier-entreprise-2026.html" />
+  <meta property="og:image" content="https://ai.underside.be/favicon-512.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="https://ai.underside.be/favicon-512.png" />
+  <link rel="alternate" type="application/json" title="MCP Connectors" href="/.well-known/mcp.json" />
+  <style>
+    :root { --bg:#060607; --ink:#f5f7fb; --muted:#cbd2dc; --line:rgba(255,255,255,.12); --accent:#e64bff; --accent2:#4b5bff; }
+    * { box-sizing:border-box; } body { margin:0; font-family:Manrope,system-ui,sans-serif; background:var(--bg); color:var(--ink); }
+    .wrap { max-width:980px; margin:0 auto; padding:0 24px; } header { padding:28px 0; border-bottom:1px solid rgba(255,255,255,.06); }
+    a { color:inherit; text-decoration:none; } .back { display:inline-block; font-size:13px; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); }
+    h1 { font-size:clamp(34px,5vw,52px); line-height:1.08; margin:28px 0 10px; } .meta { color:var(--muted); font-size:14px; }
+    article { padding:28px 0 40px; } .lead { font-size:20px; line-height:1.6; color:var(--ink); font-weight:600; }
+    h2 { margin:30px 0 10px; font-size:26px; line-height:1.2; } p { font-size:17px; line-height:1.84; color:var(--muted); }
+    .box { margin:24px 0; padding:20px; border:1px solid var(--line); border-radius:16px; background:rgba(255,255,255,.03); }
+    .cta { display:inline-block; margin-top:12px; padding:11px 18px; border-radius:999px; background:linear-gradient(135deg,var(--accent),var(--accent2)); color:#fff; }
+    .share-bar { margin:14px 0 0; display:flex; align-items:center; gap:8px; flex-wrap:wrap; }
+    .share-label { font-size:12px; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); }
+    .share-pill { display:inline-flex; align-items:center; justify-content:center; width:30px; height:30px; border-radius:999px; border:1px solid var(--line); background:rgba(255,255,255,.04); font-size:0; color:var(--ink); }
+    .share-icon { font-size:14px; line-height:1; font-weight:700; }
+  </style>
+  <link rel="stylesheet" href="page-transition.css" />
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Anthropic EFS: concilier confidentialité et supervision des agents","datePublished":"2026-09-02","dateModified":"2026-09-02","inLanguage":"fr-BE","author":{"@type":"Organization","name":"Underside"},"publisher":{"@type":"Organization","name":"Underside"},"mainEntityOfPage":"https://ai.underside.be/article-anthropic-efs-garde-fous-frontier-entreprise-2026.html"}</script>
+</head>
+<body>
+  <header><div class="wrap"><a class="back" href="blog.html">Retour au blog</a></div></header>
+  <main class="wrap"><article>
+    <h1>Anthropic EFS: concilier confidentialité et supervision des agents</h1>
+    <p class="meta">Article créé le 2 septembre 2026 · Publication analysée: 1er septembre 2026 · Source: Anthropic</p>
+    <div class="share-bar" aria-label="Partager cet article">
+      <span class="share-label">Partager</span>
+      <a class="share-pill" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fai.underside.be%2Farticle-anthropic-efs-garde-fous-frontier-entreprise-2026.html" target="_blank" rel="noopener" aria-label="Partager sur LinkedIn"><span class="share-icon" aria-hidden="true">in</span><span class="sr-only" style="position:absolute;left:-9999px;">LinkedIn</span></a>
+      <a class="share-pill" href="https://x.com/intent/tweet?text=Anthropic%20EFS%3A%20concilier%20confidentialite%20et%20supervision%20des%20agents&url=https%3A%2F%2Fai.underside.be%2Farticle-anthropic-efs-garde-fous-frontier-entreprise-2026.html" target="_blank" rel="noopener" aria-label="Partager sur X"><span class="share-icon" aria-hidden="true">X</span><span class="sr-only" style="position:absolute;left:-9999px;">X</span></a>
+      <a class="share-pill" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fai.underside.be%2Farticle-anthropic-efs-garde-fous-frontier-entreprise-2026.html" target="_blank" rel="noopener" aria-label="Partager sur Facebook"><span class="share-icon" aria-hidden="true">f</span><span class="sr-only" style="position:absolute;left:-9999px;">Facebook</span></a>
+    </div>
+    <p class="lead">Anthropic annonce Enterprise Frontier Safeguards, une architecture qui tente de résoudre une tension très concrète pour les entreprises régulées: détecter les usages dangereux de modèles plus agentiques sans imposer au fournisseur la garde directe des journaux sensibles.</p>
+    <h2>1. Ce qu'Anthropic annonce</h2>
+    <p>Le 1er septembre 2026, Anthropic présente Enterprise Frontier Safeguards, ou EFS, comme une solution combinant la confidentialité de la rétention zéro avec des garde-fous de détection des abus. Le principe annoncé est que les données d'activité utilisées pour la supervision peuvent rester dans l'infrastructure cloud contrôlée par le client, par exemple Amazon S3, Azure Blob Storage ou Google Cloud Storage, avec les clés, politiques d'accès et journaux d'audit du client.</p>
+    <p>Anthropic indique que le déploiement commencera par phases plus tard à l'automne. Le dispositif doit être supporté avec Claude Code, Claude Enterprise, Claude Platform, Amazon Bedrock, Claude Platform on AWS, Google Agent Platform et Microsoft Foundry. Les options de stockage contrôlé par le client, de clés managées par le client et de revue automatisée sont présentées comme opt-in.</p>
+    <h2>2. Le problème: superviser sans reconstituer un fournisseur de données</h2>
+    <p>La difficulté est bien connue des DSI, RSSI et équipes conformité: les modèles capables d'utiliser des outils, de conserver un contexte et d'exécuter des tâches longues exigent une surveillance sur plusieurs sessions et comptes. Sans corrélation dans le temps, il devient plus difficile de détecter un usage offensif, une tentative de vol d'identifiants ou une dérive d'agent.</p>
+    <p>Mais cette surveillance se heurte aux contraintes des secteurs régulés: secret professionnel, données de santé, informations non publiques, dossiers clients, production industrielle ou secteur public. EFS répond à cette tension en séparant deux responsabilités: Anthropic opère des systèmes automatisés de détection, tandis que l'entreprise garde la conservation et la revue humaine dans son propre périmètre.</p>
+    <h2>3. Ce que cela change pour une entreprise belge ou française</h2>
+    <p>Pour une PME, le changement n'est pas de copier immédiatement une architecture de banque internationale. Le signal est plutôt que la rétention zéro ne suffit plus comme argument unique lorsque des agents peuvent agir. Il faut prévoir qui conserve les traces, combien de temps, sous quelles clés, avec quel accès administrateur, et comment une alerte devient une décision humaine.</p>
+    <p>Pour une ETI, une grande entreprise, une administration ou une organisation soumise à des obligations sectorielles, le sujet devient un critère de sélection fournisseur. Avant de connecter un agent à un RAG documentaire, à Odoo, à la messagerie, au code ou à des API métier, l'entreprise doit vérifier si les journaux restent sous son contrôle, si les accès sont auditables, si les signaux transmis au fournisseur sont limités, et si l'équipe sécurité peut traiter les alertes sans exposer plus de données que nécessaire.</p>
+    <h2>4. Lecture Underside: souveraineté, RAG, Odoo et agents</h2>
+    <p>L'analyse Underside est que cette annonce déplace le débat de la promesse contractuelle vers l'architecture exploitable. La souveraineté IA ne se résume pas au choix d'un modèle local ou cloud: elle dépend aussi de la garde des logs, de la maîtrise des clés, de l'identité des agents, du moindre privilège, de la réversibilité et de la capacité à prouver pourquoi une action a été exécutée.</p>
+    <p>Dans un projet Odoo Entreprise, cette logique impose de distinguer les accès de lecture, les propositions d'écriture, les actions sur brouillon et les actions engageantes. Dans un RAG, elle impose de tracer les documents consultés sans exposer tout le corpus. Dans un contexte Apple Enterprise ou poste administré, elle invite à combiner traitements locaux, politiques MDM, connecteurs contrôlés et journaux centraux plutôt que de supposer qu'un usage sur appareil suffit à protéger l'organisation.</p>
+    <h2>5. Points de vigilance avant production</h2>
+    <p>EFS est annoncé en déploiement progressif, pas comme une garantie déjà disponible pour tous les clients et tous les environnements. Une entreprise belge ou française doit donc qualifier l'éligibilité, la région effective, les sous-traitants, la durée de conservation, les métadonnées transmises, les coûts cloud associés, les procédures d'incident et les responsabilités entre fournisseur, cloud, intégrateur et client.</p>
+    <p>Le point le plus opérationnel est la revue humaine: si l'alerte arrive chez le client, il faut une équipe capable de comprendre un signal d'abus agentique, d'arrêter une exécution, de révoquer des droits et de documenter la décision. Sans ce processus, les logs sous contrôle client restent une archive, pas un contrôle de production.</p>
+    <div class="box">
+      <p>Priorité: avant de déployer un agent frontier sur des données sensibles, rédiger une fiche de supervision: emplacement des logs, clés, durée de conservation, signaux partagés, personnes habilitées, seuils d'arrêt, révocation et preuves de conformité.</p>
+      <a class="cta" href="index.html#contact">Cadrer la supervision IA</a>
+    </div>
+    <p><a href="https://www.anthropic.com/news/enterprise-frontier-safeguards" target="_blank" rel="noopener">Lire la source officielle</a></p>
+  </article></main>
+  <script src="page-transition.js" defer></script>
+</body>
+</html>
