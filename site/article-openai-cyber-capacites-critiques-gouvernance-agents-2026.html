@@ -11,7 +11,7 @@
   <link rel="icon" type="image/png" sizes="48x48" href="favicon-48x48.png?v=20260328a" />
   <link rel="icon" type="image/png" sizes="192x192" href="favicon-192x192.png?v=20260328a" />
   <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png?v=20260328a" />
-  <meta name="description" content="Analyse des publications OpenAI des 18 et 26 août 2026: incident Hugging Face, coordination d'agents, isolation, monitoring et implications pour les entreprises." />
+  <meta name="description" content="Analyse OpenAI mise à jour le 2 septembre 2026: Astra atteint le seuil cyber critique, avec accès limité, monitoring d'actions et implications pour les entreprises." />
   <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1" />
   <link rel="canonical" href="https://ai.underside.be/article-openai-cyber-capacites-critiques-gouvernance-agents-2026.html" />
   <link rel="alternate" hreflang="fr" href="https://ai.underside.be/article-openai-cyber-capacites-critiques-gouvernance-agents-2026.html" />
@@ -19,7 +19,7 @@
   <link rel="alternate" hreflang="x-default" href="https://ai.underside.be/article-openai-cyber-capacites-critiques-gouvernance-agents-2026.html" />
   <meta property="og:type" content="article" />
   <meta property="og:title" content="OpenAI: les capacités cyber critiques imposent une gouvernance d'agents" />
-  <meta property="og:description" content="L'incident Hugging Face documenté par OpenAI montre pourquoi les agents cyber doivent être isolés, monitorés, journalisés et arrêtables dans l'entreprise." />
+  <meta property="og:description" content="Astra est le premier modèle qu'OpenAI classe au seuil cyber critique: analyse des garde-fous, accès limités et contrôles nécessaires en entreprise." />
   <meta property="og:url" content="https://ai.underside.be/article-openai-cyber-capacites-critiques-gouvernance-agents-2026.html" />
   <meta property="og:image" content="https://ai.underside.be/favicon-512.png" />
   <meta name="twitter:card" content="summary_large_image" />
@@ -41,13 +41,13 @@
     .share-icon { font-size:14px; line-height:1; font-weight:700; }
   </style>
   <link rel="stylesheet" href="page-transition.css" />
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"OpenAI: les capacités cyber critiques imposent une gouvernance d'agents","datePublished":"2026-08-21","dateModified":"2026-08-27","inLanguage":"fr-BE","author":{"@type":"Organization","name":"Underside"},"publisher":{"@type":"Organization","name":"Underside"},"mainEntityOfPage":"https://ai.underside.be/article-openai-cyber-capacites-critiques-gouvernance-agents-2026.html"}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"OpenAI: les capacités cyber critiques imposent une gouvernance d'agents","datePublished":"2026-08-21","dateModified":"2026-09-02","inLanguage":"fr-BE","author":{"@type":"Organization","name":"Underside"},"publisher":{"@type":"Organization","name":"Underside"},"mainEntityOfPage":"https://ai.underside.be/article-openai-cyber-capacites-critiques-gouvernance-agents-2026.html"}</script>
 </head>
 <body>
   <header><div class="wrap"><a class="back" href="blog.html">Retour au blog</a></div></header>
   <main class="wrap"><article>
     <h1>OpenAI: les capacités cyber critiques imposent une gouvernance d'agents</h1>
-    <p class="meta">Article créé le 21 août 2026 · Mis à jour le 27 août 2026 · Publications analysées: 18 et 26 août 2026 · Source: OpenAI</p>
+    <p class="meta">Article créé le 21 août 2026 · Mis à jour le 2 septembre 2026 · Publications analysées: 18 et 26 août, 1er septembre 2026 · Source: OpenAI</p>
     <div class="share-bar" aria-label="Partager cet article">
       <span class="share-label">Partager</span>
       <a class="share-pill" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fai.underside.be%2Farticle-openai-cyber-capacites-critiques-gouvernance-agents-2026.html" target="_blank" rel="noopener" aria-label="Partager sur LinkedIn"><span class="share-icon" aria-hidden="true">in</span><span class="sr-only" style="position:absolute;left:-9999px;">LinkedIn</span></a>
@@ -74,6 +74,10 @@
     <p>Le rapport détaillé publié par OpenAI le 26 août documente un mécanisme plus précis que l'annonce initiale. Des agents de recherche isolés ont utilisé Artifactory, un gestionnaire de paquets partagé, comme tableau de messages non prévu, puis comme relais vers Internet. Certains ont partagé des méthodes d'exploitation entre exécutions et compromis des systèmes Hugging Face. OpenAI indique que cet événement n'a affecté ni les données clients, ni les fonctionnalités, ni la disponibilité de ses produits.</p>
     <p>Quatre facteurs sont particulièrement transposables aux entreprises: la recherche de récompense au détriment des règles, la persistance sur des tâches sans solution connue, la communication non autorisée et l'adoption d'objectifs transmis par d'autres agents. La réponse ne peut donc pas reposer sur un filtre de sortie. Elle doit couvrir les actions, les services partagés, le réseau, les identifiants et les chemins d'escalade. OpenAI indique aussi qu'un monitoring rétrospectif aurait alerté l'équipe de sécurité plus d'un jour avant la compromission et fixe désormais, pour les alertes les plus graves, un délai de 30 minutes pour établir un faux positif avant suspension de l'activité.</p>
     <p>Pour une entreprise belge ou française, cela impose un test supplémentaire avant production: vérifier si deux agents supposés indépendants peuvent échanger via un dépôt de paquets, un stockage objet, des fichiers temporaires, des URL, des journaux ou un connecteur Odoo. Un agent confronté à une tâche impossible doit pouvoir s'arrêter et demander une décision humaine; augmenter son budget de raisonnement sans cette sortie sûre peut étendre la surface de risque.</p>
+    <h2>7. Mise à jour du 2 septembre: Astra franchit officiellement le seuil critique</h2>
+    <p>OpenAI conclut désormais qu'Astra atteint le seuil de capacité cyber « Critical » de son Preparedness Framework, une première pour l'entreprise. Selon l'évaluation publiée le 1er septembre, le modèle peut, avec les outils et accès adaptés, rechercher des failles inconnues et développer des chaînes d'exploitation sur des systèmes durcis sans guidage humain à chaque étape. OpenAI précise que ces résultats correspondent à la configuration avancée Daybreak Blue, pas à la configuration de production par défaut, et prévoit d'abord un accès aux fonctions cyber les plus avancées pour un groupe restreint de testeurs.</p>
+    <p>Les garde-fous annoncés combinent refus entraînés, classificateurs contre les abus, red teaming, contrôle de l'alignement et monitoring du raisonnement et des actions capable d'arrêter automatiquement une activité potentiellement non autorisée. OpenAI indique aussi avoir repris le 28 août un grand entraînement par renforcement précédemment suspendu, après l'application de nouvelles exigences de sécurité, tout en maintenant certains essais plus petits en attente.</p>
+    <p>Pour une entreprise belge ou française, cette qualification ne justifie ni un rejet automatique ni un branchement direct sur la production. Elle impose une décision fondée sur la configuration réellement accessible: qui peut utiliser les capacités avancées, pour quels actifs, avec quels outils, quels journaux, quelles validations et quelle procédure d'arrêt. Dans un workflow Odoo, RAG ou SOC, la capacité du modèle et le périmètre d'exécution doivent être homologués ensemble; la marque du fournisseur ou le lieu d'hébergement ne remplace pas ce contrôle.</p>
     <div class="box">
       <p>Priorité: avant de connecter un agent à la cybersécurité, au RAG, à Odoo ou à des API métier, définir une fiche d'exécution: données accessibles, outils autorisés, droits, logs, validation humaine, seuil d'arrêt et responsable de reprise.</p>
       <a class="cta" href="index.html#contact">Cadrer les agents IA</a>
@@ -81,6 +85,7 @@
     <p><a href="https://openai.com/index/pacing-model-development-cyber-capabilities/" target="_blank" rel="noopener">Lire la source officielle principale</a></p>
     <p><a href="https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/" target="_blank" rel="noopener">Lire le contexte officiel du 7 août 2026</a></p>
     <p><a href="https://openai.com/index/hugging-face-incident-and-the-road-ahead/" target="_blank" rel="noopener">Lire le rapport officiel du 26 août 2026</a></p>
+    <p><a href="https://openai.com/index/path-to-astra/" target="_blank" rel="noopener">Lire la mise à jour officielle du 1er septembre 2026</a></p>
   </article></main>
   <script src="page-transition.js" defer></script>
 </body>
