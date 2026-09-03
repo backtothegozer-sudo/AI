@@ -2,7 +2,7 @@
 
 > Site vitrine et éditorial sur l'IA souveraine pour les entreprises, avec contenu en français et en anglais.
 
-Last updated: 2026-09-02
+Last updated: 2026-09-03
 
 ## Canonical
 - https://ai.underside.be/
@@ -33,6 +33,7 @@ Last updated: 2026-09-02
 - https://ai.underside.be/google7af869e5e0e8f999.html
 
 ## Articles (FR)
+- https://ai.underside.be/article-coforge-launchpad-stack-ia-souveraine-2026.html
 - https://ai.underside.be/article-anthropic-efs-garde-fous-frontier-entreprise-2026.html
 - https://ai.underside.be/article-openai-admin-apis-gouvernance-agents-2026.html
 - https://ai.underside.be/article-google-gemini-agents-regules-gouvernance-2026.html
@@ -193,6 +194,7 @@ Last updated: 2026-09-02
 - https://ai.underside.be/article-consilium-2026.html
 
 ## Articles (EN)
+- https://ai.underside.be/en/article-coforge-launchpad-stack-ia-souveraine-2026.html
 - https://ai.underside.be/en/article-anthropic-efs-garde-fous-frontier-entreprise-2026.html
 - https://ai.underside.be/en/article-openai-admin-apis-gouvernance-agents-2026.html
 - https://ai.underside.be/en/article-google-gemini-agents-regules-gouvernance-2026.html
