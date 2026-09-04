@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AWS: sécuriser les agents IA à la vitesse machine | Underside</title>
+  <link rel="icon" href="logo-underside-fav.svg?v=20260328a" type="image/svg+xml" />
+  <link rel="icon" href="favicon.ico?v=20260328a" sizes="any" />
+  <link rel="shortcut icon" href="favicon.ico?v=20260328a" />
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png?v=20260328a" />
+  <link rel="icon" type="image/png" sizes="48x48" href="favicon-48x48.png?v=20260328a" />
+  <link rel="icon" type="image/png" sizes="192x192" href="favicon-192x192.png?v=20260328a" />
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png?v=20260328a" />
+  <meta name="description" content="Analyse AWS du 2 septembre 2026: identité, moindre privilège, détection continue et réponse graduée pour agents IA reliés aux données, API, RAG et Odoo." />
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1" />
+  <link rel="canonical" href="https://ai.underside.be/article-aws-securite-agentique-detection-reponse-2026.html" />
+  <link rel="alternate" hreflang="fr" href="https://ai.underside.be/article-aws-securite-agentique-detection-reponse-2026.html" />
+  <link rel="alternate" hreflang="en" href="https://ai.underside.be/en/article-aws-securite-agentique-detection-reponse-2026.html" />
+  <link rel="alternate" hreflang="x-default" href="https://ai.underside.be/article-aws-securite-agentique-detection-reponse-2026.html" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="AWS: sécuriser les agents IA à la vitesse machine" />
+  <meta property="og:description" content="La sécurité des agents IA exige identité propre, droits temporaires, surveillance comportementale et réponse automatisée mais gouvernée." />
+  <meta property="og:url" content="https://ai.underside.be/article-aws-securite-agentique-detection-reponse-2026.html" />
+  <meta property="og:image" content="https://ai.underside.be/favicon-512.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="https://ai.underside.be/favicon-512.png" />
+  <link rel="alternate" type="application/json" title="MCP Connectors" href="/.well-known/mcp.json" />
+  <style>
+    :root { --bg:#060607; --ink:#f5f7fb; --muted:#cbd2dc; --line:rgba(255,255,255,.12); --accent:#e64bff; --accent2:#4b5bff; }
+    * { box-sizing:border-box; } body { margin:0; font-family:Manrope,system-ui,sans-serif; background:var(--bg); color:var(--ink); }
+    .wrap { max-width:980px; margin:0 auto; padding:0 24px; } header { padding:28px 0; border-bottom:1px solid rgba(255,255,255,.06); }
+    a { color:inherit; text-decoration:none; } .back { display:inline-block; font-size:13px; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); }
+    h1 { font-size:clamp(34px,5vw,52px); line-height:1.08; margin:28px 0 10px; } .meta { color:var(--muted); font-size:14px; }
+    article { padding:28px 0 40px; } .lead { font-size:20px; line-height:1.6; color:var(--ink); font-weight:600; }
+    h2 { margin:30px 0 10px; font-size:26px; line-height:1.2; } p { font-size:17px; line-height:1.84; color:var(--muted); }
+    .box { margin:24px 0; padding:20px; border:1px solid var(--line); border-radius:16px; background:rgba(255,255,255,.03); }
+    .cta { display:inline-block; margin-top:12px; padding:11px 18px; border-radius:999px; background:linear-gradient(135deg,var(--accent),var(--accent2)); color:#fff; }
+    .share-bar { margin:14px 0 0; display:flex; align-items:center; gap:8px; flex-wrap:wrap; }
+    .share-label { font-size:12px; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); }
+    .share-pill { display:inline-flex; align-items:center; justify-content:center; width:30px; height:30px; border-radius:999px; border:1px solid var(--line); background:rgba(255,255,255,.04); font-size:0; color:var(--ink); }
+    .share-icon { font-size:14px; line-height:1; font-weight:700; }
+  </style>
+  <link rel="stylesheet" href="page-transition.css" />
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"AWS: sécuriser les agents IA à la vitesse machine","datePublished":"2026-09-04","dateModified":"2026-09-04","inLanguage":"fr-BE","author":{"@type":"Organization","name":"Underside"},"publisher":{"@type":"Organization","name":"Underside"},"mainEntityOfPage":"https://ai.underside.be/article-aws-securite-agentique-detection-reponse-2026.html"}</script>
+</head>
+<body>
+  <header><div class="wrap"><a class="back" href="blog.html">Retour au blog</a></div></header>
+  <main class="wrap"><article>
+    <h1>AWS: sécuriser les agents IA à la vitesse machine</h1>
+    <p class="meta">Article créé le 4 septembre 2026 · Publication analysée: 2 septembre 2026 · Source: AWS Security Blog</p>
+    <div class="share-bar" aria-label="Partager cet article">
+      <span class="share-label">Partager</span>
+      <a class="share-pill" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fai.underside.be%2Farticle-aws-securite-agentique-detection-reponse-2026.html" target="_blank" rel="noopener" aria-label="Partager sur LinkedIn"><span class="share-icon" aria-hidden="true">in</span><span class="sr-only" style="position:absolute;left:-9999px;">LinkedIn</span></a>
+      <a class="share-pill" href="https://x.com/intent/tweet?text=AWS%3A%20securiser%20les%20agents%20IA%20a%20la%20vitesse%20machine&url=https%3A%2F%2Fai.underside.be%2Farticle-aws-securite-agentique-detection-reponse-2026.html" target="_blank" rel="noopener" aria-label="Partager sur X"><span class="share-icon" aria-hidden="true">X</span><span class="sr-only" style="position:absolute;left:-9999px;">X</span></a>
+      <a class="share-pill" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fai.underside.be%2Farticle-aws-securite-agentique-detection-reponse-2026.html" target="_blank" rel="noopener" aria-label="Partager sur Facebook"><span class="share-icon" aria-hidden="true">f</span><span class="sr-only" style="position:absolute;left:-9999px;">Facebook</span></a>
+    </div>
+    <p class="lead">AWS publie un cadre de sécurité pour les workloads agentiques qui formalise une réalité désormais centrale: un agent IA n'est plus seulement une interface de conversation, mais un acteur logiciel capable de s'authentifier, d'utiliser des outils et d'enchaîner des décisions.</p>
+    <h2>1. Ce qu'AWS met en avant</h2>
+    <p>Le 2 septembre 2026, AWS explique, dans un billet signé Gee Rittenhouse, avoir collaboré avec le SANS Institute sur un chapitre du Cloud Security Exchange eBook 2026 consacré à la détection et à la réponse pour les agents IA. Le texte part d'un constat opérationnel: des agents autonomes peuvent agir sur l'infrastructure sans attendre une validation humaine à chaque étape.</p>
+    <p>Le cadre présenté insiste sur quatre domaines: identité et gouvernance propres aux agents, détection comportementale continue, réponse graduée entre automatisation et escalade humaine, puis extension progressive vers des écosystèmes multi-agents. AWS cite notamment GuardDuty, Inspector et Security Hub comme briques de détection, vulnérabilité et opérations de sécurité.</p>
+    <h2>2. Pourquoi les contrôles classiques ne suffisent plus</h2>
+    <p>Un contrôle de sécurité pensé pour un utilisateur humain ou un service déterministe ne couvre pas toujours un agent qui adapte sa trajectoire selon le prompt, le contexte, les réponses d'outils et les erreurs intermédiaires. Le même connecteur peut être inoffensif dans un scénario et risqué lorsqu'il combine accès à des données sensibles, communication externe et contenu non fiable.</p>
+    <p>L'approche utile n'est donc pas d'ajouter une bannière de sécurité autour du modèle. Il faut définir une identité dédiée, des jetons temporaires, des droits minimaux, des baselines de comportement, des seuils d'arrêt, des journaux exploitables et des procédures de reprise. La sécurité devient un contrôle d'exécution, pas seulement une revue avant mise en production.</p>
+    <h2>3. Ce que cela change pour une entreprise belge ou française</h2>
+    <p>Pour une PME, le message concret est de refuser l'accès complet par défaut. Un assistant commercial, support ou administratif doit commencer avec des droits limités, des actions réversibles et une validation humaine pour les opérations qui engagent le client, la facturation, les données RH ou les données personnelles.</p>
+    <p>Pour une ETI, une grande entreprise ou une administration, la conséquence est plus structurelle: chaque agent connecté à un RAG, à Odoo, à la messagerie, au code, au SIEM ou à une API métier doit entrer dans l'inventaire de sécurité au même titre qu'une application. Les équipes IT et RSSI doivent pouvoir prouver qui possède l'agent, quels outils il peut appeler, quelles données il voit, quelles actions sont bloquées et comment un incident est contenu.</p>
+    <h2>4. Lecture Underside: souveraineté, agents, RAG et Odoo</h2>
+    <p>L'analyse Underside est que la sécurité agentique devient une composante directe de la souveraineté IA. Local, cloud ou hybride, le choix d'exécution ne suffit pas si l'agent partage une identité générique, écrit dans Odoo sans garde-fou, interroge un RAG sans filtrage documentaire ou consomme des API sans journal d'autorisation.</p>
+    <p>Dans un projet Odoo Entreprise, la séparation des droits doit distinguer lecture, proposition, brouillon, validation et écriture définitive. Dans un RAG, le contrôle doit porter sur les sources consultées, les citations, la classification documentaire et les données masquées. Dans un environnement Apple Enterprise ou postes administrés, les politiques MDM, les clés, les profils réseau et les journaux doivent être alignés avec les agents utilisés côté poste et côté cloud.</p>
+    <h2>5. Points de contrôle avant industrialisation</h2>
+    <p>Avant de mettre un agent en production, une entreprise devrait exiger une matrice simple: identité de l'agent, propriétaire métier, propriétaire IT, outils autorisés, données accessibles, actions interdites, règles d'escalade, logs, durée de conservation, environnement d'exécution, plan de révocation et test d'abus. Cette matrice vaut autant pour un prototype low-code que pour une plateforme cloud industrielle.</p>
+    <p>Le critère le plus important est l'arrêt contrôlé. Si un agent peut agir vite, la défense doit pouvoir révoquer vite: désactiver un outil, couper un jeton, isoler une session, restaurer un état, notifier les responsables et conserver les preuves nécessaires au RGPD, à l'AI Act, à l'audit interne et à la cybersécurité.</p>
+    <div class="box">
+      <p>Priorité: traiter chaque agent IA comme une application à privilèges. Attribuer une identité propre, limiter les outils, journaliser chaque action sensible, prévoir la révocation et tester les chemins d'abus avant toute connexion à Odoo, au RAG ou aux données critiques.</p>
+      <a class="cta" href="index.html#contact">Cadrer la sécurité des agents</a>
+    </div>
+    <p><a href="https://aws.amazon.com/blogs/security/agentic-security-detection-and-response-at-machine-speed/" target="_blank" rel="noopener">Lire la source officielle</a></p>
+  </article></main>
+  <script src="page-transition.js" defer></script>
+</body>
+</html>
