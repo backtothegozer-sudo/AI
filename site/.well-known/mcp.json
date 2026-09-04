@@ -1,9 +1,9 @@
 {
   "name": "Underside MCP Discovery",
-  "version": "1.3.114",
+  "version": "1.3.115",
   "description": "MCP-ready discovery layer for AI indexing, contextual retrieval, and Google-friendly site discovery.",
   "website": "https://ai.underside.be/",
-  "updated_at": "2026-09-03",
+  "updated_at": "2026-09-04",
   "resources": {
     "sitemap": "https://ai.underside.be/sitemap.xml",
     "robots": "https://ai.underside.be/robots.txt",
@@ -21,8 +21,8 @@
     "gdpr_fr": "https://ai.underside.be/gdpr",
     "gdpr_en": "https://ai.underside.be/en/gdpr",
     "google_verification": "https://ai.underside.be/google7af869e5e0e8f999.html",
-    "latest_article_fr": "https://ai.underside.be/article-coforge-launchpad-stack-ia-souveraine-2026.html",
-    "latest_article_en": "https://ai.underside.be/en/article-coforge-launchpad-stack-ia-souveraine-2026.html",
+    "latest_article_fr": "https://ai.underside.be/article-decennie-numerique-2026-adoption-ia-souverainete.html",
+    "latest_article_en": "https://ai.underside.be/en/article-decennie-numerique-2026-adoption-ia-souverainete.html",
     "latest_news_fr": "https://ai.underside.be/actualites",
     "latest_news_en": "https://ai.underside.be/en/actualites",
     "ia_belgique_fr": "https://ai.underside.be/ia-belgique",
@@ -49,14 +49,14 @@
     }
   ],
   "stats": {
-    "indexed_public_urls": 334,
-    "article_pairs": 160,
-    "article_urls": 320,
+    "indexed_public_urls": 336,
+    "article_pairs": 161,
+    "article_urls": 322,
     "hub_urls": 14
   },
   "indexing": {
     "google_ready": true,
-    "checked_at": "2026-09-03",
+    "checked_at": "2026-09-04",
     "discovery_endpoints": [
       "https://ai.underside.be/sitemap.xml",
       "https://ai.underside.be/robots.txt",
