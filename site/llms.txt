@@ -2,7 +2,7 @@
 
 > Site vitrine et éditorial sur l'IA souveraine pour les entreprises, avec contenu en français et en anglais.
 
-Last updated: 2026-09-10
+Last updated: 2026-09-11
 
 ## Canonical
 - https://ai.underside.be/
@@ -33,6 +33,7 @@ Last updated: 2026-09-10
 - https://ai.underside.be/google7af869e5e0e8f999.html
 
 ## Articles (FR)
+- https://ai.underside.be/article-redhat-ai-35-gouvernance-production-2026.html
 - https://ai.underside.be/article-mistral-modernisation-code-agents-gouvernance-2026.html
 - https://ai.underside.be/article-redhat-rafay-cloud-ia-souveraine-service-2026.html
 - https://ai.underside.be/article-openai-workflows-entreprise-gouvernance-2026.html
@@ -199,6 +200,7 @@ Last updated: 2026-09-10
 - https://ai.underside.be/article-consilium-2026.html
 
 ## Articles (EN)
+- https://ai.underside.be/en/article-redhat-ai-35-gouvernance-production-2026.html
 - https://ai.underside.be/en/article-mistral-modernisation-code-agents-gouvernance-2026.html
 - https://ai.underside.be/en/article-redhat-rafay-cloud-ia-souveraine-service-2026.html
 - https://ai.underside.be/en/article-openai-workflows-entreprise-gouvernance-2026.html
