@@ -62,6 +62,7 @@ Last updated: 2026-09-17
 - https://ai.underside.be/article-google-beyond-zero-securite-agents-ia-2026.html
 - https://ai.underside.be/article-microsoft-project-perception-cybersecurite-ia-2026.html
 - https://ai.underside.be/article-openai-chatgpt-work-odoo-entreprise-2026.html
+- https://ai.underside.be/article-submer-flix-data-center-ia-souveraine-2026.html
 - https://ai.underside.be/article-openai-deutsche-telekom-odoo-entreprise-2026.html
 - https://ai.underside.be/article-sk-telecom-15gw-ai-data-center-coree-souveraine-2026.html
 - https://ai.underside.be/article-kore-atos-uk-agentic-ai-souverain-2026.html
@@ -231,6 +232,7 @@ Last updated: 2026-09-17
 - https://ai.underside.be/en/article-google-beyond-zero-securite-agents-ia-2026.html
 - https://ai.underside.be/en/article-microsoft-project-perception-cybersecurite-ia-2026.html
 - https://ai.underside.be/en/article-openai-chatgpt-work-odoo-entreprise-2026.html
+- https://ai.underside.be/en/article-submer-flix-data-center-ia-souveraine-2026.html
 - https://ai.underside.be/en/article-openai-deutsche-telekom-odoo-entreprise-2026.html
 - https://ai.underside.be/en/article-sk-telecom-15gw-ai-data-center-coree-souveraine-2026.html
 - https://ai.underside.be/en/article-kore-atos-uk-agentic-ai-souverain-2026.html
