@@ -2,7 +2,7 @@
 
 > Site vitrine et éditorial sur l'IA souveraine pour les entreprises, avec contenu en français et en anglais.
 
-Last updated: 2026-09-19
+Last updated: 2026-09-20
 
 ## Canonical
 - https://ai.underside.be/
@@ -33,6 +33,7 @@ Last updated: 2026-09-19
 - https://ai.underside.be/google7af869e5e0e8f999.html
 
 ## Articles (FR)
+- https://ai.underside.be/article-anthropic-accenture-evaluation-embarquee-ia-2026.html
 - https://ai.underside.be/article-data-centers-ia-flexibilite-energetique-2026.html
 - https://ai.underside.be/article-odoo-ecommerce-visibilite-ia-donnees-2026.html
 - https://ai.underside.be/article-mistral-cloudera-donnees-ia-souveraine-2026.html
@@ -204,6 +205,7 @@ Last updated: 2026-09-19
 - https://ai.underside.be/article-consilium-2026.html
 
 ## Articles (EN)
+- https://ai.underside.be/en/article-anthropic-accenture-evaluation-embarquee-ia-2026.html
 - https://ai.underside.be/en/article-data-centers-ia-flexibilite-energetique-2026.html
 - https://ai.underside.be/en/article-odoo-ecommerce-visibilite-ia-donnees-2026.html
 - https://ai.underside.be/en/article-mistral-cloudera-donnees-ia-souveraine-2026.html
