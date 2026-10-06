@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Refreshed 2026-10-05: 374 public canonical URLs validated for Google discovery. -->
+<!-- Refreshed 2026-10-06: 376 public canonical URLs validated for Google discovery. -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://ai.underside.be/article-google-cloud-modernize-agents-gouvernance-2026.html</loc><lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ai.underside.be/article-google-cloud-modernize-agents-gouvernance-2026.html" /><xhtml:link rel="alternate" hreflang="en" href="https://ai.underside.be/en/article-google-cloud-modernize-agents-gouvernance-2026.html" /><xhtml:link rel="alternate" hreflang="x-default" href="https://ai.underside.be/article-google-cloud-modernize-agents-gouvernance-2026.html" /><changefreq>weekly</changefreq><priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ai.underside.be/en/article-google-cloud-modernize-agents-gouvernance-2026.html</loc><lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ai.underside.be/article-google-cloud-modernize-agents-gouvernance-2026.html" /><xhtml:link rel="alternate" hreflang="en" href="https://ai.underside.be/en/article-google-cloud-modernize-agents-gouvernance-2026.html" /><xhtml:link rel="alternate" hreflang="x-default" href="https://ai.underside.be/article-google-cloud-modernize-agents-gouvernance-2026.html" /><changefreq>weekly</changefreq><priority>0.8</priority>
+  </url>
   <url>
     <loc>https://ai.underside.be/article-odoo-itsme-signature-qualifiee-gouvernance-2026.html</loc><lastmod>2026-10-04</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://ai.underside.be/article-odoo-itsme-signature-qualifiee-gouvernance-2026.html" /><xhtml:link rel="alternate" hreflang="en" href="https://ai.underside.be/en/article-odoo-itsme-signature-qualifiee-gouvernance-2026.html" /><xhtml:link rel="alternate" hreflang="x-default" href="https://ai.underside.be/article-odoo-itsme-signature-qualifiee-gouvernance-2026.html" /><changefreq>weekly</changefreq><priority>0.8</priority>
@@ -819,7 +827,7 @@
   </url>
   <url>
     <loc>https://ai.underside.be/</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://ai.underside.be/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://ai.underside.be/en/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ai.underside.be/" />
@@ -828,7 +836,7 @@
   </url>
   <url>
     <loc>https://ai.underside.be/en/</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://ai.underside.be/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://ai.underside.be/en/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ai.underside.be/" />
@@ -837,7 +845,7 @@
   </url>
   <url>
     <loc>https://ai.underside.be/actualites</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://ai.underside.be/actualites" />
     <xhtml:link rel="alternate" hreflang="en" href="https://ai.underside.be/en/actualites" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ai.underside.be/actualites" />
@@ -846,7 +854,7 @@
   </url>
   <url>
     <loc>https://ai.underside.be/en/actualites</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://ai.underside.be/actualites" />
     <xhtml:link rel="alternate" hreflang="en" href="https://ai.underside.be/en/actualites" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ai.underside.be/actualites" />
@@ -855,7 +863,7 @@
   </url>
   <url>
     <loc>https://ai.underside.be/blog</loc>
-    <lastmod>2026-10-04</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://ai.underside.be/blog" />
     <xhtml:link rel="alternate" hreflang="en" href="https://ai.underside.be/en/blog" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ai.underside.be/blog" />
@@ -864,7 +872,7 @@
   </url>
   <url>
     <loc>https://ai.underside.be/en/blog</loc>
-    <lastmod>2026-10-04</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://ai.underside.be/blog" />
     <xhtml:link rel="alternate" hreflang="en" href="https://ai.underside.be/en/blog" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ai.underside.be/blog" />
