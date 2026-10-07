@@ -36,6 +36,7 @@ Last updated: 2026-10-07
 - https://ai.underside.be/article-mistral-large-4-souverainete-deploiement-2026.html
 - https://ai.underside.be/article-google-cloud-modernize-agents-gouvernance-2026.html
 - https://ai.underside.be/article-odoo-itsme-signature-qualifiee-gouvernance-2026.html
+- https://ai.underside.be/article-ibm-bob-auto-heberge-ia-souveraine-2026.html
 - https://ai.underside.be/article-eclipse-foundation-ia-souveraine-open-source-2026.html
 - https://ai.underside.be/article-bell-cisco-canada-infrastructure-ia-souveraine-2026.html
 - https://ai.underside.be/article-netapp-donnees-ia-hybride-souveraine-2026.html
@@ -220,6 +221,7 @@ Last updated: 2026-10-07
 - https://ai.underside.be/en/article-mistral-large-4-souverainete-deploiement-2026.html
 - https://ai.underside.be/en/article-google-cloud-modernize-agents-gouvernance-2026.html
 - https://ai.underside.be/en/article-odoo-itsme-signature-qualifiee-gouvernance-2026.html
+- https://ai.underside.be/en/article-ibm-bob-auto-heberge-ia-souveraine-2026.html
 - https://ai.underside.be/en/article-eclipse-foundation-ia-souveraine-open-source-2026.html
 - https://ai.underside.be/en/article-bell-cisco-canada-infrastructure-ia-souveraine-2026.html
 - https://ai.underside.be/en/article-netapp-donnees-ia-hybride-souveraine-2026.html
