@@ -84,6 +84,8 @@
     .music-shot { margin:16px 0 0; overflow:hidden; border:1px solid rgba(255,255,255,.12); border-radius:10px; background:#080b10; }
     .music-shot img { display:block; width:100%; }
     .music-shot figcaption { padding:9px 12px; color:var(--muted); font-size:.82rem; }
+    .footer .download-count { margin:0; font-size:.76rem; opacity:.72; }
+    .footer .download-count strong { font-size:.88rem; }
     .gallery { display:grid; grid-template-columns:repeat(2,1fr); gap:18px; }
     .shot { margin:0; padding:9px; border:1px solid var(--line); border-radius:16px; background:var(--panel); }
     .shot img { width:100%; display:block; border-radius:10px; } .shot figcaption { padding:12px 7px 3px; color:var(--muted); font-size:.88rem; }
@@ -108,7 +110,6 @@
         <h1>Testez ce que votre Mac peut vraiment faire en IA.</h1>
         <p class="intro"><strong>CoreScope est le benchmark IA local de votre Mac Apple Silicon.</strong> Il mesure concrètement ses capacités d'inférence via le CPU, le GPU et le Neural Engine, puis met en regard la mémoire et le comportement thermique en temps réel.</p>
         <div class="actions"><a class="button primary download-link" href="https://ug.link/diana-unas/filemgr/share-download/?id=4ee282a6f57e401a9d27a4dcb56e01a0" target="_blank" rel="noopener">⌄ Télécharger CoreScope</a><a class="button secondary" href="#fonctionnement">Voir les mesures</a></div>
-        <p class="download-count" aria-live="polite"><strong class="download-count-value" aria-label="Chargement du compteur">…</strong> téléchargements lancés</p>
         <p class="meta">macOS 13.3 ou version ultérieure · Apple Silicon · Version 0.33.1 · Archive ZIP, 151 Mo</p>
         <div class="pills"><span class="pill">CPU</span><span class="pill">GPU</span><span class="pill">Neural Engine</span><span class="pill">Mémoire &amp; thermique</span></div>
       </div><figure class="hero-shot"><img src="media/corescope/hero.png" alt="Écran d'accueil de CoreScope sur Mac" fetchpriority="high"></figure></div></section>
@@ -119,7 +120,7 @@
 
       <section id="telecharger"><div class="shell"><div class="install"><div class="install-grid"><div><p class="eyebrow">Prêt à mesurer ?</p><h2>Télécharger CoreScope.</h2><ol class="steps"><li>Téléchargez et décompressez l'archive ZIP.</li><li>Glissez <strong>CoreScope.app</strong> dans le dossier Applications.</li><li>Ouvrez l'app et lancez le benchmark.</li></ol></div><a class="button primary download-link" href="https://ug.link/diana-unas/filemgr/share-download/?id=4ee282a6f57e401a9d27a4dcb56e01a0" target="_blank" rel="noopener">Télécharger pour macOS<br><small>151 Mo · v0.33.1</small></a></div><p class="notice"><strong>Information macOS :</strong> cette version est signée ad hoc et n'est pas encore notarisée par Apple. Après une première tentative d'ouverture, allez dans <strong>Réglages Système → Confidentialité et sécurité → Sécurité</strong>, puis cliquez sur « <strong>Ouvrir quand même</strong> » et confirmez avec votre mot de passe. Ce bouton reste disponible environ une heure. CoreScope ne fonctionne que sur les Mac Apple Silicon sous macOS 13.3 ou version ultérieure.</p></div></div></section>
     </main>
-    <footer><div class="shell footer"><span>© 2026 Underside · CoreScope</span><a href="https://www.underside.be">www.underside.be</a></div></footer>
+    <footer><div class="shell footer"><span>© 2026 Underside · CoreScope</span><span class="download-count" aria-live="polite"><strong class="download-count-value" aria-label="Chargement du compteur">…</strong> téléchargements lancés</span><a href="https://www.underside.be">www.underside.be</a></div></footer>
   </div>
   <script src="page-transition.js"></script>
   <script>
