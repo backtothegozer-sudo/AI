@@ -59,6 +59,8 @@
     .button:hover { transform:translateY(-2px); }
     .primary { color:#051514; background:var(--cyan); box-shadow:0 14px 32px rgba(8,216,200,.22); }
     .secondary { border-color:var(--line); color:var(--ink); }
+    .download-count { display:inline-flex; align-items:baseline; gap:7px; margin:14px 0 0; color:#cbd8d7; font-size:.86rem; }
+    .download-count strong { color:var(--cyan); font-size:1.1rem; }
     .meta { color:var(--muted); font-size:.83rem; margin:14px 0 0; }
     .hero-shot { position:relative; margin:0; border:1px solid rgba(101,88,255,.55); border-radius:17px; overflow:hidden; background:#0b0f14; box-shadow:0 28px 80px rgba(0,0,0,.44); animation:float-shot 6s ease-in-out infinite; }
     .hero-shot img { width:100%; display:block; }
@@ -99,7 +101,8 @@
         <p class="eyebrow">Un outil Underside</p>
         <h1>Testez ce que votre Mac peut vraiment faire en IA.</h1>
         <p class="intro"><strong>CoreScope est le benchmark IA local de votre Mac Apple Silicon.</strong> Il mesure concrètement ses capacités d'inférence via le CPU, le GPU et le Neural Engine, puis met en regard la mémoire et le comportement thermique en temps réel.</p>
-        <div class="actions"><a class="button primary" href="https://ug.link/diana-unas/filemgr/share-download/?id=4ee282a6f57e401a9d27a4dcb56e01a0">⌄ Télécharger CoreScope</a><a class="button secondary" href="#fonctionnement">Voir les mesures</a></div>
+        <div class="actions"><a class="button primary download-link" href="https://ug.link/diana-unas/filemgr/share-download/?id=4ee282a6f57e401a9d27a4dcb56e01a0" target="_blank" rel="noopener">⌄ Télécharger CoreScope</a><a class="button secondary" href="#fonctionnement">Voir les mesures</a></div>
+        <p class="download-count" aria-live="polite"><strong class="download-count-value">5</strong> téléchargements lancés</p>
         <p class="meta">macOS 13.3 ou version ultérieure · Apple Silicon · Version 0.33.1 · Archive ZIP, 151 Mo</p>
         <div class="pills"><span class="pill">CPU</span><span class="pill">GPU</span><span class="pill">Neural Engine</span><span class="pill">Mémoire &amp; thermique</span></div>
       </div><figure class="hero-shot"><img src="media/corescope/hero.png" alt="Écran d'accueil de CoreScope sur Mac" fetchpriority="high"><figcaption>Un test local, sans configuration de départ.</figcaption></figure></div></section>
@@ -108,10 +111,30 @@
 
       <section><div class="shell"><div class="section-head"><p class="eyebrow">Dans l'application</p><h2>Des vues pour comprendre chaque phase.</h2></div><div class="gallery"><figure class="shot"><img src="media/corescope/dashboard.png" alt="Tableau de bord CoreScope présentant CPU, GPU et Neural Engine" loading="lazy"><figcaption>Tableau de bord : scores, progression et comparaison des moteurs de calcul.</figcaption></figure><figure class="shot"><img src="media/corescope/memory.png" alt="Vue mémoire et bande passante dans CoreScope" loading="lazy"><figcaption>Mémoire : empreinte de l'application et stabilité de la bande passante.</figcaption></figure><figure class="shot"><img src="media/corescope/thermal.png" alt="Suivi thermique en direct dans CoreScope" loading="lazy"><figcaption>Thermique : suivi de la température pendant le test.</figcaption></figure><figure class="shot"><img src="media/corescope/chip.png" alt="Vue des cœurs CPU GPU et Neural Engine dans CoreScope" loading="lazy"><figcaption>Puce : visualisation des cœurs CPU, GPU et Neural Engine détectés.</figcaption></figure><figure class="shot"><img src="media/corescope/visualizer.png" alt="Visualiseur animé de l'activité de la puce dans CoreScope" loading="lazy"><figcaption>Visualiseur : une lecture graphique de l'activité CPU, GPU, Neural Engine et mémoire.</figcaption></figure></div></div></section>
 
-      <section id="telecharger"><div class="shell"><div class="install"><div class="install-grid"><div><p class="eyebrow">Prêt à mesurer ?</p><h2>Télécharger CoreScope.</h2><ol class="steps"><li>Téléchargez et décompressez l'archive ZIP.</li><li>Glissez <strong>CoreScope.app</strong> dans le dossier Applications.</li><li>Ouvrez l'app et lancez le benchmark.</li></ol></div><a class="button primary" href="https://ug.link/diana-unas/filemgr/share-download/?id=4ee282a6f57e401a9d27a4dcb56e01a0">Télécharger pour macOS<br><small>151 Mo · v0.33.1</small></a></div><p class="notice"><strong>Information macOS :</strong> cette version est signée ad hoc et n'est pas encore notarisée par Apple. Après une première tentative d'ouverture, allez dans <strong>Réglages Système → Confidentialité et sécurité → Sécurité</strong>, puis cliquez sur « <strong>Ouvrir quand même</strong> » et confirmez avec votre mot de passe. Ce bouton reste disponible environ une heure. CoreScope ne fonctionne que sur les Mac Apple Silicon sous macOS 13.3 ou version ultérieure.</p></div></div></section>
+      <section id="telecharger"><div class="shell"><div class="install"><div class="install-grid"><div><p class="eyebrow">Prêt à mesurer ?</p><h2>Télécharger CoreScope.</h2><ol class="steps"><li>Téléchargez et décompressez l'archive ZIP.</li><li>Glissez <strong>CoreScope.app</strong> dans le dossier Applications.</li><li>Ouvrez l'app et lancez le benchmark.</li></ol></div><a class="button primary download-link" href="https://ug.link/diana-unas/filemgr/share-download/?id=4ee282a6f57e401a9d27a4dcb56e01a0" target="_blank" rel="noopener">Télécharger pour macOS<br><small>151 Mo · v0.33.1</small></a></div><p class="notice"><strong>Information macOS :</strong> cette version est signée ad hoc et n'est pas encore notarisée par Apple. Après une première tentative d'ouverture, allez dans <strong>Réglages Système → Confidentialité et sécurité → Sécurité</strong>, puis cliquez sur « <strong>Ouvrir quand même</strong> » et confirmez avec votre mot de passe. Ce bouton reste disponible environ une heure. CoreScope ne fonctionne que sur les Mac Apple Silicon sous macOS 13.3 ou version ultérieure.</p></div></div></section>
     </main>
     <footer><div class="shell footer"><span>© 2026 Underside · CoreScope</span><a href="https://www.underside.be">www.underside.be</a></div></footer>
   </div>
   <script src="page-transition.js"></script>
+  <script>
+    (() => {
+      const endpoint = "/.netlify/functions/corescope-downloads";
+      const counters = document.querySelectorAll(".download-count-value");
+      const displayCount = (count) => {
+        if (!Number.isInteger(count)) return;
+        const formatted = new Intl.NumberFormat("fr-BE").format(count);
+        counters.forEach((counter) => { counter.textContent = formatted; });
+      };
+      const request = (options) => fetch(endpoint, { headers: { Accept: "application/json" }, ...options })
+        .then((response) => response.ok ? response.json() : null)
+        .then((data) => { if (data) displayCount(data.count); })
+        .catch(() => {});
+
+      request();
+      document.querySelectorAll(".download-link").forEach((link) => {
+        link.addEventListener("click", () => request({ method: "POST", keepalive: true }));
+      });
+    })();
+  </script>
 </body>
 </html>
