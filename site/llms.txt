@@ -15,6 +15,7 @@ Last updated: 2026-10-15
 - https://ai.underside.be/gdpr
 - https://ai.underside.be/diagnostic-ia-souveraine
 - https://ai.underside.be/ia-belgique
+- https://ai.underside.be/corescope.html — CoreScope, benchmark IA local pour Mac Apple Silicon.
 
 ## Primary Pages (EN)
 - https://ai.underside.be/en/
@@ -24,6 +25,7 @@ Last updated: 2026-10-15
 - https://ai.underside.be/en/gdpr
 - https://ai.underside.be/en/diagnostic-ia-souveraine
 - https://ai.underside.be/en/ia-belgique
+- https://ai.underside.be/en/corescope.html — CoreScope, local AI benchmark for Apple Silicon Macs.
 
 ## Technical Discovery
 - https://ai.underside.be/sitemap.xml
