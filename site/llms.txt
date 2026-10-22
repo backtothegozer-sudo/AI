@@ -2,7 +2,7 @@
 
 > Site vitrine et éditorial sur l'IA souveraine pour les entreprises, avec contenu en français et en anglais.
 
-Last updated: 2026-10-21
+Last updated: 2026-10-22
 
 ## Canonical
 - https://ai.underside.be/
@@ -33,6 +33,10 @@ Last updated: 2026-10-21
 - https://ai.underside.be/.well-known/mcp.json
 - https://ai.underside.be/llms.txt
 - https://ai.underside.be/google7af869e5e0e8f999.html
+
+## Latest News / Dernière actualité (2026-10-22)
+- https://ai.underside.be/actualites — Volkswagen étend Copilot à plus de 330 000 collaborateurs ; adoption progressive, droits et mesure des résultats.
+- https://ai.underside.be/en/actualites — Volkswagen expands Copilot to more than 330,000 employees; phased adoption, permissions and outcome measurement.
 
 ## Articles (FR)
 - https://ai.underside.be/article-microsoft-sovereign-cloud-continuite-controle-2026.html
