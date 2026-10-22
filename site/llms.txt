@@ -39,6 +39,7 @@ Last updated: 2026-10-22
 - https://ai.underside.be/en/actualites — Volkswagen expands Copilot to more than 330,000 employees; phased adoption, permissions and outcome measurement.
 
 ## Articles (FR)
+- https://ai.underside.be/article-commission-raise-ia-science-gouvernance-2026.html
 - https://ai.underside.be/article-microsoft-sovereign-cloud-continuite-controle-2026.html
 - https://ai.underside.be/article-aws-guardduty-rds-exfiltration-gouvernance-2026.html
 - https://ai.underside.be/article-adoption-agents-ia-europe-gouvernance-2026.html
@@ -232,6 +233,7 @@ Last updated: 2026-10-22
 - https://ai.underside.be/article-consilium-2026.html
 
 ## Articles (EN)
+- https://ai.underside.be/en/article-commission-raise-ia-science-gouvernance-2026.html
 - https://ai.underside.be/en/article-microsoft-sovereign-cloud-continuite-controle-2026.html
 - https://ai.underside.be/en/article-aws-guardduty-rds-exfiltration-gouvernance-2026.html
 - https://ai.underside.be/en/article-adoption-agents-ia-europe-gouvernance-2026.html
