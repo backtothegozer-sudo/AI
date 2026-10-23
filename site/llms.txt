@@ -2,7 +2,7 @@
 
 > Site vitrine et éditorial sur l'IA souveraine pour les entreprises, avec contenu en français et en anglais.
 
-Last updated: 2026-10-22
+Last updated: 2026-10-23
 
 ## Canonical
 - https://ai.underside.be/
@@ -34,9 +34,9 @@ Last updated: 2026-10-22
 - https://ai.underside.be/llms.txt
 - https://ai.underside.be/google7af869e5e0e8f999.html
 
-## Latest News / Dernière actualité (2026-10-22)
-- https://ai.underside.be/actualites — Volkswagen étend Copilot à plus de 330 000 collaborateurs ; adoption progressive, droits et mesure des résultats.
-- https://ai.underside.be/en/actualites — Volkswagen expands Copilot to more than 330,000 employees; phased adoption, permissions and outcome measurement.
+## Latest News / Dernière actualité (2026-10-23)
+- https://ai.underside.be/actualites — Amazon Quick : retour d’expérience PwC sur les agents et les processus métier ; droits, validation et gouvernance.
+- https://ai.underside.be/en/actualites — Amazon Quick: PwC’s experience with agents and business processes; permissions, approval and governance.
 
 ## Articles (FR)
 - https://ai.underside.be/article-commission-raise-ia-science-gouvernance-2026.html
