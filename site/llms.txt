@@ -35,10 +35,11 @@ Last updated: 2026-10-23
 - https://ai.underside.be/google7af869e5e0e8f999.html
 
 ## Latest News / Dernière actualité (2026-10-23)
-- https://ai.underside.be/actualites — Amazon Quick : retour d’expérience PwC sur les agents et les processus métier ; droits, validation et gouvernance.
-- https://ai.underside.be/en/actualites — Amazon Quick: PwC’s experience with agents and business processes; permissions, approval and governance.
+- https://ai.underside.be/actualites — OpenAI dans Google Cloud Model Garden : choix de modèle, identité, coûts et gouvernance des actions.
+- https://ai.underside.be/en/actualites — OpenAI in Google Cloud Model Garden: model choice, identity, costs, and action governance.
 
 ## Articles (FR)
+- https://ai.underside.be/article-openai-google-cloud-model-garden-gouvernance-2026.html
 - https://ai.underside.be/article-commission-raise-ia-science-gouvernance-2026.html
 - https://ai.underside.be/article-microsoft-sovereign-cloud-continuite-controle-2026.html
 - https://ai.underside.be/article-aws-guardduty-rds-exfiltration-gouvernance-2026.html
@@ -233,6 +234,7 @@ Last updated: 2026-10-23
 - https://ai.underside.be/article-consilium-2026.html
 
 ## Articles (EN)
+- https://ai.underside.be/en/article-openai-google-cloud-model-garden-gouvernance-2026.html
 - https://ai.underside.be/en/article-commission-raise-ia-science-gouvernance-2026.html
 - https://ai.underside.be/en/article-microsoft-sovereign-cloud-continuite-controle-2026.html
 - https://ai.underside.be/en/article-aws-guardduty-rds-exfiltration-gouvernance-2026.html
