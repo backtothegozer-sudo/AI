@@ -2,7 +2,7 @@
 
 > Site vitrine et éditorial sur l'IA souveraine pour les entreprises, avec contenu en français et en anglais.
 
-Last updated: 2026-10-23
+Last updated: 2026-10-24
 
 ## Canonical
 - https://ai.underside.be/
@@ -34,9 +34,9 @@ Last updated: 2026-10-23
 - https://ai.underside.be/llms.txt
 - https://ai.underside.be/google7af869e5e0e8f999.html
 
-## Latest News / Dernière actualité (2026-10-23)
-- https://ai.underside.be/actualites — OpenAI dans Google Cloud Model Garden : choix de modèle, identité, coûts et gouvernance des actions.
-- https://ai.underside.be/en/actualites — OpenAI in Google Cloud Model Garden: model choice, identity, costs, and action governance.
+## Latest News / Dernière actualité (2026-10-24)
+- https://ai.underside.be/actualites — TK Elevator : agents IA, préparation des interventions et comptes rendus vocaux ; validation et intégration ERP.
+- https://ai.underside.be/en/actualites — TK Elevator: AI agents, service preparation and voice debriefs; approval and ERP integration.
 
 ## Articles (FR)
 - https://ai.underside.be/article-openai-google-cloud-model-garden-gouvernance-2026.html
