@@ -2,7 +2,7 @@
 
 > Site vitrine et éditorial sur l'IA souveraine pour les entreprises, avec contenu en français et en anglais.
 
-Last updated: 2026-10-24
+Last updated: 2026-10-25
 
 ## Canonical
 - https://ai.underside.be/
@@ -34,9 +34,9 @@ Last updated: 2026-10-24
 - https://ai.underside.be/llms.txt
 - https://ai.underside.be/google7af869e5e0e8f999.html
 
-## Latest News / Dernière actualité (2026-10-24)
-- https://ai.underside.be/actualites — TK Elevator : agents IA, préparation des interventions et comptes rendus vocaux ; validation et intégration ERP.
-- https://ai.underside.be/en/actualites — TK Elevator: AI agents, service preparation and voice debriefs; approval and ERP integration.
+## Latest News / Dernière actualité (2026-10-25)
+- https://ai.underside.be/actualites — Deliverance AI et HPE : agents sur infrastructure privée, workflows sensibles et contrôles à vérifier avant intégration RAG ou Odoo.
+- https://ai.underside.be/en/actualites — Deliverance AI and HPE: private-infrastructure agents, sensitive workflows and controls to verify before RAG or Odoo integration.
 
 ## Articles (FR)
 - https://ai.underside.be/article-openai-google-cloud-model-garden-gouvernance-2026.html
