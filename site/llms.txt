@@ -2,7 +2,7 @@
 
 > Site vitrine et éditorial sur l'IA souveraine pour les entreprises, avec contenu en français et en anglais.
 
-Last updated: 2026-10-25
+Last updated: 2026-10-26
 
 ## Canonical
 - https://ai.underside.be/
@@ -34,11 +34,12 @@ Last updated: 2026-10-25
 - https://ai.underside.be/llms.txt
 - https://ai.underside.be/google7af869e5e0e8f999.html
 
-## Latest News / Dernière actualité (2026-10-25)
-- https://ai.underside.be/actualites — Deliverance AI et HPE : agents sur infrastructure privée, workflows sensibles et contrôles à vérifier avant intégration RAG ou Odoo.
-- https://ai.underside.be/en/actualites — Deliverance AI and HPE: private-infrastructure agents, sensitive workflows and controls to verify before RAG or Odoo integration.
+## Latest News / Dernière actualité (2026-10-26)
+- https://ai.underside.be/actualites — Microsoft Contact Center Intelligence : préversion publique et contrôles avant intégration métier.
+- https://ai.underside.be/en/actualites — Microsoft Contact Center Intelligence: public preview and controls before business integration.
 
 ## Articles (FR)
+- https://ai.underside.be/article-anthropic-simplifier-agents-evaluation-2026.html — Comparer une boucle unique et des agents spécialisés sur la qualité, les droits, les coûts et la traçabilité avant de modifier un workflow métier.
 - https://ai.underside.be/article-aws-sagemaker-personnalisation-modele-gouvernance-2026.html — SageMaker AI : personnaliser un modèle sans déléguer la gouvernance des données, évaluations et décisions métier.
 - https://ai.underside.be/article-openai-google-cloud-model-garden-gouvernance-2026.html
 - https://ai.underside.be/article-commission-raise-ia-science-gouvernance-2026.html
@@ -235,6 +236,7 @@ Last updated: 2026-10-25
 - https://ai.underside.be/article-consilium-2026.html
 
 ## Articles (EN)
+- https://ai.underside.be/en/article-anthropic-simplifier-agents-evaluation-2026.html — Compare a single loop and specialist agents on quality, permissions, cost and traceability before changing a business workflow.
 - https://ai.underside.be/en/article-aws-sagemaker-personnalisation-modele-gouvernance-2026.html — SageMaker AI: customize a model without outsourcing governance of data, evaluation, and business decisions.
 - https://ai.underside.be/en/article-openai-google-cloud-model-garden-gouvernance-2026.html
 - https://ai.underside.be/en/article-commission-raise-ia-science-gouvernance-2026.html
