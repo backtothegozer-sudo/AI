@@ -2,7 +2,7 @@
 
 > Site vitrine et éditorial sur l'IA souveraine pour les entreprises, avec contenu en français et en anglais.
 
-Last updated: 2026-10-26
+Last updated: 2026-10-27
 
 ## Canonical
 - https://ai.underside.be/
@@ -34,9 +34,9 @@ Last updated: 2026-10-26
 - https://ai.underside.be/llms.txt
 - https://ai.underside.be/google7af869e5e0e8f999.html
 
-## Latest News / Dernière actualité (2026-10-26)
-- https://ai.underside.be/actualites — Microsoft Contact Center Intelligence : préversion publique et contrôles avant intégration métier.
-- https://ai.underside.be/en/actualites — Microsoft Contact Center Intelligence: public preview and controls before business integration.
+## Latest News / Dernière actualité (2026-10-27)
+- https://ai.underside.be/actualites — Oracle Deep Trust AI : contrôler les accès des agents aux données métier.
+- https://ai.underside.be/en/actualites — Oracle Deep Trust AI: controlling agent access to business data.
 
 ## Articles (FR)
 - https://ai.underside.be/article-anthropic-simplifier-agents-evaluation-2026.html — Comparer une boucle unique et des agents spécialisés sur la qualité, les droits, les coûts et la traçabilité avant de modifier un workflow métier.
