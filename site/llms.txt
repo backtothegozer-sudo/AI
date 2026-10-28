@@ -2,7 +2,7 @@
 
 > Site vitrine et éditorial sur l'IA souveraine pour les entreprises, avec contenu en français et en anglais.
 
-Last updated: 2026-10-27
+Last updated: 2026-10-28
 
 ## Canonical
 - https://ai.underside.be/
@@ -34,9 +34,9 @@ Last updated: 2026-10-27
 - https://ai.underside.be/llms.txt
 - https://ai.underside.be/google7af869e5e0e8f999.html
 
-## Latest News / Dernière actualité (2026-10-27)
-- https://ai.underside.be/actualites — Oracle Deep Trust AI : contrôler les accès des agents aux données métier.
-- https://ai.underside.be/en/actualites — Oracle Deep Trust AI: controlling agent access to business data.
+## Latest News / Dernière actualité (2026-10-28)
+- https://ai.underside.be/actualites — Mattermost : agents IA pour les réseaux isolés, critères de vérification avant déploiement.
+- https://ai.underside.be/en/actualites — Mattermost: AI agents for air-gapped networks, verification criteria before deployment.
 
 ## Articles (FR)
 - https://ai.underside.be/article-openai-acces-modeles-controles-fournisseurs-2026.html — Gouverner les accès aux modèles via fournisseurs, revendeurs et passerelles avant d’exposer des données métier ou Odoo.
