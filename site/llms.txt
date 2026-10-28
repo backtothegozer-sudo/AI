@@ -39,6 +39,7 @@ Last updated: 2026-10-28
 - https://ai.underside.be/en/actualites — Mattermost: AI agents for air-gapped networks, verification criteria before deployment.
 
 ## Articles (FR)
+- https://ai.underside.be/article-aws-landing-zone-ia-souveraine-controles-2026.html — Une landing zone souveraine rend résidence, identités, journalisation et continuité testables avant de connecter une IA à Odoo.
 - https://ai.underside.be/article-openai-acces-modeles-controles-fournisseurs-2026.html — Gouverner les accès aux modèles via fournisseurs, revendeurs et passerelles avant d’exposer des données métier ou Odoo.
 - https://ai.underside.be/article-anthropic-simplifier-agents-evaluation-2026.html — Comparer une boucle unique et des agents spécialisés sur la qualité, les droits, les coûts et la traçabilité avant de modifier un workflow métier.
 - https://ai.underside.be/article-aws-sagemaker-personnalisation-modele-gouvernance-2026.html — SageMaker AI : personnaliser un modèle sans déléguer la gouvernance des données, évaluations et décisions métier.
@@ -237,6 +238,7 @@ Last updated: 2026-10-28
 - https://ai.underside.be/article-consilium-2026.html
 
 ## Articles (EN)
+- https://ai.underside.be/en/article-aws-landing-zone-ia-souveraine-controles-2026.html — A sovereign landing zone makes residency, identities, logging and continuity testable before connecting AI to Odoo.
 - https://ai.underside.be/en/article-openai-acces-modeles-controles-fournisseurs-2026.html — Govern model access through providers, resellers, and gateways before exposing business data or Odoo.
 - https://ai.underside.be/en/article-anthropic-simplifier-agents-evaluation-2026.html — Compare a single loop and specialist agents on quality, permissions, cost and traceability before changing a business workflow.
 - https://ai.underside.be/en/article-aws-sagemaker-personnalisation-modele-gouvernance-2026.html — SageMaker AI: customize a model without outsourcing governance of data, evaluation, and business decisions.
