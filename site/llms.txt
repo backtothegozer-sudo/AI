@@ -2,7 +2,7 @@
 
 > Site vitrine et éditorial sur l'IA souveraine pour les entreprises, avec contenu en français et en anglais.
 
-Last updated: 2026-10-28
+Last updated: 2026-10-29
 
 ## Canonical
 - https://ai.underside.be/
@@ -34,11 +34,12 @@ Last updated: 2026-10-28
 - https://ai.underside.be/llms.txt
 - https://ai.underside.be/google7af869e5e0e8f999.html
 
-## Latest News / Dernière actualité (2026-10-28)
-- https://ai.underside.be/actualites — Mattermost : agents IA pour les réseaux isolés, critères de vérification avant déploiement.
-- https://ai.underside.be/en/actualites — Mattermost: AI agents for air-gapped networks, verification criteria before deployment.
+## Latest News / Dernière actualité (2026-10-29)
+- https://ai.underside.be/actualites — Déclaration de Dublin : orientations pour une IA sûre et souveraine, critères pour les projets belges et français.
+- https://ai.underside.be/en/actualites — Dublin Declaration: safe and sovereign AI priorities, criteria for Belgian and French projects.
 
 ## Articles (FR)
+- https://ai.underside.be/article-microsoft-copilot-harness-routage-agents-gouvernance-2026.html — Définir les modèles autorisés par classe de données et tester le repli, la reprise et les écritures avant de déléguer un workflow métier.
 - https://ai.underside.be/article-aws-landing-zone-ia-souveraine-controles-2026.html — Une landing zone souveraine rend résidence, identités, journalisation et continuité testables avant de connecter une IA à Odoo.
 - https://ai.underside.be/article-openai-acces-modeles-controles-fournisseurs-2026.html — Gouverner les accès aux modèles via fournisseurs, revendeurs et passerelles avant d’exposer des données métier ou Odoo.
 - https://ai.underside.be/article-anthropic-simplifier-agents-evaluation-2026.html — Comparer une boucle unique et des agents spécialisés sur la qualité, les droits, les coûts et la traçabilité avant de modifier un workflow métier.
@@ -238,6 +239,7 @@ Last updated: 2026-10-28
 - https://ai.underside.be/article-consilium-2026.html
 
 ## Articles (EN)
+- https://ai.underside.be/en/article-microsoft-copilot-harness-routage-agents-gouvernance-2026.html — Define approved models by data class and test fallback, recovery and writes before delegating a business workflow.
 - https://ai.underside.be/en/article-aws-landing-zone-ia-souveraine-controles-2026.html — A sovereign landing zone makes residency, identities, logging and continuity testable before connecting AI to Odoo.
 - https://ai.underside.be/en/article-openai-acces-modeles-controles-fournisseurs-2026.html — Govern model access through providers, resellers, and gateways before exposing business data or Odoo.
 - https://ai.underside.be/en/article-anthropic-simplifier-agents-evaluation-2026.html — Compare a single loop and specialist agents on quality, permissions, cost and traceability before changing a business workflow.
