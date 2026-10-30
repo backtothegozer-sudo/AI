@@ -2,7 +2,7 @@
 
 > Site vitrine et éditorial sur l'IA souveraine pour les entreprises, avec contenu en français et en anglais.
 
-Last updated: 2026-10-29
+Last updated: 2026-10-30
 
 ## Canonical
 - https://ai.underside.be/
@@ -34,9 +34,9 @@ Last updated: 2026-10-29
 - https://ai.underside.be/llms.txt
 - https://ai.underside.be/google7af869e5e0e8f999.html
 
-## Latest News / Dernière actualité (2026-10-29)
-- https://ai.underside.be/actualites — Déclaration de Dublin : orientations pour une IA sûre et souveraine, critères pour les projets belges et français.
-- https://ai.underside.be/en/actualites — Dublin Declaration: safe and sovereign AI priorities, criteria for Belgian and French projects.
+## Latest News / Dernière actualité (2026-10-30)
+- https://ai.underside.be/actualites — Google Sheets : sources web par cellule, vérification avant import Odoo.
+- https://ai.underside.be/en/actualites — Google Sheets: cell-level web sources, verification before Odoo imports.
 
 ## Articles (FR)
 - https://ai.underside.be/article-microsoft-copilot-harness-routage-agents-gouvernance-2026.html — Définir les modèles autorisés par classe de données et tester le repli, la reprise et les écritures avant de déléguer un workflow métier.
