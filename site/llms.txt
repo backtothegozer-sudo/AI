@@ -2,7 +2,7 @@
 
 > Site vitrine et éditorial sur l'IA souveraine pour les entreprises, avec contenu en français et en anglais.
 
-Last updated: 2026-10-30
+Last updated: 2026-10-31
 
 ## Canonical
 - https://ai.underside.be/
@@ -34,11 +34,12 @@ Last updated: 2026-10-30
 - https://ai.underside.be/llms.txt
 - https://ai.underside.be/google7af869e5e0e8f999.html
 
-## Latest News / Dernière actualité (2026-10-30)
-- https://ai.underside.be/actualites — Google Sheets : sources web par cellule, vérification avant import Odoo.
-- https://ai.underside.be/en/actualites — Google Sheets: cell-level web sources, verification before Odoo imports.
+## Latest News / Dernière actualité (2026-10-31)
+- https://ai.underside.be/actualites — Bing : préparer les préférences distinctes d’entraînement et de réponses IA.
+- https://ai.underside.be/en/actualites — Bing: prepare separate training and AI-answer preferences.
 
 ## Articles (FR)
+- https://ai.underside.be/article-microsoft-evaluation-donnees-synthetiques-ia-metier-2026.html — Recette sur données fictives : réponses, droits et actions avant un pilote RAG ou Odoo.
 - https://ai.underside.be/article-openai-oracle-applications-droits-metier-2026.html — Connecter une IA aux applications métier sans contourner identités, droits ni validations, avant toute écriture Odoo.
 - https://ai.underside.be/article-microsoft-copilot-harness-routage-agents-gouvernance-2026.html — Définir les modèles autorisés par classe de données et tester le repli, la reprise et les écritures avant de déléguer un workflow métier.
 - https://ai.underside.be/article-aws-landing-zone-ia-souveraine-controles-2026.html — Une landing zone souveraine rend résidence, identités, journalisation et continuité testables avant de connecter une IA à Odoo.
@@ -240,6 +241,7 @@ Last updated: 2026-10-30
 - https://ai.underside.be/article-consilium-2026.html
 
 ## Articles (EN)
+- https://ai.underside.be/en/article-microsoft-evaluation-donnees-synthetiques-ia-metier-2026.html — Acceptance tests with fictional data: answers, permissions and actions before a RAG or Odoo pilot.
 - https://ai.underside.be/en/article-openai-oracle-applications-droits-metier-2026.html — Connect AI to business applications without bypassing identities, permissions, or approvals before Odoo writes.
 - https://ai.underside.be/en/article-microsoft-copilot-harness-routage-agents-gouvernance-2026.html — Define approved models by data class and test fallback, recovery and writes before delegating a business workflow.
 - https://ai.underside.be/en/article-aws-landing-zone-ia-souveraine-controles-2026.html — A sovereign landing zone makes residency, identities, logging and continuity testable before connecting AI to Odoo.
