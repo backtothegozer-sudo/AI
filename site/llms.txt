@@ -2,7 +2,7 @@
 
 > Site vitrine et éditorial sur l'IA souveraine pour les entreprises, avec contenu en français et en anglais.
 
-Last updated: 2026-11-01
+Last updated: 2026-11-02
 
 ## Canonical
 - https://ai.underside.be/
@@ -34,9 +34,9 @@ Last updated: 2026-11-01
 - https://ai.underside.be/llms.txt
 - https://ai.underside.be/google7af869e5e0e8f999.html
 
-## Latest News / Dernière actualité (2026-11-01)
-- https://ai.underside.be/actualites — IBM Agent Identity : disponibilité générale et vérification des délégations.
-- https://ai.underside.be/en/actualites — IBM Agent Identity: general availability and delegation checks.
+## Latest News / Dernière actualité (2026-11-02)
+- https://ai.underside.be/actualites — Kubernetes AI Conformance : gouvernance durable et vérification de la portabilité.
+- https://ai.underside.be/en/actualites — Kubernetes AI Conformance: ongoing governance and portability checks.
 
 ## Articles (FR)
 - https://ai.underside.be/article-google-agents-offensifs-confinement-securite-2026.html — À partir des observations de Google, une méthode pour tester révocation, isolement et preuves des agents IA en entreprise en Belgique et en France.
