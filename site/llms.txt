@@ -2,7 +2,7 @@
 
 > Site vitrine et éditorial sur l'IA souveraine pour les entreprises, avec contenu en français et en anglais.
 
-Last updated: 2026-11-02
+Last updated: 2026-11-03
 
 ## Canonical
 - https://ai.underside.be/
@@ -34,9 +34,9 @@ Last updated: 2026-11-02
 - https://ai.underside.be/llms.txt
 - https://ai.underside.be/google7af869e5e0e8f999.html
 
-## Latest News / Dernière actualité (2026-11-02)
-- https://ai.underside.be/actualites — Kubernetes AI Conformance : gouvernance durable et vérification de la portabilité.
-- https://ai.underside.be/en/actualites — Kubernetes AI Conformance: ongoing governance and portability checks.
+## Latest News / Dernière actualité (2026-11-03)
+- https://ai.underside.be/actualites — Textract à Zurich : vérifier le périmètre documentaire et les contrôles avant une intégration Odoo.
+- https://ai.underside.be/en/actualites — Textract in Zurich: check document-processing scope and controls before an Odoo integration.
 
 ## Articles (FR)
 - https://ai.underside.be/article-openai-acces-modeles-recherche-2026.html — Gouverner l’accès à une IA de recherche, ses données et sa révocation avant un pilote Odoo Entreprise.
