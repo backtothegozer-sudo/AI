@@ -2,7 +2,7 @@
 
 > Site vitrine et éditorial sur l'IA souveraine pour les entreprises, avec contenu en français et en anglais.
 
-Last updated: 2026-11-04
+Last updated: 2026-11-05
 
 ## Canonical
 - https://ai.underside.be/
@@ -34,11 +34,12 @@ Last updated: 2026-11-04
 - https://ai.underside.be/llms.txt
 - https://ai.underside.be/google7af869e5e0e8f999.html
 
-## Latest News / Dernière actualité (2026-11-04)
-- https://ai.underside.be/actualites — RAG et presse : conclusions non contraignantes dans l’affaire Like Company ; revoir les sources et les droits de réutilisation.
-- https://ai.underside.be/en/actualites — RAG and press content: non-binding Opinion in Like Company; review sources and reuse rights.
+## Latest News / Dernière actualité (2026-11-05)
+- https://ai.underside.be/actualites — SailPoint annonce la disponibilité générale d’Agentic Fabric. Tester propriété, réattribution et révocation des agents avant leur accès aux applications métier.
+- https://ai.underside.be/en/actualites — SailPoint announces general availability of Agentic Fabric. Test agent ownership, reassignment and revocation before granting access to business applications.
 
 ## Articles (FR)
+- https://ai.underside.be/article-kong-cout-workflows-agents-odoo-2026.html — Mesurer le coût du dossier accepté, limiter les reprises et tester l’arrêt avant une intégration Odoo Entreprise.
 - https://ai.underside.be/article-atos-modeles-specialises-recette-odoo-2026.html — Comparer qualité métier, coût et contrôle des données avant de connecter un petit modèle spécialisé à Odoo Entreprise.
 - https://ai.underside.be/article-google-synthid-provenance-contenus-ia-2026.html — Vérifier la provenance des contenus IA et organiser la revue humaine avant leur entrée dans un workflow Odoo Entreprise.
 - https://ai.underside.be/article-openai-acces-modeles-recherche-2026.html — Gouverner l’accès à une IA de recherche, ses données et sa révocation avant un pilote Odoo Entreprise.
@@ -245,6 +246,7 @@ Last updated: 2026-11-04
 - https://ai.underside.be/article-consilium-2026.html
 
 ## Articles (EN)
+- https://ai.underside.be/en/article-kong-cout-workflows-agents-odoo-2026.html — Measure cost per accepted case, bound retries and test stopping controls before an Odoo Enterprise integration.
 - https://ai.underside.be/en/article-atos-modeles-specialises-recette-odoo-2026.html — Compare business accuracy, cost and data control before connecting a specialized small model to Odoo Enterprise.
 - https://ai.underside.be/en/article-google-synthid-provenance-contenus-ia-2026.html — Verify the provenance of AI content and organise human review before it enters an Odoo Enterprise workflow.
 - https://ai.underside.be/en/article-openai-acces-modeles-recherche-2026.html — Govern research-AI access, data and revocation before an Odoo Enterprise pilot.
