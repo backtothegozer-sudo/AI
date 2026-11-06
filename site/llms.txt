@@ -2,7 +2,7 @@
 
 > Site vitrine et éditorial sur l'IA souveraine pour les entreprises, avec contenu en français et en anglais.
 
-Last updated: 2026-11-05
+Last updated: 2026-11-06
 
 ## Canonical
 - https://ai.underside.be/
@@ -34,9 +34,9 @@ Last updated: 2026-11-05
 - https://ai.underside.be/llms.txt
 - https://ai.underside.be/google7af869e5e0e8f999.html
 
-## Latest News / Dernière actualité (2026-11-05)
-- https://ai.underside.be/actualites — SailPoint annonce la disponibilité générale d’Agentic Fabric. Tester propriété, réattribution et révocation des agents avant leur accès aux applications métier.
-- https://ai.underside.be/en/actualites — SailPoint announces general availability of Agentic Fabric. Test agent ownership, reassignment and revocation before granting access to business applications.
+## Latest News / Dernière actualité (2026-11-06)
+- https://ai.underside.be/actualites — Box rend disponibles des contrôles de sécurité pour les agents IA. Vérifier les contrôles de partage et les alertes avant de connecter les contenus métier à un agent IA.
+- https://ai.underside.be/en/actualites — Box makes security controls for AI agents generally available. Check sharing controls and alerts before connecting business content to an AI agent.
 
 ## Articles (FR)
 - https://ai.underside.be/article-kong-cout-workflows-agents-odoo-2026.html — Mesurer le coût du dossier accepté, limiter les reprises et tester l’arrêt avant une intégration Odoo Entreprise.
