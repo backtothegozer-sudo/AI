@@ -2,7 +2,7 @@
 
 > Site vitrine et éditorial sur l'IA souveraine pour les entreprises, avec contenu en français et en anglais.
 
-Last updated: 2026-11-06
+Last updated: 2026-11-07
 
 ## Canonical
 - https://ai.underside.be/
@@ -34,11 +34,12 @@ Last updated: 2026-11-06
 - https://ai.underside.be/llms.txt
 - https://ai.underside.be/google7af869e5e0e8f999.html
 
-## Latest News / Dernière actualité (2026-11-06)
-- https://ai.underside.be/actualites — Box rend disponibles des contrôles de sécurité pour les agents IA. Vérifier les contrôles de partage et les alertes avant de connecter les contenus métier à un agent IA.
-- https://ai.underside.be/en/actualites — Box makes security controls for AI agents generally available. Check sharing controls and alerts before connecting business content to an AI agent.
+## Latest News / Dernière actualité (2026-11-07)
+- https://ai.underside.be/actualites — Une boîte à outils européenne pour préparer l’IA dans les administrations. Examiner les ressources réutilisables et préparer les critères d’achat avant un pilote IA public.
+- https://ai.underside.be/en/actualites — A European toolbox to prepare AI adoption in public administrations. Review reusable resources and prepare procurement criteria before a public-sector AI pilot.
 
 ## Articles (FR)
+- https://ai.underside.be/article-microsoft-agents-low-code-passage-production-2026.html — Séparer expérimentation et production, contrôler les connecteurs et tester les droits avant une intégration Odoo Entreprise.
 - https://ai.underside.be/article-kong-cout-workflows-agents-odoo-2026.html — Mesurer le coût du dossier accepté, limiter les reprises et tester l’arrêt avant une intégration Odoo Entreprise.
 - https://ai.underside.be/article-atos-modeles-specialises-recette-odoo-2026.html — Comparer qualité métier, coût et contrôle des données avant de connecter un petit modèle spécialisé à Odoo Entreprise.
 - https://ai.underside.be/article-google-synthid-provenance-contenus-ia-2026.html — Vérifier la provenance des contenus IA et organiser la revue humaine avant leur entrée dans un workflow Odoo Entreprise.
@@ -246,6 +247,7 @@ Last updated: 2026-11-06
 - https://ai.underside.be/article-consilium-2026.html
 
 ## Articles (EN)
+- https://ai.underside.be/en/article-microsoft-agents-low-code-passage-production-2026.html — Separate experimentation from production, govern connectors and test permissions before an Odoo Enterprise integration.
 - https://ai.underside.be/en/article-kong-cout-workflows-agents-odoo-2026.html — Measure cost per accepted case, bound retries and test stopping controls before an Odoo Enterprise integration.
 - https://ai.underside.be/en/article-atos-modeles-specialises-recette-odoo-2026.html — Compare business accuracy, cost and data control before connecting a specialized small model to Odoo Enterprise.
 - https://ai.underside.be/en/article-google-synthid-provenance-contenus-ia-2026.html — Verify the provenance of AI content and organise human review before it enters an Odoo Enterprise workflow.
