@@ -2,7 +2,7 @@
 
 > Site vitrine et éditorial sur l'IA souveraine pour les entreprises, avec contenu en français et en anglais.
 
-Last updated: 2026-11-07
+Last updated: 2026-11-08
 
 ## Canonical
 - https://ai.underside.be/
@@ -34,9 +34,9 @@ Last updated: 2026-11-07
 - https://ai.underside.be/llms.txt
 - https://ai.underside.be/google7af869e5e0e8f999.html
 
-## Latest News / Dernière actualité (2026-11-07)
-- https://ai.underside.be/actualites — Une boîte à outils européenne pour préparer l’IA dans les administrations. Examiner les ressources réutilisables et préparer les critères d’achat avant un pilote IA public.
-- https://ai.underside.be/en/actualites — A European toolbox to prepare AI adoption in public administrations. Review reusable resources and prepare procurement criteria before a public-sector AI pilot.
+## Latest News / Dernière actualité (2026-11-08)
+- https://ai.underside.be/actualites — Microsoft Entra : une préversion pour gérer la fin de vie des identités d’agents. Tester notifications et désactivation sur des identités d’agents avant une intégration métier.
+- https://ai.underside.be/en/actualites — Microsoft Entra previews lifecycle controls for agent identities. Test notifications and disablement on agent identities before business integration.
 
 ## Articles (FR)
 - https://ai.underside.be/article-microsoft-agents-low-code-passage-production-2026.html — Séparer expérimentation et production, contrôler les connecteurs et tester les droits avant une intégration Odoo Entreprise.
