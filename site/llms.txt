@@ -2,7 +2,7 @@
 
 > Site vitrine et éditorial sur l'IA souveraine pour les entreprises, avec contenu en français et en anglais.
 
-Last updated: 2026-11-08
+Last updated: 2026-11-09
 
 ## Canonical
 - https://ai.underside.be/
@@ -34,9 +34,9 @@ Last updated: 2026-11-08
 - https://ai.underside.be/llms.txt
 - https://ai.underside.be/google7af869e5e0e8f999.html
 
-## Latest News / Dernière actualité (2026-11-08)
-- https://ai.underside.be/actualites — Microsoft Entra : une préversion pour gérer la fin de vie des identités d’agents. Tester notifications et désactivation sur des identités d’agents avant une intégration métier.
-- https://ai.underside.be/en/actualites — Microsoft Entra previews lifecycle controls for agent identities. Test notifications and disablement on agent identities before business integration.
+## Latest News / Dernière actualité (2026-11-09)
+- https://ai.underside.be/actualites — Mistral Studio ouvre ses agents managés en préversion publique. Comparer les modes d’exécution et tester les reprises avant une intégration métier.
+- https://ai.underside.be/en/actualites — Mistral Studio opens managed agents in public preview. Compare execution modes and test recovery before business integration.
 
 ## Articles (FR)
 - https://ai.underside.be/article-microsoft-agents-low-code-passage-production-2026.html — Séparer expérimentation et production, contrôler les connecteurs et tester les droits avant une intégration Odoo Entreprise.
