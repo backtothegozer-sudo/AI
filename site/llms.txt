@@ -2,7 +2,7 @@
 
 > Site vitrine et éditorial sur l'IA souveraine pour les entreprises, avec contenu en français et en anglais.
 
-Last updated: 2026-11-09
+Last updated: 2026-11-10
 
 ## Canonical
 - https://ai.underside.be/
@@ -34,9 +34,9 @@ Last updated: 2026-11-09
 - https://ai.underside.be/llms.txt
 - https://ai.underside.be/google7af869e5e0e8f999.html
 
-## Latest News / Dernière actualité (2026-11-09)
-- https://ai.underside.be/actualites — Mistral Studio ouvre ses agents managés en préversion publique. Comparer les modes d’exécution et tester les reprises avant une intégration métier.
-- https://ai.underside.be/en/actualites — Mistral Studio opens managed agents in public preview. Compare execution modes and test recovery before business integration.
+## Latest News / Dernière actualité (2026-11-10)
+- https://ai.underside.be/actualites — AWS Nitro Sandboxes : tester isolation, sorties réseau et droits métier avant de mutualiser des agents IA.
+- https://ai.underside.be/en/actualites — AWS Nitro Sandboxes: test isolation, network egress and business permissions before sharing infrastructure across AI agents.
 
 ## Articles (FR)
 - https://ai.underside.be/article-microsoft-agents-low-code-passage-production-2026.html — Séparer expérimentation et production, contrôler les connecteurs et tester les droits avant une intégration Odoo Entreprise.
