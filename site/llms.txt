@@ -2,7 +2,7 @@
 
 > Site vitrine et éditorial sur l'IA souveraine pour les entreprises, avec contenu en français et en anglais.
 
-Last updated: 2026-11-10
+Last updated: 2026-11-11
 
 ## Canonical
 - https://ai.underside.be/
@@ -34,9 +34,9 @@ Last updated: 2026-11-10
 - https://ai.underside.be/llms.txt
 - https://ai.underside.be/google7af869e5e0e8f999.html
 
-## Latest News / Dernière actualité (2026-11-10)
-- https://ai.underside.be/actualites — AWS Nitro Sandboxes : tester isolation, sorties réseau et droits métier avant de mutualiser des agents IA.
-- https://ai.underside.be/en/actualites — AWS Nitro Sandboxes: test isolation, network egress and business permissions before sharing infrastructure across AI agents.
+## Latest News / Dernière actualité (2026-11-11)
+- https://ai.underside.be/actualites — Imagine Enterprise : évaluer responsabilités d’exploitation, accès et réversibilité des agents métier.
+- https://ai.underside.be/en/actualites — Imagine Enterprise: assess operating responsibilities, access and exit arrangements for business agents.
 
 ## Articles (FR)
 - https://ai.underside.be/article-microsoft-agents-low-code-passage-production-2026.html — Séparer expérimentation et production, contrôler les connecteurs et tester les droits avant une intégration Odoo Entreprise.
