@@ -2,7 +2,7 @@
 
 > Site vitrine et éditorial sur l'IA souveraine pour les entreprises, avec contenu en français et en anglais.
 
-Last updated: 2026-11-14
+Last updated: 2026-11-15
 
 ## Canonical
 - https://ai.underside.be/
@@ -34,9 +34,9 @@ Last updated: 2026-11-14
 - https://ai.underside.be/llms.txt
 - https://ai.underside.be/google7af869e5e0e8f999.html
 
-## Latest News / Dernière actualité (2026-11-14)
-- https://ai.underside.be/actualites — AWS Cognito : tester les droits délégués et la traçabilité des agents avant une intégration métier.
-- https://ai.underside.be/en/actualites — AWS Cognito: test delegated permissions and agent traceability before business integration.
+## Latest News / Dernière actualité (2026-11-15)
+- https://ai.underside.be/actualites — Conseil européen de Dublin : souveraineté et adoption de l’IA ; traduire les orientations en critères d’achat vérifiables.
+- https://ai.underside.be/en/actualites — Dublin European Council: AI sovereignty and adoption; turn political priorities into verifiable purchasing criteria.
 
 ## Articles (FR)
 - https://ai.underside.be/article-microsoft-agents-low-code-passage-production-2026.html — Séparer expérimentation et production, contrôler les connecteurs et tester les droits avant une intégration Odoo Entreprise.
