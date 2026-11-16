@@ -2,7 +2,7 @@
 
 > Site vitrine et éditorial sur l'IA souveraine pour les entreprises, avec contenu en français et en anglais.
 
-Last updated: 2026-11-15
+Last updated: 2026-11-16
 
 ## Canonical
 - https://ai.underside.be/
@@ -34,9 +34,9 @@ Last updated: 2026-11-15
 - https://ai.underside.be/llms.txt
 - https://ai.underside.be/google7af869e5e0e8f999.html
 
-## Latest News / Dernière actualité (2026-11-15)
-- https://ai.underside.be/actualites — Conseil européen de Dublin : souveraineté et adoption de l’IA ; traduire les orientations en critères d’achat vérifiables.
-- https://ai.underside.be/en/actualites — Dublin European Council: AI sovereignty and adoption; turn political priorities into verifiable purchasing criteria.
+## Latest News / Dernière actualité (2026-11-16)
+- https://ai.underside.be/actualites — IBM watsonx.governance : intégrations Langfuse et Arize AX ; relier les évaluations des agents aux contrôles et tester le traitement des alertes.
+- https://ai.underside.be/en/actualites — IBM watsonx.governance: Langfuse and Arize AX integrations; connect agent evaluations to controls and test alert handling.
 
 ## Articles (FR)
 - https://ai.underside.be/article-microsoft-agents-low-code-passage-production-2026.html — Séparer expérimentation et production, contrôler les connecteurs et tester les droits avant une intégration Odoo Entreprise.
