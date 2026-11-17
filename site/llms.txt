@@ -35,10 +35,11 @@ Last updated: 2026-11-17
 - https://ai.underside.be/google7af869e5e0e8f999.html
 
 ## Latest News / Dernière actualité (2026-11-17)
-- https://ai.underside.be/actualites — BCE : dépendances fournisseurs et cyberrésilience de l’IA ; tester la continuité des workflows métier.
-- https://ai.underside.be/en/actualites — ECB: provider dependencies and AI cyber resilience; test business workflow continuity.
+- https://ai.underside.be/actualites — AWS WorkSpaces : identité déléguée et relecture des actions pour les agents IA ; vérifier droits, preuves et révocation.
+- https://ai.underside.be/en/actualites — AWS WorkSpaces: delegated identity and session replay for AI agents; verify permissions, evidence and revocation.
 
 ## Articles (FR)
+- https://ai.underside.be/article-aws-workspaces-agents-identite-audit-odoo-2026.html — Gouverner identité, délégation, traces et révocation d’un agent IA avant une intégration Odoo Entreprise.
 - https://ai.underside.be/article-sap-abap-agents-mcp-odoo-entreprise-2026.html — Faire respecter règles ERP, droits, approbations et journalisation aux agents IA et serveurs MCP Odoo Entreprise.
 - https://ai.underside.be/article-presight-scale-evaluation-ia-souveraine-2026.html — Tester, simuler et contrôler humainement les agents IA critiques avant leur déploiement.
 - https://ai.underside.be/article-microsoft-agents-low-code-passage-production-2026.html — Séparer expérimentation et production, contrôler les connecteurs et tester les droits avant une intégration Odoo Entreprise.
@@ -249,6 +250,7 @@ Last updated: 2026-11-17
 - https://ai.underside.be/article-consilium-2026.html
 
 ## Articles (EN)
+- https://ai.underside.be/en/article-aws-workspaces-agents-identite-audit-odoo-2026.html — Govern identity, delegation, evidence and revocation for an AI agent before an Odoo Enterprise integration.
 - https://ai.underside.be/en/article-sap-abap-agents-mcp-odoo-entreprise-2026.html — Keep ERP rules, permissions, approvals, and audit trails enforceable for AI agents and Odoo Enterprise MCP servers.
 - https://ai.underside.be/en/article-presight-scale-evaluation-ia-souveraine-2026.html — Test, simulate, and retain human control over critical AI agents before deployment.
 - https://ai.underside.be/en/article-microsoft-agents-low-code-passage-production-2026.html — Separate experimentation from production, govern connectors and test permissions before an Odoo Enterprise integration.
