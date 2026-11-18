@@ -2,7 +2,7 @@
 
 > Site vitrine et éditorial sur l'IA souveraine pour les entreprises, avec contenu en français et en anglais.
 
-Last updated: 2026-11-17
+Last updated: 2026-11-18
 
 ## Canonical
 - https://ai.underside.be/
@@ -34,11 +34,12 @@ Last updated: 2026-11-17
 - https://ai.underside.be/llms.txt
 - https://ai.underside.be/google7af869e5e0e8f999.html
 
-## Latest News / Dernière actualité (2026-11-17)
-- https://ai.underside.be/actualites — AWS WorkSpaces : identité déléguée et relecture des actions pour les agents IA ; vérifier droits, preuves et révocation.
-- https://ai.underside.be/en/actualites — AWS WorkSpaces: delegated identity and session replay for AI agents; verify permissions, evidence and revocation.
+## Latest News / Dernière actualité (2026-11-18)
+- https://ai.underside.be/actualites — Agent 365 étend les statistiques d’usage des agents Microsoft. Vérifier les métriques incluses dans l’abonnement et les rapprocher des dossiers validés dans l’ERP.
+- https://ai.underside.be/en/actualites — Agent 365 expands usage metrics for Microsoft agents. Verify which metrics your subscription includes and compare them with approved ERP records.
 
 ## Articles (FR)
+- https://ai.underside.be/article-google-cloud-inference-managee-perimetre-souverain-2026.html — Vérifier la qualification du service, les flux hors inférence et la réversibilité avant un pilote RAG ou Odoo.
 - https://ai.underside.be/article-aws-workspaces-agents-identite-audit-odoo-2026.html — Gouverner identité, délégation, traces et révocation d’un agent IA avant une intégration Odoo Entreprise.
 - https://ai.underside.be/article-sap-abap-agents-mcp-odoo-entreprise-2026.html — Faire respecter règles ERP, droits, approbations et journalisation aux agents IA et serveurs MCP Odoo Entreprise.
 - https://ai.underside.be/article-presight-scale-evaluation-ia-souveraine-2026.html — Tester, simuler et contrôler humainement les agents IA critiques avant leur déploiement.
@@ -250,6 +251,7 @@ Last updated: 2026-11-17
 - https://ai.underside.be/article-consilium-2026.html
 
 ## Articles (EN)
+- https://ai.underside.be/en/article-google-cloud-inference-managee-perimetre-souverain-2026.html — Verify service qualification, data flows beyond inference and your exit plan before a RAG or Odoo pilot.
 - https://ai.underside.be/en/article-aws-workspaces-agents-identite-audit-odoo-2026.html — Govern identity, delegation, evidence and revocation for an AI agent before an Odoo Enterprise integration.
 - https://ai.underside.be/en/article-sap-abap-agents-mcp-odoo-entreprise-2026.html — Keep ERP rules, permissions, approvals, and audit trails enforceable for AI agents and Odoo Enterprise MCP servers.
 - https://ai.underside.be/en/article-presight-scale-evaluation-ia-souveraine-2026.html — Test, simulate, and retain human control over critical AI agents before deployment.
