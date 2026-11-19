@@ -2,7 +2,7 @@
 
 > Site vitrine et éditorial sur l'IA souveraine pour les entreprises, avec contenu en français et en anglais.
 
-Last updated: 2026-11-18
+Last updated: 2026-11-19
 
 ## Canonical
 - https://ai.underside.be/
@@ -34,11 +34,12 @@ Last updated: 2026-11-18
 - https://ai.underside.be/llms.txt
 - https://ai.underside.be/google7af869e5e0e8f999.html
 
-## Latest News / Dernière actualité (2026-11-18)
-- https://ai.underside.be/actualites — AWS SageMaker AI route les requêtes LLM vers le cache KV disponible. Mesurer le gain de cache, isoler les contextes et tester le repli avant toute écriture dans Odoo.
-- https://ai.underside.be/en/actualites — AWS SageMaker AI routes LLM requests to available KV cache. Measure cache gains, isolate contexts, and test fallback before any Odoo write.
+## Latest News / Dernière actualité (2026-11-19)
+- https://ai.underside.be/actualites — Horizon Europe ouvre deux appels numériques de 297 millions d’euros. Vérifier les conditions du sujet visé et le rôle du consortium avant de mobiliser une équipe.
+- https://ai.underside.be/en/actualites — Horizon Europe opens two digital calls worth €297 million. Check the topic requirements and define your role in a consortium before assigning a team.
 
 ## Articles (FR)
+- https://ai.underside.be/article-google-cloud-droits-temporaires-agents-2026.html — Une méthode pour vérifier les droits, les approbations et l’expiration des accès d’un agent IA relié à un RAG ou à Odoo Entreprise.
 - https://ai.underside.be/article-aws-sagemaker-routage-cache-kv-odoo-2026.html — Mesurer le gain de cache, isoler les contextes et tester le repli avant un RAG ou Odoo Entreprise.
 - https://ai.underside.be/article-google-cloud-inference-managee-perimetre-souverain-2026.html — Vérifier la qualification du service, les flux hors inférence et la réversibilité avant un pilote RAG ou Odoo.
 - https://ai.underside.be/article-aws-workspaces-agents-identite-audit-odoo-2026.html — Gouverner identité, délégation, traces et révocation d’un agent IA avant une intégration Odoo Entreprise.
@@ -252,6 +253,7 @@ Last updated: 2026-11-18
 - https://ai.underside.be/article-consilium-2026.html
 
 ## Articles (EN)
+- https://ai.underside.be/en/article-google-cloud-droits-temporaires-agents-2026.html — How to verify permissions, approvals and access expiry for an AI agent connected to a RAG system or Odoo Enterprise.
 - https://ai.underside.be/en/article-aws-sagemaker-routage-cache-kv-odoo-2026.html — Measure cache gains, isolate contexts, and test fallback before a RAG or Odoo Enterprise integration.
 - https://ai.underside.be/en/article-google-cloud-inference-managee-perimetre-souverain-2026.html — Verify service qualification, data flows beyond inference and your exit plan before a RAG or Odoo pilot.
 - https://ai.underside.be/en/article-aws-workspaces-agents-identite-audit-odoo-2026.html — Govern identity, delegation, evidence and revocation for an AI agent before an Odoo Enterprise integration.
