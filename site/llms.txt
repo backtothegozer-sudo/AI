@@ -2,7 +2,7 @@
 
 > Site vitrine et éditorial sur l'IA souveraine pour les entreprises, avec contenu en français et en anglais.
 
-Last updated: 2026-11-20
+Last updated: 2026-11-21
 
 ## Canonical
 - https://ai.underside.be/
@@ -34,11 +34,12 @@ Last updated: 2026-11-20
 - https://ai.underside.be/llms.txt
 - https://ai.underside.be/google7af869e5e0e8f999.html
 
-## Latest News / Dernière actualité (2026-11-20)
-- https://ai.underside.be/actualites — Salesforce et Microsoft annoncent Copilotforce. Vérifier les droits CRM et la confirmation des écritures avant un pilote Copilot.
-- https://ai.underside.be/en/actualites — Salesforce and Microsoft announce Copilotforce. Check CRM permissions and how updates are confirmed before a Copilot pilot.
+## Latest News / Dernière actualité (2026-11-21)
+- https://ai.underside.be/actualites — Le forum consultatif de l’AI Act examine les agents IA. Documenter les actions et les interventions humaines dans les pilotes d’agents IA.
+- https://ai.underside.be/en/actualites — The AI Act Advisory Forum discusses AI agents. Document agent actions and human interventions during AI pilots.
 
 ## Articles (FR)
+- https://ai.underside.be/article-workday-cloud-souverain-continuite-rh-finance-2026.html — Vérifier qui exploite le service, contrôle les clés et peut rétablir un flux RH ou finance qui utilise l’IA.
 - https://ai.underside.be/article-microsoft-transparence-agents-changement-modele-2026.html — Comparer les traces avant et après un changement de modèle dans un workflow RAG ou Odoo Entreprise.
 - https://ai.underside.be/article-sommet-apply-ai-bruxelles-recette-2026.html — Cadrer, tester et gouverner un cas d’usage IA avec Odoo Entreprise en Belgique et en France.
 - https://ai.underside.be/article-google-cloud-droits-temporaires-agents-2026.html — Une méthode pour vérifier les droits, les approbations et l’expiration des accès d’un agent IA relié à un RAG ou à Odoo Entreprise.
@@ -255,6 +256,7 @@ Last updated: 2026-11-20
 - https://ai.underside.be/article-consilium-2026.html
 
 ## Articles (EN)
+- https://ai.underside.be/en/article-workday-cloud-souverain-continuite-rh-finance-2026.html — Check who operates the service, controls the keys and can restore an AI-enabled HR or finance workflow.
 - https://ai.underside.be/en/article-microsoft-transparence-agents-changement-modele-2026.html — Compare audit trails before and after changing the model behind a RAG or Odoo Enterprise workflow.
 - https://ai.underside.be/en/article-sommet-apply-ai-bruxelles-recette-2026.html — Scope, test and govern an AI use case with Odoo Enterprise in Belgium and France.
 - https://ai.underside.be/en/article-google-cloud-droits-temporaires-agents-2026.html — How to verify permissions, approvals and access expiry for an AI agent connected to a RAG system or Odoo Enterprise.
