@@ -2,7 +2,7 @@
 
 > Site vitrine et éditorial sur l'IA souveraine pour les entreprises, avec contenu en français et en anglais.
 
-Last updated: 2026-11-22
+Last updated: 2026-11-23
 
 ## Canonical
 - https://ai.underside.be/
@@ -34,11 +34,12 @@ Last updated: 2026-11-22
 - https://ai.underside.be/llms.txt
 - https://ai.underside.be/google7af869e5e0e8f999.html
 
-## Latest News / Dernière actualité (2026-11-22)
-- https://ai.underside.be/actualites — Le comité européen de l’IA adopte un nouveau règlement intérieur. Préparer les preuves internes et suivre les dispositifs nationaux d’expérimentation.
-- https://ai.underside.be/en/actualites — The European AI Board adopts new rules of procedure. Prepare internal evidence and track national AI testing programmes.
+## Latest News / Dernière actualité (2026-11-23)
+- https://ai.underside.be/actualites — Sopra Steria et Scaleway annoncent un partenariat pour les applications critiques. Vérifier les lieux de traitement, les accès de support et les possibilités de sortie pour chaque service IA.
+- https://ai.underside.be/en/actualites — Sopra Steria and Scaleway announce a partnership for critical applications. Check processing locations, support access and exit options for each AI service.
 
 ## Articles (FR)
+- https://ai.underside.be/article-microsoft-controles-agents-regles-metier-2026.html — Une méthode pour vérifier l’application des règles métier par un agent IA, y compris en cas de panne, avant toute écriture dans Odoo.
 - https://ai.underside.be/article-textract-insights-preuves-documentaires-odoo-2026.html — Une méthode pour relier les champs extraits à leur page source, régler la revue humaine et contrôler le lieu de traitement.
 - https://ai.underside.be/article-workday-cloud-souverain-continuite-rh-finance-2026.html — Vérifier qui exploite le service, contrôle les clés et peut rétablir un flux RH ou finance qui utilise l’IA.
 - https://ai.underside.be/article-microsoft-transparence-agents-changement-modele-2026.html — Comparer les traces avant et après un changement de modèle dans un workflow RAG ou Odoo Entreprise.
@@ -257,6 +258,7 @@ Last updated: 2026-11-22
 - https://ai.underside.be/article-consilium-2026.html
 
 ## Articles (EN)
+- https://ai.underside.be/en/article-microsoft-controles-agents-regles-metier-2026.html — A method for testing how an AI agent enforces business rules, including during an outage, before it can write to Odoo.
 - https://ai.underside.be/en/article-textract-insights-preuves-documentaires-odoo-2026.html — A method for tracing extracted fields to their source pages, setting up human review and checking processing locations.
 - https://ai.underside.be/en/article-workday-cloud-souverain-continuite-rh-finance-2026.html — Check who operates the service, controls the keys and can restore an AI-enabled HR or finance workflow.
 - https://ai.underside.be/en/article-microsoft-transparence-agents-changement-modele-2026.html — Compare audit trails before and after changing the model behind a RAG or Odoo Enterprise workflow.
