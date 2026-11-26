@@ -2,7 +2,7 @@
 
 > Site vitrine et éditorial sur l'IA souveraine pour les entreprises, avec contenu en français et en anglais.
 
-Last updated: 2026-11-25
+Last updated: 2026-11-26
 
 ## Canonical
 - https://ai.underside.be/
@@ -34,11 +34,12 @@ Last updated: 2026-11-25
 - https://ai.underside.be/llms.txt
 - https://ai.underside.be/google7af869e5e0e8f999.html
 
-## Latest News / Dernière actualité (2026-11-25)
-- https://ai.underside.be/actualites — Cloud et IA : un premier compromis sur les capacités européennes à l’ordre du jour du Conseil. Distinguer les capacités de calcul disponibles des mesures encore en négociation.
-- https://ai.underside.be/en/actualites — Cloud and AI: draft compromise on European capacity reaches the Council working party agenda. Distinguish available computing capacity from measures still under negotiation.
+## Latest News / Dernière actualité (2026-11-26)
+- https://ai.underside.be/actualites — AWS étend l’autorisation des agents IA via l’identité d’entreprise. Vérifier l’autorisation de l’application et les droits du rôle AWS avant un pilote.
+- https://ai.underside.be/en/actualites — AWS expands enterprise identity authorization for AI agents. Verify application authorization and AWS role permissions before a pilot.
 
 ## Articles (FR)
+- https://ai.underside.be/article-aws-waf-indisponibilite-inspection-ia-2026.html — Mesurer les effets d’une panne d’inspection IA et décider quels flux peuvent continuer en mode dégradé.
 - https://ai.underside.be/article-microsoft-foundry-iq-revocation-rag-2026.html — Tester la révocation dans la source, l’index et les conversations avant de déployer un assistant documentaire.
 - https://ai.underside.be/article-aws-connect-formulaires-odoo-2026.html — Tester le préremplissage, la validation humaine et le temps de traitement avant de relier un formulaire de service client à Odoo Entreprise.
 - https://ai.underside.be/article-microsoft-controles-agents-regles-metier-2026.html — Une méthode pour vérifier l’application des règles métier par un agent IA, y compris en cas de panne, avant toute écriture dans Odoo.
@@ -260,6 +261,7 @@ Last updated: 2026-11-25
 - https://ai.underside.be/article-consilium-2026.html
 
 ## Articles (EN)
+- https://ai.underside.be/en/article-aws-waf-indisponibilite-inspection-ia-2026.html — Measure the impact of an AI inspection outage and decide which workflows can continue with reduced functionality.
 - https://ai.underside.be/en/article-microsoft-foundry-iq-revocation-rag-2026.html — Test access revocation at the source, in the index and in conversations before deploying a document assistant.
 - https://ai.underside.be/en/article-aws-connect-formulaires-odoo-2026.html — Test autofill, human review and handling time before connecting an AI-assisted customer service form to Odoo Enterprise.
 - https://ai.underside.be/en/article-microsoft-controles-agents-regles-metier-2026.html — A method for testing how an AI agent enforces business rules, including during an outage, before it can write to Odoo.
