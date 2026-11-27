@@ -2,7 +2,7 @@
 
 > Site vitrine et éditorial sur l'IA souveraine pour les entreprises, avec contenu en français et en anglais.
 
-Last updated: 2026-11-26
+Last updated: 2026-11-27
 
 ## Canonical
 - https://ai.underside.be/
@@ -34,11 +34,12 @@ Last updated: 2026-11-26
 - https://ai.underside.be/llms.txt
 - https://ai.underside.be/google7af869e5e0e8f999.html
 
-## Latest News / Dernière actualité (2026-11-26)
-- https://ai.underside.be/actualites — AWS étend l’autorisation des agents IA via l’identité d’entreprise. Vérifier l’autorisation de l’application et les droits du rôle AWS avant un pilote.
-- https://ai.underside.be/en/actualites — AWS expands enterprise identity authorization for AI agents. Verify application authorization and AWS role permissions before a pilot.
+## Latest News / Dernière actualité (2026-11-27)
+- https://ai.underside.be/actualites — Atos retient Scaleway pour déployer sa suite IA dans le cloud souverain. Vérifier le périmètre contractuel, le lieu d’exécution des agents et les accès d’exploitation.
+- https://ai.underside.be/en/actualites — Atos selects Scaleway for sovereign cloud deployment of its AI suite. Verify the contractual scope, where agents run and who has operational access.
 
 ## Articles (FR)
+- https://ai.underside.be/article-ai-act-dossier-incident-ia-2026.html — Préparer un dossier d’incident pour retracer les actions d’un agent IA, limiter leurs effets et vérifier la reprise.
 - https://ai.underside.be/article-aws-waf-indisponibilite-inspection-ia-2026.html — Mesurer les effets d’une panne d’inspection IA et décider quels flux peuvent continuer en mode dégradé.
 - https://ai.underside.be/article-microsoft-foundry-iq-revocation-rag-2026.html — Tester la révocation dans la source, l’index et les conversations avant de déployer un assistant documentaire.
 - https://ai.underside.be/article-aws-connect-formulaires-odoo-2026.html — Tester le préremplissage, la validation humaine et le temps de traitement avant de relier un formulaire de service client à Odoo Entreprise.
@@ -261,6 +262,7 @@ Last updated: 2026-11-26
 - https://ai.underside.be/article-consilium-2026.html
 
 ## Articles (EN)
+- https://ai.underside.be/en/article-ai-act-dossier-incident-ia-2026.html — Build an incident record that lets teams trace AI agent actions, limit their impact and verify recovery.
 - https://ai.underside.be/en/article-aws-waf-indisponibilite-inspection-ia-2026.html — Measure the impact of an AI inspection outage and decide which workflows can continue with reduced functionality.
 - https://ai.underside.be/en/article-microsoft-foundry-iq-revocation-rag-2026.html — Test access revocation at the source, in the index and in conversations before deploying a document assistant.
 - https://ai.underside.be/en/article-aws-connect-formulaires-odoo-2026.html — Test autofill, human review and handling time before connecting an AI-assisted customer service form to Odoo Enterprise.
