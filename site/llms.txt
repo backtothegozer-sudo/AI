@@ -2,7 +2,7 @@
 
 > Site vitrine et éditorial sur l'IA souveraine pour les entreprises, avec contenu en français et en anglais.
 
-Last updated: 2026-11-27
+Last updated: 2026-11-28
 
 ## Canonical
 - https://ai.underside.be/
@@ -34,11 +34,12 @@ Last updated: 2026-11-27
 - https://ai.underside.be/llms.txt
 - https://ai.underside.be/google7af869e5e0e8f999.html
 
-## Latest News / Dernière actualité (2026-11-27)
-- https://ai.underside.be/actualites — Atos retient Scaleway pour déployer sa suite IA dans le cloud souverain. Vérifier le périmètre contractuel, le lieu d’exécution des agents et les accès d’exploitation.
-- https://ai.underside.be/en/actualites — Atos selects Scaleway for sovereign cloud deployment of its AI suite. Verify the contractual scope, where agents run and who has operational access.
+## Latest News / Dernière actualité (2026-11-28)
+- https://ai.underside.be/actualites — Cloud et IA : le compromis européen étend le volet achats à certaines entités de réseau. Vérifier les entités concernées et recenser les contrats cloud et IA à renouveler.
+- https://ai.underside.be/en/actualites — Cloud and AI: EU compromise extends procurement provisions to certain utilities. Identify which entities are covered and list upcoming cloud and AI contract renewals.
 
 ## Articles (FR)
+- https://ai.underside.be/article-ia-mesurer-delai-processus-2026.html — Mesurer le délai de bout en bout, l’attente et les reprises avant de généraliser une automatisation IA.
 - https://ai.underside.be/article-ai-act-dossier-incident-ia-2026.html — Préparer un dossier d’incident pour retracer les actions d’un agent IA, limiter leurs effets et vérifier la reprise.
 - https://ai.underside.be/article-aws-waf-indisponibilite-inspection-ia-2026.html — Mesurer les effets d’une panne d’inspection IA et décider quels flux peuvent continuer en mode dégradé.
 - https://ai.underside.be/article-microsoft-foundry-iq-revocation-rag-2026.html — Tester la révocation dans la source, l’index et les conversations avant de déployer un assistant documentaire.
@@ -262,6 +263,7 @@ Last updated: 2026-11-27
 - https://ai.underside.be/article-consilium-2026.html
 
 ## Articles (EN)
+- https://ai.underside.be/en/article-ia-mesurer-delai-processus-2026.html — Measure end-to-end turnaround, queue time and rework before scaling AI automation.
 - https://ai.underside.be/en/article-ai-act-dossier-incident-ia-2026.html — Build an incident record that lets teams trace AI agent actions, limit their impact and verify recovery.
 - https://ai.underside.be/en/article-aws-waf-indisponibilite-inspection-ia-2026.html — Measure the impact of an AI inspection outage and decide which workflows can continue with reduced functionality.
 - https://ai.underside.be/en/article-microsoft-foundry-iq-revocation-rag-2026.html — Test access revocation at the source, in the index and in conversations before deploying a document assistant.
