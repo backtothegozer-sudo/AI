@@ -43,6 +43,7 @@ Last updated: 2026-11-28
 - https://ai.underside.be/article-ai-act-dossier-incident-ia-2026.html — Préparer un dossier d’incident pour retracer les actions d’un agent IA, limiter leurs effets et vérifier la reprise.
 - https://ai.underside.be/article-aws-waf-indisponibilite-inspection-ia-2026.html — Mesurer les effets d’une panne d’inspection IA et décider quels flux peuvent continuer en mode dégradé.
 - https://ai.underside.be/article-microsoft-foundry-iq-revocation-rag-2026.html — Tester la révocation dans la source, l’index et les conversations avant de déployer un assistant documentaire.
+- https://ai.underside.be/article-ue-kenya-ai-factories-infrastructures-souveraines-2026.html — AI Factories, cloud et data centers sont des briques ; flux, accès, traces et sortie déterminent la maîtrise effective.
 - https://ai.underside.be/article-aws-connect-formulaires-odoo-2026.html — Tester le préremplissage, la validation humaine et le temps de traitement avant de relier un formulaire de service client à Odoo Entreprise.
 - https://ai.underside.be/article-microsoft-controles-agents-regles-metier-2026.html — Une méthode pour vérifier l’application des règles métier par un agent IA, y compris en cas de panne, avant toute écriture dans Odoo.
 - https://ai.underside.be/article-textract-insights-preuves-documentaires-odoo-2026.html — Une méthode pour relier les champs extraits à leur page source, régler la revue humaine et contrôler le lieu de traitement.
@@ -267,6 +268,7 @@ Last updated: 2026-11-28
 - https://ai.underside.be/en/article-ai-act-dossier-incident-ia-2026.html — Build an incident record that lets teams trace AI agent actions, limit their impact and verify recovery.
 - https://ai.underside.be/en/article-aws-waf-indisponibilite-inspection-ia-2026.html — Measure the impact of an AI inspection outage and decide which workflows can continue with reduced functionality.
 - https://ai.underside.be/en/article-microsoft-foundry-iq-revocation-rag-2026.html — Test access revocation at the source, in the index and in conversations before deploying a document assistant.
+- https://ai.underside.be/en/article-ue-kenya-ai-factories-infrastructures-souveraines-2026.html — AI Factories, cloud and data centres are components; flows, access, records and exit determine actual control.
 - https://ai.underside.be/en/article-aws-connect-formulaires-odoo-2026.html — Test autofill, human review and handling time before connecting an AI-assisted customer service form to Odoo Enterprise.
 - https://ai.underside.be/en/article-microsoft-controles-agents-regles-metier-2026.html — A method for testing how an AI agent enforces business rules, including during an outage, before it can write to Odoo.
 - https://ai.underside.be/en/article-textract-insights-preuves-documentaires-odoo-2026.html — A method for tracing extracted fields to their source pages, setting up human review and checking processing locations.
